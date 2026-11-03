@@ -1,6 +1,6 @@
 {
  "site":{"name":"Nolhan"},
- "contact":{"email":"bertaultnolhan@gmail.com","linkedin":"#","github":"#"},
+ "contact":{"email":"bertaultnolhan@gmail.com","linkedin":"https://www.linkedin.com/in/nolhan-bertault-277473360/","github":"https://github.com/nbertault"},
  "nav":[
   {"key":"home","href":"index.html","label":{"fr":"Accueil","en":"Home"}},
   {"key":"passions","href":"passions.html","label":{"fr":"Passions","en":"Passions"}},
