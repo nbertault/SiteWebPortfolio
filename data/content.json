@@ -9,6 +9,7 @@
   {"key":"apports","href":"apports.html","label":{"fr":"Apports","en":"Impact"}}
  ],
  "ui":{
+  "scroll": {"fr": "Faire défiler","en": "Scroll"},
   "image":{"fr":"Image à remplacer","en":"Image to replace"},
   "hover":{"fr":"Survolez la voiture pour en découvrir plus","en":"Hover over the car and explore"},
   "contactTitle":{"fr":"Me contacter","en":"Let’s talk"},
