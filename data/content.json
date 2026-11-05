@@ -84,7 +84,7 @@
   },
   "cvDownload": {
    "fr": "Télécharger le CV",
-   "en": "Download resume"
+   "en": "Download résumé"
   },
   "cvFallback": {
    "fr": "Aperçu indisponible : téléchargez le CV.",
@@ -117,6 +117,14 @@
   "todo": {
    "fr": "Page dédiée au projet : contenu à compléter (images, rapport, technologies, liens).",
    "en": "Dedicated project page: content to be added (images, report, technologies, links)."
+  },
+  "cvView": {
+   "fr": "Afficher le CV",
+   "en": "View résumé"
+  },
+  "cvSummary": {
+   "fr": "Résumé de mon CV",
+   "en": "Résumé at a glance"
   }
  },
  "home": {
@@ -215,7 +223,7 @@
       "en": "BTS CIEL · 2nd in class"
      },
      "place": "Lycée Washington Touchard"
- },
+    },
     {
      "date": "03",
      "title": {
@@ -475,7 +483,7 @@
       "en": "Track Marshal"
      },
      "company": "FFSA",
-     "image": null,
+     "image": "assets/Voitures/Porsche.png",
      "text": {
       "fr": "Sécurité des pilotes, des spectateurs sur les circuits et spéciales de rallye. Majoritairement basé sur Le Mans et la Sarthe durant des épreuves nationales et internationales.",
       "en": "Safety of drivers and spectators at circuits and rally stages. Mainly based in Le Mans and the Sarthe during national and international events."
@@ -487,7 +495,7 @@
       "en": "Embedded Electronics Intern"
      },
      "company": "HFR160",
-     "image": null,
+     "image": "assets/Voitures/Toyota.png",
      "text": {
       "fr": "Réalisation de programmes et de composants électroniques pour des trains miniatures. Travail de recherche, de compréhension et de réalisation en quasi autonomie, sous la supervision d'un ingénieur de chez STMicroelectronics.",
       "en": "Development of programs and electronic components for model trains. Research, learning and implementation carried out almost autonomously, under the supervision of an engineer from STMicroelectronics."
@@ -499,7 +507,7 @@
       "en": "Network & Systems Administrator Intern"
      },
      "company": "Lelièvre Immobilier",
-     "image": null,
+     "image": "assets/Voitures/Corvette.png",
      "text": {
       "fr": "Maintenance d'un réseau informatique sur plusieurs sites. Réalisé sous la supervision d'administrateurs réseau. Aide aux collaborateurs dans la recherche et résolution de pannes.",
       "en": "Maintenance of a multi-site computer network, carried out under the supervision of network administrators. Helping colleagues track down and fix failures."
@@ -511,7 +519,7 @@
       "en": "Computer Hardware Repair Technician"
      },
      "company": "Kabiloo",
-     "image": null,
+     "image": "assets/Voitures/GTR34.png",
      "text": {
       "fr": "Recherche de panne et mise en œuvre de solutions de réparations. Réalisation de micro-soudure, de remplacement de composants et de cartes électroniques. Réalisation de tests et de diagnostics, et utilisation de matériels de mesures.",
       "en": "Fault finding and implementation of repair solutions. Micro-soldering, replacement of components and electronic boards. Testing and diagnostics using measuring equipment."
@@ -523,7 +531,7 @@
       "en": "Order Picker"
      },
      "company": "SocaMaine",
-     "image": null,
+     "image": "assets/Voitures/AstonMartin.png",
      "text": {
       "fr": "Travail en équipe, préparation de commandes, utilisation de gerbeurs et d'outils de gestion de stock. Heures de travail décalé et travail en conditions fraîches.",
       "en": "Teamwork, order picking, use of pallet stackers and stock-management tools. Shift work with irregular hours, in cold working conditions."
@@ -573,5 +581,388 @@
     }
    ]
   }
+ },
+ "cv": {
+  "name": "Nolhan Bertault",
+  "role": {
+   "fr": "Étudiant ingénieur informaticien",
+   "en": "Computer engineering student"
+  },
+  "pdf": "assets/cvs.pdf",
+  "pdfName": "CV_Nolhan_Bertault.pdf",
+  "summary": {
+   "fr": "Étudiant ingénieur en Architecture des Systèmes Temps Réel et Embarqués (ENSIM, diplôme 2028), passionné de sport automobile et actif dans le milieu en tant que commissaire de piste licencié FFSA, dont aux 24 Heures du Mans. Spécialisé en développement embarqué sur microcontrôleurs STM32 et en administration réseaux, je recherche un stage en 2028 à l'international me permettant d'intégrer le domaine du sport automobile.",
+   "en": "Engineering student in Real-Time and Embedded Systems Architecture (ENSIM, degree 2028), passionate about motorsport and active in the field as an FFSA-licensed track marshal, including at the 24 Hours of Le Mans. Specialised in embedded development on STM32 microcontrollers and in network administration, I am looking for an international internship in 2028 to break into motorsport."
+  },
+  "short": {
+   "fr": "Étudiant ingénieur en systèmes temps réel et embarqués (ENSIM, diplôme 2028), spécialisé STM32 et réseaux, et commissaire de piste FFSA, dont aux 24 Heures du Mans. Je recherche un stage à l'international en 2028 dans le sport automobile.",
+   "en": "Engineering student in real-time and embedded systems (ENSIM, degree 2028), specialised in STM32 and networks, and FFSA track marshal, including at the 24 Hours of Le Mans. I am looking for an international internship in 2028 in motorsport."
+  },
+  "facts": [
+   {
+    "value": "2028",
+    "label": {
+     "fr": "diplôme d'ingénieur ENSIM",
+     "en": "ENSIM engineering degree"
+    }
+   },
+   {
+    "value": "≈24",
+    "label": {
+     "fr": "événements comme commissaire de piste en 4 ans",
+     "en": "events as a track marshal in 4 years"
+    }
+   },
+   {
+    "value": "STM32",
+    "label": {
+     "fr": "développement embarqué en C / C++",
+     "en": "embedded development in C / C++"
+    }
+   },
+   {
+    "value": "CCNA1",
+    "label": {
+     "fr": "certification réseaux",
+     "en": "networking certification"
+    }
+   }
+  ],
+  "chips": [
+   "C / C++",
+   "Python",
+   "STM32",
+   "TCP/IP",
+   "Git",
+   "Linux"
+  ],
+  "labels": {
+   "profile": {
+    "fr": "Profil",
+    "en": "Profile"
+   },
+   "skills": {
+    "fr": "Compétences",
+    "en": "Skills"
+   },
+   "experience": {
+    "fr": "Expériences professionnelles",
+    "en": "Professional experience"
+   },
+   "education": {
+    "fr": "Formations",
+    "en": "Education"
+   },
+   "contact": {
+    "fr": "Contact",
+    "en": "Contact"
+   },
+   "back": {
+    "fr": "← Retour aux apports",
+    "en": "← Back to impact"
+   },
+   "download": {
+    "fr": "Télécharger le PDF",
+    "en": "Download PDF"
+   },
+   "present": {
+    "fr": "présent",
+    "en": "present"
+   }
+  },
+  "skills": [
+   {
+    "label": {
+     "fr": "Langages de programmation",
+     "en": "Programming languages"
+    },
+    "items": [
+     "C",
+     "C++",
+     "Python",
+     "JavaScript",
+     "SQL",
+     "Bash",
+     "HTML",
+     "CSS"
+    ]
+   },
+   {
+    "label": {
+     "fr": "Développement embarqué",
+     "en": "Embedded development"
+    },
+    "items": [
+     "STM32",
+     "ADC",
+     "UART",
+     "PWM",
+     "I2C",
+     "SPI",
+     {
+      "fr": "Développement sous Linux",
+      "en": "Linux development"
+     }
+    ]
+   },
+   {
+    "label": {
+     "fr": "Outils de développement",
+     "en": "Development tools"
+    },
+    "items": [
+     "VS Code",
+     "CLion",
+     "Code::Blocks",
+     "Qt",
+     "STM32CubeIDE"
+    ]
+   },
+   {
+    "label": {
+     "fr": "Réseaux",
+     "en": "Networking"
+    },
+    "items": [
+     "TCP/IP",
+     "VLAN",
+     "DNS",
+     "DHCP",
+     "RIP",
+     {
+      "fr": "Administration sous Windows",
+      "en": "Windows administration"
+     },
+     "Cisco Packet Tracer",
+     {
+      "fr": "Certification CCNA1",
+      "en": "CCNA1 certification"
+     }
+    ]
+   },
+   {
+    "label": {
+     "fr": "Gestion de projet",
+     "en": "Project management"
+    },
+    "items": [
+     "Git",
+     "Notion"
+    ]
+   },
+   {
+    "label": {
+     "fr": "Conception & Design",
+     "en": "Design"
+    },
+    "items": [
+     "Figma",
+     "Inkscape",
+     "GIMP"
+    ]
+   },
+   {
+    "label": {
+     "fr": "Électronique & Diagnostic",
+     "en": "Electronics & diagnostics"
+    },
+    "items": [
+     {
+      "fr": "Multimètre",
+      "en": "Multimeter"
+     },
+     {
+      "fr": "Fer à souder",
+      "en": "Soldering iron"
+     },
+     {
+      "fr": "Station air chaud",
+      "en": "Hot-air station"
+     },
+     {
+      "fr": "Plaque chauffante",
+      "en": "Heating plate"
+     },
+     {
+      "fr": "Microsoudure",
+      "en": "Micro-soldering"
+     }
+    ]
+   }
+  ],
+  "experiences": [
+   {
+    "org": "SOCAMAINE",
+    "place": "Champagné",
+    "period": {
+     "fr": "juil. 2025 – présent",
+     "en": "Jul 2025 – present"
+    },
+    "role": {
+     "fr": "Préparateur de commandes",
+     "en": "Order picker"
+    },
+    "points": [
+     {
+      "fr": "Emploi en parallèle des études d'ingénieur : manutention et gestion de commandes en entrepôt logistique",
+      "en": "Job alongside engineering studies: handling and order management in a logistics warehouse"
+     }
+    ]
+   },
+   {
+    "org": "FFSA / ASA Maine",
+    "place": "Bretagne, Sarthe",
+    "period": {
+     "fr": "mars 2022 – présent",
+     "en": "Mar 2022 – present"
+    },
+    "role": {
+     "fr": "Commissaire de piste — Licence niveau C — Circuit et Rallye",
+     "en": "Track marshal — Level C licence — Circuit and Rally"
+    },
+    "points": [
+     {
+      "fr": "Officiant sur environ 24 événements en 4 ans, dont les 24 Heures du Mans chaque année",
+      "en": "Officiating at about 24 events in 4 years, including the 24 Hours of Le Mans every year"
+     },
+     {
+      "fr": "Intervention sur épreuves de circuit et de rallye en région Maine Bretagne",
+      "en": "Working circuit and rally events in the Maine-Brittany region"
+     },
+     {
+      "fr": "Gestion des incidents en temps réel : prise de décision rapide, communication avec la direction de course",
+      "en": "Real-time incident management: quick decision-making, communication with race control"
+     },
+     {
+      "fr": "Travail en équipe sous pression dans un environnement à haute exigence de sécurité",
+      "en": "Teamwork under pressure in a high-safety-standard environment"
+     }
+    ]
+   },
+   {
+    "org": "HFR160",
+    "place": "Le Mans",
+    "period": {
+     "fr": "mai – juillet 2024",
+     "en": "May – Jul 2024"
+    },
+    "role": {
+     "fr": "Technicien supérieur — Stage de développement embarqué sur système de contrôle de train miniature",
+     "en": "Senior technician — Internship: embedded development on a model-train control system"
+    },
+    "points": [
+     {
+      "fr": "Développement d'un programme embarqué en C++ sur microcontrôleur STM32 en collaboration avec un ingénieur ST Microelectronics",
+      "en": "Development of an embedded C++ program on an STM32 microcontroller, in collaboration with an STMicroelectronics engineer"
+     },
+     {
+      "fr": "Acquisition et traitement de données capteurs (vitesse, tension, courant) via ADC, avec affichage sur terminal série (UART) pour le débogage",
+      "en": "Sensor data acquisition and processing (speed, voltage, current) via ADC, displayed on a serial terminal (UART) for debugging"
+     },
+     {
+      "fr": "Génération de signaux PWM pour le contrôle d'un powerpack (régulation de la puissance moteur)",
+      "en": "PWM signal generation to control a power pack (motor power regulation)"
+     },
+     {
+      "fr": "Développement et intégration sur maquette physique fonctionnelle",
+      "en": "Development and integration on a working physical model"
+     },
+     {
+      "fr": "Gestion de projet en autonomie via Git (versioning) et Notion (suivi de tâches)",
+      "en": "Autonomous project management with Git (versioning) and Notion (task tracking)"
+     }
+    ]
+   },
+   {
+    "org": "Kabiloo",
+    "place": "Le Mans",
+    "period": {
+     "fr": "sept. 2022 – juil. 2023",
+     "en": "Sep 2022 – Jul 2023"
+    },
+    "role": {
+     "fr": "Réparateur informatique — Stages de réparation multi-appareils en atelier (smartphones, PC, tablettes, consoles)",
+     "en": "Computer repair technician — Internships: multi-device repair in a workshop (smartphones, PCs, tablets, consoles)"
+    },
+    "points": [
+     {
+      "fr": "Diagnostic et réparation d'environ 30 appareils par semaine (smartphones majoritairement, PC, tablettes, consoles de jeu)",
+      "en": "Diagnosis and repair of about 30 devices a week (mostly smartphones, plus PCs, tablets, game consoles)"
+     },
+     {
+      "fr": "Soudure de composants électroniques au niveau microsoudure : remplacement de connecteurs Jack, modules batterie, composants CMS",
+      "en": "Micro-soldering of electronic components: replacing jack connectors, battery modules, SMD components"
+     },
+     {
+      "fr": "Utilisation d'outillage professionnel : multimètre, fer à souder, station air chaud, plaque chauffante",
+      "en": "Use of professional tools: multimeter, soldering iron, hot-air station, heating plate"
+     },
+     {
+      "fr": "Recherche de pannes en autonomie au sein d'une équipe de 4 techniciens",
+      "en": "Autonomous fault finding within a team of 4 technicians"
+     }
+    ]
+   },
+   {
+    "org": "LeLièvre Immobilier",
+    "place": "Le Mans",
+    "period": {
+     "fr": "nov. – déc. 2021",
+     "en": "Nov – Dec 2021"
+    },
+    "role": {
+     "fr": "Technicien réseau — Stage d'administration et de maintenance réseau multi-sites",
+     "en": "Network technician — Internship: multi-site network administration and maintenance"
+    },
+    "points": [
+     {
+      "fr": "Intervention sur l'infrastructure réseau de plusieurs agences : configuration et maintenance de commutateurs, routeurs et NAS",
+      "en": "Work on the network infrastructure of several agencies: configuration and maintenance of switches, routers and NAS"
+     },
+     {
+      "fr": "Travail en environnement professionnel réel avec déplacements sur site",
+      "en": "Work in a real professional environment, with on-site travel"
+     }
+    ]
+   }
+  ],
+  "education": [
+   {
+    "place": "Le Mans",
+    "period": {
+     "fr": "2025 – actuellement",
+     "en": "2025 – present"
+    },
+    "title": {
+     "fr": "Diplôme d'ingénieur, Informatique, parcours Architecture des Systèmes Temps Réel et Embarqués",
+     "en": "Engineering degree, Computer Science — Real-Time and Embedded Systems Architecture track"
+    },
+    "badge": null
+   },
+   {
+    "place": "Le Mans",
+    "period": "2023 – 2025",
+    "title": {
+     "fr": "BTS Informatique Réseau, Développement Web et Développement de Logiciels",
+     "en": "BTS (Higher Technician Certificate) — Networking, Web Development and Software Development"
+    },
+    "badge": {
+     "fr": "Second de promotion",
+     "en": "Ranked 2nd in the class"
+    }
+   },
+   {
+    "place": "Le Mans",
+    "period": "2020 – 2023",
+    "title": {
+     "fr": "Baccalauréat professionnel, Informatique Réseau",
+     "en": "Vocational Baccalaureate — Networking"
+    },
+    "badge": {
+     "fr": "Major de promotion",
+     "en": "Top of the class"
+    }
+   }
+  ]
  }
 }
