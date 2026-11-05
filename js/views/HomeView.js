@@ -19,8 +19,8 @@ export class HomeView extends View {
     const skills = profile.skills.map((item, i) => `
           <li><span>0${i + 1}</span>${item[lang]}</li>`).join('');
     return `      <section class="hero hero--home">
-        <img src="assets/ProN&B.png" alt="${site.name.toUpperCase()}" class="hero__logo" style="width: 150px; height: auto;">
-        <h1>${home.title[lang]}</h1>
+        <img src="assets/LogoAccueil.png" alt="${site.name.toUpperCase()}" class="hero__logo" style="width: 250px; height: auto;">
+        <h1 style="color: #c20396;>${home.title[lang]}</h1>
         <p>${home.subtitle[lang]}</p><span class="hint">${ui.hover[lang]}</span>
         <div class="car"><img class="car__photo" src="assets/CivicEF9.png" alt="Honda Civic EF9"><svg class="car__lines" viewBox="0 0 591 225" role="img" aria-label="Honda Civic EF9">${CAR_LINES}${carZones(home.zones, lang)}</svg></div>
       </section>

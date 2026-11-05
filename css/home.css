@@ -18,7 +18,8 @@
 
 
 /* ===== Fiche pilote : dossier technique inspiré des fiches de course ===== */
-.race-profile{position:relative;isolation:isolate;overflow:hidden;max-width:1500px;margin:clamp(50px,8vw,120px) auto clamp(70px,9vw,130px);padding:clamp(24px,5vw,70px) clamp(20px,5vw,72px);background:var(--card);border:1px solid color-mix(in srgb,var(--fg) 16%,transparent);color:var(--fg)}
+.race-profile{position:relative;isolation:isolate;overflow:hidden;max-width:1500px;margin:clamp(50px,8vw,120px) auto clamp(70px,9vw,130px);padding:clamp(24px,5vw,70px) clamp(20px,5vw,72px);background:var(--card);border:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}
+.race-profile * {color: #c20396;}
 .race-profile::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.28;pointer-events:none;background-image:radial-gradient(color-mix(in srgb,var(--fg) 30%,transparent) .65px,transparent .65px);background-size:5px 5px}
 .race-profile::after{content:"";position:absolute;z-index:-1;right:-8%;top:8%;width:38%;height:2px;background:var(--accent);transform:rotate(-18deg);box-shadow:0 12px 0 color-mix(in srgb,var(--accent) 22%,transparent),0 24px 0 color-mix(in srgb,var(--accent) 12%,transparent)}
 .race-profile__topline,.race-profile__bottom,.race-panel__label{display:flex;align-items:center;justify-content:space-between;gap:14px;font:800 10px/1.4 "Sora",system-ui,sans-serif;letter-spacing:.16em}
