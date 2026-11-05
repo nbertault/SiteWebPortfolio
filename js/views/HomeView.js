@@ -1,5 +1,5 @@
 import { View } from './View.js';
-import { CAR_LINES, carZones } from './svg/car.js';
+import { CAR_LINES, CAR_CALLOUTS, carZones } from './svg/car.js';
 
 /** Page d'accueil : voiture interactive + formulaire de contact. */
 export class HomeView extends View {
@@ -19,17 +19,11 @@ export class HomeView extends View {
     const skills = profile.skills.map((item, i) => `
           <li><span>0${i + 1}</span>${item[lang]}</li>`).join('');
     return `      <section class="hero hero--home">
-    
-        <img src="assets/LogoAccueil.png" alt="${site.name.toUpperCase()}" class="hero__logo" style="width: 250px; height: auto;">
-        <h1 style="color: #c20396;>${home.title[lang]}</h1>
-        
-    /* ===== Hero : voiture interactive ===== */
+        <img src="assets/Logos/LogoAccueil.png" alt="${site.name.toUpperCase()}" class="hero__logo" style="width: 250px; height: auto;">
+        <h1>${home.title[lang]}</h1>
         <p>${home.subtitle[lang]}</p><span class="hint">${ui.hover[lang]}</span>
-        <div class="car"><img class="car__photo" src="assets/CivicEF9.png" alt="Honda Civic EF9"><svg class="car__lines" viewBox="0 0 591 225" role="img" aria-label="Honda Civic EF9">${CAR_LINES}${carZones(home.zones, lang)}</svg></div>
+        <div class="car"><img class="car__photo" src="assets/Voitures/CivicEF9.png" alt="Honda Civic EF9"><svg class="car__lines" viewBox="0 0 591 260" role="img" aria-label="Honda Civic EF9">${CAR_LINES}${CAR_CALLOUTS}${carZones(home.zones, lang)}</svg></div>
       </section>
-
-      /* ===== Fiche pilote : dossier technique inspiré des fiches de course ===== */
-
       <section class="race-profile" aria-labelledby="race-profile-title">
         <div class="race-profile__topline">
           <span>${profile.eyebrow[lang]}</span>
@@ -40,14 +34,14 @@ export class HomeView extends View {
             <p class="race-profile__kicker">${profile.number[lang]}</p>
             <h2 id="race-profile-title">${profile.title[lang]}</h2>
           </div>
-          <div class="race-profile__number" aria-hidden="true">01</div>
+          <div class="race-profile__number" aria-hidden="true">12</div>
         </div>
         <div class="race-profile__grid">
           <section class="race-panel race-panel--identity">
             <div class="race-panel__label"><span>01 / ID</span><span>${profile.location[lang]}</span></div>
             <p class="race-profile__intro">${profile.intro[lang]}</p>
             <div class="race-panel__visual">
-              <img src="assets/CarteLeMans.png" alt="Carte de la ville du Mans" class="race-panel__map">
+              <img src="assets/CarteLeMans.png" alt="Carte de la Sarthe, Le Mans, France" class="race-panel__map">
               <span class="race-panel__watermark">TRACK<br>ENGINEERING</span>
             </div>
             <p class="race-panel__caption">${lang === 'fr' ? 'PASSION MÉCANIQUE · PRÉCISION NUMÉRIQUE' : 'MOTORSPORT PASSION · DIGITAL PRECISION'}</p>

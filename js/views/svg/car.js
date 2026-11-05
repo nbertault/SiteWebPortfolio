@@ -43,6 +43,68 @@ export const CAR_LINES = `<g class="ln2">
 <path d="M492 27L535 14M533 14L585 6L583 35L545 37Z"/><path d="M517 37L548 76M538 42L552 82"/>
 <path d="M11 188L65 197L14 196Z"/><circle cx="348" cy="62" r="17"/></g>`;
 
+
+/** Repères de lecture technique : cotations et annotations de la Civic EF9. */
+export const CAR_CALLOUTS = `<g class="tech-sheet" aria-hidden="true">
+<defs>
+  <pattern id="techGrid" width="12" height="12" patternUnits="userSpaceOnUse">
+    <path d="M12 0H0V12" class="tech-grid-line"/>
+  </pattern>
+</defs>
+<rect class="tech-grid" x="2" y="2" width="587" height="219" fill="url(#techGrid)"/>
+<!-- Axes et lignes de construction -->
+<g class="tech-guides">
+  <path d="M116 16V212M474 16V212M16 162H578" />
+  <path d="M116 162H474" stroke-dasharray="2 4"/>
+  <path d="M116 214V220M474 214V220M116 217H474" />
+  <path d="M116 217l5 -2v4zM474 217l-5 -2v4z"/>
+</g>
+<!-- Cotation -->
+<g class="tech-dimensions">
+  <text x="295" y="214" text-anchor="middle">EMPATTEMENT · 2 500 mm</text>
+  <text x="18" y="-10">HONDA CIVIC EF9</text>
+  <text x="18" y="0">VUE LATÉRALE / SCHÉMA TECHNIQUE</text>
+  <text x="573" y="-10" text-anchor="end">1989—1991</text>
+  <text x="573" y="0" text-anchor="end">B16A · DOHC VTEC</text>
+</g>
+<!-- Lignes de rappel et repères -->
+<g class="tech-callouts">
+  /*MOTEUR*/
+  <path d="M120 110L110 60H60"/>
+  <text x="50" y="60">01</text>
+  <circle cx="120" cy="110" r="2.3"/>
+
+  /*HABITACLE*/
+  <text x="442" y="33">02</text>
+  <path d="M348 62L390 33H440"/>
+  <circle cx="348" cy="62" r="2.3"/>
+
+  /*TRAIN ARRIÈRE*/
+  <text x="340" y="126">03</text>
+  <path d="M474 162L410 126H350"/>
+  <circle cx="474" cy="162" r="2.3"/>
+
+  /*TRAIN AVANT*/
+  <text x="202" y="132">04</text>
+  <path d="M116 162L150 132H200"/>
+  <circle cx="116" cy="162" r="2.3"/>
+
+  /*AILERON*/
+  <text x="390" y="15">05</text>
+  <path d="M550 30L450 15H400"/>
+  <circle cx="550" cy="30" r="2.3"/>
+</g>
+<g class="tech-stamp">
+  <path d="M12 230H579M12 252H579"/>
+  <text x="18" y="239">01 / MOTEUR</text>
+  <text x="132" y="239">02 / HABITACLE</text>
+  <text x="250" y="239">03 / TRAIN AR.</text>
+  <text x="370" y="239">04 / TRAIN AV.</text>
+  <text x="490" y="239">05 / AILERON</text>
+  <text x="579" y="249" text-anchor="end">TECHNICAL DRAWING / 01 · MOTORSPORT FILE</text>
+</g>
+</g>`;
+
 const SHAPES = {
   passions: '<path d="M22 128L100 100L172 86L176 104L120 122L50 142L24 142Z"/>',   // capot
   parcours: '<circle cx="348" cy="62" r="18"/>',                                    // pilote

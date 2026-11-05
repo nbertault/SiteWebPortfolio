@@ -2,7 +2,8 @@
 #bg{display:none}
 .hero--home{flex-direction:column;justify-content:center;text-align:center;gap:10px;padding-bottom:0}
 .car{position:relative;width:min(1100px,94vw);margin:0 auto;aspect-ratio:591/225}
-.car__photo,.car__lines{position:absolute;inset:0;width:100%;height:100%;display:block}
+.car__photo{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:contain}
+.car__lines{position:absolute;top:0;left:0;width:100%;height:auto;display:block;overflow:visible}
 .car__photo{transition:opacity .45s}
 .car__lines .ln2{fill:none;stroke:var(--ink);stroke-width:1.3;stroke-dasharray:6 4;stroke-linecap:round;stroke-linejoin:round;opacity:0;transition:opacity .45s}
 .car:hover .car__photo{opacity:0}   /* la voiture devient transparente */
@@ -19,7 +20,9 @@
 
 /* ===== Fiche pilote : dossier technique inspiré des fiches de course ===== */
 .race-profile{position:relative;isolation:isolate;overflow:hidden;max-width:1500px;margin:clamp(50px,8vw,120px) auto clamp(70px,9vw,130px);padding:clamp(24px,5vw,70px) clamp(20px,5vw,72px);background:var(--card);border:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}
-.race-profile * {color: #c20396;}
+.race-profile * {
+    color: #c20396;
+}
 .race-profile::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.28;pointer-events:none;background-image:radial-gradient(color-mix(in srgb,var(--fg) 30%,transparent) .65px,transparent .65px);background-size:5px 5px}
 .race-profile::after{content:"";position:absolute;z-index:-1;right:-8%;top:8%;width:38%;height:2px;background:var(--accent);transform:rotate(-18deg);box-shadow:0 12px 0 color-mix(in srgb,var(--accent) 22%,transparent),0 24px 0 color-mix(in srgb,var(--accent) 12%,transparent)}
 .race-profile__topline,.race-profile__bottom,.race-panel__label{display:flex;align-items:center;justify-content:space-between;gap:14px;font:800 10px/1.4 "Sora",system-ui,sans-serif;letter-spacing:.16em}
@@ -65,3 +68,22 @@
 .race-profile__bottom{margin-top:20px;padding-top:14px;border-top:1px solid color-mix(in srgb,var(--fg) 24%,transparent);color:var(--mut);font-size:8px}
 @media(max-width:950px){.race-profile__grid{grid-template-columns:1fr 1fr}.race-panel--identity{grid-row:span 2}.race-panel--skills{grid-column:1/-1}.race-skills{grid-template-columns:1fr 1fr;column-gap:20px}}
 @media(max-width:600px){.race-profile{margin:50px 12px 70px;padding:22px 16px}.race-profile__heading{grid-template-columns:1fr;padding:30px 0 24px}.race-profile__number{position:absolute;right:22px;top:110px;font-size:76px;opacity:.3}.race-profile__heading h2{max-width:90%}.race-profile__grid{grid-template-columns:1fr}.race-panel--identity,.race-panel--skills{grid-column:auto;grid-row:auto}.race-skills{grid-template-columns:1fr}.race-profile__bottom{align-items:flex-start;flex-direction:column;gap:6px}.race-profile__topline{font-size:8px}}
+
+
+/* Planche technique au survol : grille, cotations et annotations */
+.car__lines .tech-grid-line{fill:none;stroke:#c20396;stroke-width:.45;opacity:.34}
+.car__lines .tech-guides{fill:none;stroke:#c20396;stroke-width:.6;opacity:.42}
+.car__lines .tech-dimensions{fill:#c20396;font:600 5.2px/1 "Sora",system-ui,sans-serif;letter-spacing:.65px;opacity:.95}
+.car__lines .tech-callouts{fill:none;stroke:#c20396;stroke-width:.75;stroke-linecap:square;stroke-linejoin:miter}
+.car__lines .tech-callouts circle{fill:#c20396;stroke:none}
+.car__lines .tech-callouts text{fill:#c20396;stroke:none;font:700 5.2px/1 "Sora",system-ui,sans-serif;letter-spacing:.45px}
+.car__lines .tech-stamp{fill:#c20396;font:600 4.3px/1 "Sora",system-ui,sans-serif;letter-spacing:.55px;opacity:.62}
+.car__lines .tech-stamp path{fill:none;stroke:#c20396;stroke-width:.55}
+.car__lines .tech-sheet{opacity:0;transition:opacity .45s}
+.car:hover .tech-sheet{opacity:1}
+.car__lines .ln2{stroke-width:1.05;stroke-dasharray:0;opacity:0;transition:opacity .45s}
+.car:hover .ln2{opacity:.9}
+@media (max-width:600px){
+  .car__lines .tech-dimensions,.car__lines .tech-callouts text{font-size:6px}
+  .car__lines .tech-stamp{display:none}
+}
