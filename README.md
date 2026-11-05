@@ -9,7 +9,7 @@ Les modules ES et `fetch` nécessitent un serveur local (pas de double-clic sur 
     # ou : npx serve   /  extension « Live Server » de VS Code
 
 ## Structure
-    index.html · passions.html · projets.html · parcours.html · apports.html   ← 1 fichier par page
+    index.html · passions.html · projets.html (+ projet-*.html : une page dédiée par projet) · parcours.html · apports.html   ← 1 fichier par page
     css/    base.css (thèmes, couleur par page) · layout.css (header/footer/hero) · home.css · subpage.css
     data/   content.json         ← TOUS les textes, bilingues { fr, en }
     assets/ cv.pdf               ← remplacez par votre vrai CV
@@ -34,3 +34,9 @@ Les modules ES et `fetch` nécessitent un serveur local (pas de double-clic sur 
 - Ajouter une page : un `.html`, une vue (`extends SubPageView`), une entrée dans `js/pages/` et dans `nav` du JSON.
 - Formulaire de contact : ouvre le client mail (pas de serveur). Branchez un service (Formspree…) dans `HomeController`.
 - Traduction : textes écrits dans les deux langues dans le JSON (pas de traduction automatique à la volée).
+
+
+## Nouveautés
+- **Header** : logo, dégradé, commandes langue/thème ; sa hauteur est mesurée (`--header-h`) et le contenu des pages s'y adapte.
+- **Parcours** : 3 casques combinés (formations) + voitures alternées (expériences) — textes et images dans `data/content.json` (`image`, `logo`).
+- **Projets** : tableau de chronométrage (1 ligne = 1 projet : titre cliquable, délais en violet, description). Nouveau projet = une entrée dans `pages.projets.projects` + une copie de `projet-*.html` (changer `data-project`).

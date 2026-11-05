@@ -3,7 +3,7 @@
 .reveal{opacity:0;transform:translateY(40px);transition:opacity .8s var(--d,0ms),transform .8s var(--d,0ms)}
 .reveal.in{opacity:1;transform:none}
 
-.pc-head{text-align:center;padding:130px 6vw 0}
+.pc-head{text-align:center;padding:calc(var(--header-h,110px) + 24px) 6vw 0}
 .pc-head h1{margin:0}
 .pc-sub{margin:10px 0 44px;text-align:center;font-size:clamp(18px,2.2vw,28px);font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:var(--fg);opacity:.85}
 .pc-sub--exp{margin:0 0 30px}
@@ -26,21 +26,35 @@
 .formation__meta{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .school-logo{height:42px;max-width:120px;object-fit:contain}
 .school-logo--ph{display:grid;place-items:center;padding:0 12px;border-radius:10px;background:color-mix(in srgb,var(--c,var(--accent)) 14%,transparent);font-weight:800;font-size:13px;letter-spacing:.08em}
-.badge{padding:6px 14px;border-radius:99px;background:var(--c,var(--accent));color:#fff;font-size:13px;font-weight:800;letter-spacing:.04em;white-space:nowrap}
+.badge{padding:6px 14px;border-radius:99px;background:var(--c,var(--accent));color:#fff;font-size:13px;font-weight:800;letter-spacing:.04em;white-space:pre-line;text-align:center}
 
-/* --- expériences : voitures alternées gauche / droite --- */
-.exps{display:grid;gap:56px;padding:0 3vw 140px}
-.exp{display:grid;align-items:center;min-height:300px;column-gap:4vw;outline:none;transition:grid-template-columns .7s cubic-bezier(.2,.8,.2,1),opacity .8s,transform .8s}
-.exp--left{grid-template-columns:1.15fr .85fr}
-.exp--left:hover,.exp--left:focus-visible{grid-template-columns:.55fr 1.45fr}
-.exp--right{grid-template-columns:.85fr 1.15fr}
+/* --- expériences : les voitures roulent vers leur bord d'écran, puis le texte apparaît --- */
+.exps{display:grid;gap:56px;padding:0 3vw 140px;overflow-x:clip}       /* clip : la voiture peut sortir de l'écran sans barre de défilement */
+.exp{--dir:-1;--drive:.9s;display:grid;align-items:center;min-height:300px;column-gap:4vw;outline:none;
+  grid-template-columns:1.15fr .85fr;transition:opacity .8s,transform .8s}
+.exp--right{--dir:1;grid-template-columns:.85fr 1.15fr}
 .exp--right .exp__car{order:2}
-.exp--right:hover,.exp--right:focus-visible{grid-template-columns:1.45fr .55fr}
 .exp--right .exp__info{text-align:right}
+
+/* la voiture (taille inchangée) accélère vers son côté : environ la moitié sort de l'écran */
+.exp__car{transition:transform var(--drive) cubic-bezier(.55,.05,.25,1)}
 .exp__car img{display:block;width:100%;filter:drop-shadow(0 18px 24px #0005)}
+.exp--right .exp__car:not(.exp__car--noflip) img{transform:scaleX(-1)}  /* regarde vers son bord d'écran (mettre "flip": false pour désactiver) */
+.exp:hover .exp__car,.exp:focus-visible .exp__car{transform:translateX(calc(var(--dir) * 58%))}
+
+/* l'intitulé suit pour libérer la place… */
+.exp__info{transition:transform var(--drive) cubic-bezier(.55,.05,.25,1)}
+.exp:hover .exp__info,.exp:focus-visible .exp__info{transform:translateX(calc(var(--dir) * 60%))}
 .exp__info h3{margin:0;font-size:clamp(22px,2.7vw,40px);font-weight:800;line-height:1.1}
 .exp__company{margin:8px 0 0;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:color-mix(in srgb,var(--accent) 65%,var(--fg))}
-.exp__text{max-height:0;margin:0;overflow:hidden;opacity:0;transition:max-height .6s,opacity .5s .15s,margin .5s}
-.exp:hover .exp__text,.exp:focus-visible .exp__text{max-height:240px;margin-top:16px;opacity:1}
 
-@media(max-width:800px){.exp,.exp--left,.exp--right,.exp--left:hover,.exp--right:hover{grid-template-columns:1fr}.exp--right .exp__car{order:0}.exp--right .exp__info{text-align:left}}
+/* …et le texte n'apparaît qu'une fois la voiture arrivée (délai = durée du trajet) ; il disparaît tout de suite au retrait */
+.exp__text{max-height:0;margin:0;overflow:hidden;opacity:0;transition:opacity .2s,max-height .3s,margin .3s}
+.exp:hover .exp__text,.exp:focus-visible .exp__text{max-height:260px;margin-top:16px;opacity:1;
+  transition:opacity .6s var(--drive),max-height .5s var(--drive),margin .5s var(--drive)}
+
+@media(max-width:800px){
+  .exp,.exp--right{grid-template-columns:1fr}.exp--right .exp__car{order:0}.exp--right .exp__info{text-align:left}
+  .exp:hover .exp__car,.exp:hover .exp__info{transform:none}                       /* pas de survol sur mobile : texte toujours visible */
+  .exp__text{max-height:none;margin-top:10px;opacity:1}
+}

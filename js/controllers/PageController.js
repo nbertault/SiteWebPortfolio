@@ -20,8 +20,17 @@ export class PageController {
     this.header = new HeaderView(this.headerEl);
     this.footer = new FooterView(document.getElementById('footer'));
     this.bindCommon();
+    this.trackHeaderHeight();
     this.settings.subscribe(() => this.render());
     this.render();
+  }
+
+  /** Mesure le header (logo, polices, redimensionnement) et expose sa hauteur en CSS : var(--header-h). */
+  trackHeaderHeight() {
+    const sync = () => document.documentElement.style.setProperty('--header-h', this.headerEl.offsetHeight + 'px');
+    sync();
+    new ResizeObserver(sync).observe(this.headerEl, { box: 'border-box' });
+    addEventListener('load', sync);
   }
 
   get state() {

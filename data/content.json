@@ -93,6 +93,30 @@
   "footer": {
    "fr": "Basé en France · ouvert à l’international · © 2026",
    "en": "Based in France · open to international opportunities · © 2026"
+  },
+  "pos": {
+   "fr": "POS",
+   "en": "POS"
+  },
+  "project": {
+   "fr": "Projet",
+   "en": "Project"
+  },
+  "delay": {
+   "fr": "Délais",
+   "en": "Timing"
+  },
+  "description": {
+   "fr": "Description",
+   "en": "Description"
+  },
+  "back": {
+   "fr": "← Retour aux projets",
+   "en": "← Back to projects"
+  },
+  "todo": {
+   "fr": "Page dédiée au projet : contenu à compléter (images, rapport, technologies, liens).",
+   "en": "Dedicated project page: content to be added (images, report, technologies, links)."
   }
  },
  "home": {
@@ -210,14 +234,20 @@
     "en": "My projects"
    },
    "intro": {
-    "fr": "Un regard dans le rétroviseur : ce que j’ai déjà construit, comme depuis la passerelle Dunlop du Mans.",
-    "en": "A look in the rear-view mirror: what I have already built, as seen from the Dunlop bridge at Le Mans."
+    "fr": "Classement de mes réalisations : cliquez sur un projet pour ouvrir sa page.",
+    "en": "Ranking of my work: click a project to open its page."
    },
-   "sections": [
+   "projects": [
     {
+     "slug": "volant-sim",
+     "page": "projet-volant-sim.html",
      "title": {
       "fr": "Volant sim racing DIY",
       "en": "DIY sim racing wheel"
+     },
+     "delay": {
+      "fr": "4 mois",
+      "en": "4 months"
      },
      "text": {
       "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.",
@@ -225,9 +255,15 @@
      }
     },
     {
+     "slug": "flotte-robots",
+     "page": "projet-flotte-robots.html",
      "title": {
       "fr": "Flotte de robots",
       "en": "Robot fleet"
+     },
+     "delay": {
+      "fr": "3 mois",
+      "en": "3 months"
      },
      "text": {
       "fr": "Documentation et compte rendu d’un projet de flotte de robots avec Miros.",
@@ -235,9 +271,15 @@
      }
     },
     {
+     "slug": "a-venir",
+     "page": "projet-a-venir.html",
      "title": {
       "fr": "Projet à venir",
       "en": "Upcoming project"
+     },
+     "delay": {
+      "fr": "À définir",
+      "en": "TBD"
      },
      "text": {
       "fr": "Emplacement pour un prochain projet : ajoutez images, liens et détails.",
@@ -269,42 +311,42 @@
       "en": "In progress"
      },
      "text": {
-      "fr": "Formation d'ingénieur en informatique, spécialisation en informatique embarquée, avec approche de l'études de projets, la conception de systèmes et de projets, la gestion d'équipe, et l'apport d'expérience en milieu professionnelle.",
-      "en": "Engineering degree at the École d'ingénieurs du Mans, specialising in real-time and embedded systems architecture."
+      "fr": "Formation d'ingénieur en informatique, spécialisation en informatique embarquée, avec approche de l'étude de projets, la conception de systèmes et de projets, la gestion d'équipe, et l'apport d'expérience en milieu professionnel.",
+      "en": "Engineering degree in computer science, specialising in embedded computing, with a project-study approach, systems and project design, team management and professional work experience."
      }
     },
     {
      "title": {
       "fr": "BTS CIEL",
-      "en": "Education to add"
+      "en": "BTS CIEL"
      },
      "school": "Lycée Washington Touchard",
      "logo": null,
      "image": null,
      "status": {
       "fr": "Second de la promotion",
-      "en": "Honours to be added"
+      "en": "Ranked 2nd in the class"
      },
      "text": {
-      "fr": "Formation basé sur l'informatique dans sa globalité, approche de la programmation, de l'administration réseaux, la conception de projets et apport d'expériences par le biais d'un stage en entreprise.",
-      "en": "Description of the programme: content, skills acquired, key projects."
+      "fr": "Formation basée sur l'informatique dans sa globalité, approche de la programmation, de l'administration réseaux, la conception de projets et apport d'expériences par le biais d'un stage en entreprise.",
+      "en": "Programme covering IT as a whole: programming, network administration, project design, and work experience through a company internship."
      }
     },
     {
      "title": {
       "fr": "Bac Professionnel SN",
-      "en": "Education to add"
+      "en": "Vocational Baccalaureate in Digital Systems (SN)"
      },
      "school": "Lycée Washington Touchard",
      "logo": null,
      "image": null,
      "status": {
       "fr": "Major de promo \n Mention Très Bien",
-      "en": "Top of class?"
+      "en": "Top of the class\nFirst-Class Honours (Très Bien)"
      },
      "text": {
-      "fr": "Formation professionnelle concentré sur l'administration des systèmes et réseaux. Apport d'expériences en milieu professionnelle par le biais de stage en entreprises.",
-      "en": "Description of the programme: content, skills acquired, key projects."
+      "fr": "Formation professionnelle concentrée sur l'administration des systèmes et réseaux. Apport d'expériences en milieu professionnel par le biais de stages en entreprise.",
+      "en": "Vocational programme focused on systems and network administration, with work experience through company internships."
      }
     }
    ],
@@ -316,61 +358,61 @@
     {
      "title": {
       "fr": "Commissaire de Piste",
-      "en": "Role or internship to add"
+      "en": "Track Marshal"
      },
      "company": "FFSA",
      "image": null,
      "text": {
-      "fr": "Sécurité des pilotes, des spectateurs sur les circuits et spéciales de rallye. Majoritèrement basé sur Le Mans et la Sarthe durant des épreuves nationales et internationales.",
-      "en": "Missions, technologies used, results achieved."
+      "fr": "Sécurité des pilotes, des spectateurs sur les circuits et spéciales de rallye. Majoritairement basé sur Le Mans et la Sarthe durant des épreuves nationales et internationales.",
+      "en": "Safety of drivers and spectators at circuits and rally stages. Mainly based in Le Mans and the Sarthe during national and international events."
      }
     },
     {
      "title": {
       "fr": "Stagiaire en Électronique Embarquée",
-      "en": "Role or internship to add"
+      "en": "Embedded Electronics Intern"
      },
      "company": "HFR160",
      "image": null,
      "text": {
-      "fr": "Réalisation de programme et de composant électronique pour des trains miniatures. Travail de recherche, de compréhension et de réalisation en quasi autonomie, sous la supervision d'un ingénieur de chez STMicroelectronics.",
-      "en": "Missions, technologies used, results achieved."
+      "fr": "Réalisation de programmes et de composants électroniques pour des trains miniatures. Travail de recherche, de compréhension et de réalisation en quasi autonomie, sous la supervision d'un ingénieur de chez STMicroelectronics.",
+      "en": "Development of programs and electronic components for model trains. Research, learning and implementation carried out almost autonomously, under the supervision of an engineer from STMicroelectronics."
      }
     },
     {
      "title": {
       "fr": "Stagiaire Administrateur Réseau et Systèmes",
-      "en": "Role or internship to add"
+      "en": "Network & Systems Administrator Intern"
      },
      "company": "Lelièvre Immobilier",
      "image": null,
      "text": {
-      "fr": "Maintenance d'un réseau informatique sur plusieurs sites. Réaliser sous la supervision d'administrateurs réseau. Aide de collaborateur dans la recherche et résolution de pannes",
-      "en": "Missions, technologies used, results achieved."
+      "fr": "Maintenance d'un réseau informatique sur plusieurs sites. Réalisé sous la supervision d'administrateurs réseau. Aide aux collaborateurs dans la recherche et résolution de pannes.",
+      "en": "Maintenance of a multi-site computer network, carried out under the supervision of network administrators. Helping colleagues track down and fix failures."
      }
     },
     {
      "title": {
       "fr": "Réparateur de matériel informatique",
-      "en": "Role or internship to add"
+      "en": "Computer Hardware Repair Technician"
      },
      "company": "Kabiloo",
      "image": null,
      "text": {
-      "fr": "Recherche de panne et mise en oeuvre de solutions de réparations. Réalisation de micro-soudure, de remplacement de composants et de cartes électroniques. Réalisation de tests et de diagnostics, et utilisation de matériels de mesures.",
-      "en": "Missions, technologies used, results achieved."
+      "fr": "Recherche de panne et mise en œuvre de solutions de réparations. Réalisation de micro-soudure, de remplacement de composants et de cartes électroniques. Réalisation de tests et de diagnostics, et utilisation de matériels de mesures.",
+      "en": "Fault finding and implementation of repair solutions. Micro-soldering, replacement of components and electronic boards. Testing and diagnostics using measuring equipment."
      }
     },
     {
      "title": {
       "fr": "Préparateur de commandes",
-      "en": "Role or internship to add"
+      "en": "Order Picker"
      },
      "company": "SocaMaine",
      "image": null,
      "text": {
-      "fr": "Travail en équipe, préparation de commandes, utilisation de gerbeurs et d'outils de gestion de stock. Heures de travail décallé et travail en conditions fraîches",
-      "en": "Missions, technologies used, results achieved."
+      "fr": "Travail en équipe, préparation de commandes, utilisation de gerbeurs et d'outils de gestion de stock. Heures de travail décalé et travail en conditions fraîches.",
+      "en": "Teamwork, order picking, use of pallet stackers and stock-management tools. Shift work with irregular hours, in cold working conditions."
      }
     }
    ]

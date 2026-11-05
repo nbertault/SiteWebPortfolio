@@ -26,7 +26,7 @@ export class ParcoursView extends SubPageView {
 
     const experiences = p.experiences.map((e, i) => `
       <article class="exp exp--${i % 2 ? 'right' : 'left'} reveal" tabindex="0">
-        <div class="exp__car"><img src="${e.image || 'assets/civic-ef9.png'}" alt=""></div>
+        <div class="exp__car ${e.flip === false ? 'exp__car--noflip' : ''}"><img src="${e.image || 'assets/CivicEF9.png'}" alt=""></div>
         <div class="exp__info">
           <h3>${t(e.title)}</h3>
           <p class="exp__company">${e.company}</p>
