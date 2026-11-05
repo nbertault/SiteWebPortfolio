@@ -1,5 +1,5 @@
 /* Design tokens, thèmes, couleur dominante par page */
-:root{--bg:#f6f4fa;--fg:#1a1624;--mut:#625c78;--paper:#f4f1ea;--ink:#23324a;--card:#fff;--hl:#f59e0b;--accent:#4c1d95;color-scheme:light}
+:root{--bg:#f6f4fa;--fg:#1a1624;--mut:#625c78;--paper:#f4f1ea;--ink:#23324a;--card:#fff;--hl:#c20396;--accent:#4c1d95;color-scheme:light}
 :root[data-theme=dark]{--bg:#0e0b16;--fg:#efeaf8;--mut:#a59fba;--paper:#12203a;--ink:#cfe0ff;--card:#1a1424;color-scheme:dark}
 body[data-page=home]{--accent:#4c1d95}
 body[data-page=passions]{--accent:#e8590c}
