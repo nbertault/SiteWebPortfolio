@@ -418,7 +418,7 @@
       "en": "Engineering degree"
      },
      "school": "ENSIM",
-     "logo": null,
+     "logo": "assets/Logos/Ecoles/LogoENSIM.png",
      "image": null,
      "status": {
       "fr": "En cours",
@@ -435,7 +435,7 @@
       "en": "BTS CIEL"
      },
      "school": "Lycée Washington Touchard",
-     "logo": null,
+     "logo": "assets/Logos/Ecoles/LogoTouchard.png",
      "image": null,
      "status": {
       "fr": "Second de la promotion",
@@ -452,7 +452,7 @@
       "en": "Vocational Baccalaureate in Digital Systems (SN)"
      },
      "school": "Lycée Washington Touchard",
-     "logo": null,
+     "logo": "assets/Logos/Ecoles/LogoTouchard.png",
      "image": null,
      "status": {
       "fr": "Major de promo \n Mention Très Bien",
