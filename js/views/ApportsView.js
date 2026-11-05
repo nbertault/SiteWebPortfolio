@@ -9,7 +9,7 @@ export class ApportsView extends SubPageView {
   extra({ content, lang }) {
     const ui = content.data.ui;
     return `<section class="cv"><h2>${ui.cvTitle[lang]}</h2>
-      <object class="cv__viewer" data="assets/cv.pdf" type="application/pdf"><p>${ui.cvFallback[lang]}</p></object>
-      <a class="btn" href="assets/cv.pdf" download="CV_Nolhan.pdf">${ui.cvDownload[lang]}</a></section>`;
+      <object class="cv__viewer" data="assets/cvs.pdf" type="application/pdf"><p>${ui.cvFallback[lang]}</p></object>
+      <a class="btn" href="assets/cvs.pdf" download="CV_Nolhan.pdf">${ui.cvDownload[lang]}</a></section>`;
   }
 }

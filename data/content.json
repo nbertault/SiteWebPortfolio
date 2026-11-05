@@ -1,60 +1,421 @@
 {
- "site":{"name":"Nolhan"},
- "contact":{"email":"bertaultnolhan@gmail.com","linkedin":"https://www.linkedin.com/in/nolhan-bertault-277473360/","github":"https://github.com/nbertault"},
- "nav":[
-  {"key":"home","href":"index.html","label":{"fr":"Accueil","en":"Home"}},
-  {"key":"passions","href":"passions.html","label":{"fr":"Passions","en":"Passions"}},
-  {"key":"projets","href":"projets.html","label":{"fr":"Projets","en":"Projects"}},
-  {"key":"parcours","href":"parcours.html","label":{"fr":"Parcours","en":"Journey"}},
-  {"key":"apports","href":"apports.html","label":{"fr":"Apports","en":"Impact"}}
- ],
- "ui":{
-  "scroll": {"fr": "Faire défiler","en": "Scroll"},
-  "image":{"fr":"Image à remplacer","en":"Image to replace"},
-  "hover":{"fr":"Survolez la voiture pour en découvrir plus","en":"Hover over the car and explore"},
-  "contactTitle":{"fr":"Me contacter","en":"Let’s talk"},
-  "contactSub":{"fr":"Un projet, un stage, une question ?","en":"A project, an internship, a question?"},
-  "name":{"fr":"Nom","en":"Name"},"send":{"fr":"Envoyer","en":"Send"},
-  "cvTitle":{"fr":"CV","en":"Resume"},
-  "cvDownload":{"fr":"Télécharger le CV","en":"Download resume"},
-  "cvFallback":{"fr":"Aperçu indisponible : téléchargez le CV.","en":"Preview unavailable: download the resume."},
-  "footer":{"fr":"Basé en France · ouvert à l’international · © 2026","en":"Based in France · open to international opportunities · © 2026"}
+ "site": {
+  "name": "Nolhan"
  },
- "home":{
-  "title":{"fr":"Ingénieur systèmes embarqués","en":"Embedded systems engineer"},
-  "subtitle":{"fr":"Temps réel & électronique de course","en":"Real-time & motorsport electronics"},
-  "zones":{
-   "passions":{"href":"passions.html","title":{"fr":"Passions","en":"Passions"},"desc":{"fr":"Mon moteur","en":"Engines, motorsport, sim racing"}},
-   "projets":{"href":"projets.html","title":{"fr":"Projets","en":"Projects"},"desc":{"fr":"Qu'ai je réalisé","en":"My past work"}},
-   "parcours":{"href":"parcours.html","title":{"fr":"Parcours","en":"Journey"},"desc":{"fr":"D'où je viens","en":"Who I am and my studies"}},
-   "apports":{"href":"apports.html","title":{"fr":"Apports","en":"Impact"},"desc":{"fr":"En quoi je peux apporter de l'appui","en":"What I bring to companies + resume"}}
+ "contact": {
+  "email": "bertaultnolhan@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/nolhan-bertault-277473360/",
+  "github": "https://github.com/nbertault"
+ },
+ "nav": [
+  {
+   "key": "home",
+   "href": "index.html",
+   "label": {
+    "fr": "Accueil",
+    "en": "Home"
+   }
+  },
+  {
+   "key": "passions",
+   "href": "passions.html",
+   "label": {
+    "fr": "Passions",
+    "en": "Passions"
+   }
+  },
+  {
+   "key": "projets",
+   "href": "projets.html",
+   "label": {
+    "fr": "Projets",
+    "en": "Projects"
+   }
+  },
+  {
+   "key": "parcours",
+   "href": "parcours.html",
+   "label": {
+    "fr": "Parcours",
+    "en": "Journey"
+   }
+  },
+  {
+   "key": "apports",
+   "href": "apports.html",
+   "label": {
+    "fr": "Apports",
+    "en": "Impact"
+   }
+  }
+ ],
+ "ui": {
+  "scroll": {
+   "fr": "Faites défiler ↓",
+   "en": "Scroll ↓"
+  },
+  "image": {
+   "fr": "Image à remplacer",
+   "en": "Image to replace"
+  },
+  "hover": {
+   "fr": "Survolez la voiture pour explorer",
+   "en": "Hover over the car and explore"
+  },
+  "contactTitle": {
+   "fr": "Me contacter",
+   "en": "Let’s talk"
+  },
+  "contactSub": {
+   "fr": "Un projet, un stage, une question ?",
+   "en": "A project, an internship, a question?"
+  },
+  "name": {
+   "fr": "Nom",
+   "en": "Name"
+  },
+  "send": {
+   "fr": "Envoyer",
+   "en": "Send"
+  },
+  "cvTitle": {
+   "fr": "CV",
+   "en": "Resume"
+  },
+  "cvDownload": {
+   "fr": "Télécharger le CV",
+   "en": "Download resume"
+  },
+  "cvFallback": {
+   "fr": "Aperçu indisponible : téléchargez le CV.",
+   "en": "Preview unavailable: download the resume."
+  },
+  "footer": {
+   "fr": "Basé en France · ouvert à l’international · © 2026",
+   "en": "Based in France · open to international opportunities · © 2026"
   }
  },
- "pages":{
-  "passions":{"title":{"fr":"Mes passions","en":"My passions"},
-   "intro":{"fr":"Moteurs, circuits et électronique embarquée : la mécanique qui me fait vibrer, du garage à la piste.","en":"Engines, circuits and embedded electronics: the machinery that drives me, from garage to track."},
-   "sections":[
-    {"title":{"fr":"Sport automobile","en":"Motorsport"},"text":{"fr":"Endurance, GT, rallye : j’aime la technique autant que le spectacle.","en":"Endurance, GT, rally: I love the engineering as much as the show."}},
-    {"title":{"fr":"Sim racing","en":"Sim racing"},"text":{"fr":"Mon volant de sim racing conçu de A à Z : PCB, firmware et boîtier.","en":"My sim racing wheel designed from scratch: PCB, firmware and casing."}},
-    {"title":{"fr":"Honda Civic EF9","en":"Honda Civic EF9"},"text":{"fr":"Une compacte légère de 1990, symbole du pilotage pur.","en":"A lightweight 1990 compact, a symbol of pure driving."}},
-    {"title":{"fr":"Électronique de piste","en":"Track electronics"},"text":{"fr":"Acquisition de données, télémétrie, calculateurs : l’intelligence embarquée en course.","en":"Data acquisition, telemetry, ECUs: onboard intelligence in racing."}}]},
-  "projets":{"title":{"fr":"Mes projets","en":"My projects"},
-   "intro":{"fr":"Un coup d'oeil en arrière, qu'ai je réalisé ?","en":"A look in the rear-view mirror: what I have already built, as seen from the Dunlop bridge at Le Mans."},
-   "sections":[
-    {"title":{"fr":"Volant sim racing DIY","en":"DIY sim racing wheel"},"text":{"fr":"Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.","en":"Full design: electronics board, real-time firmware, casing and technical report."}},
-    {"title":{"fr":"Flotte de robots","en":"Robot fleet"},"text":{"fr":"Documentation et compte rendu d’un projet de flotte de robots avec Miros.","en":"Documentation and report on a robot fleet project using Miros."}},
-    {"title":{"fr":"Projet à venir","en":"Upcoming project"},"text":{"fr":"Emplacement pour un prochain projet : ajoutez images, liens et détails.","en":"Placeholder for your next project: add images, links and details."}}]},
-  "parcours":{"title":{"fr":"Mon parcours","en":"My journey"},
-   "intro":{"fr":"Derrière le casque : qui je suis, d’où je viens et où je vais.","en":"Behind the helmet: who I am, where I come from and where I am heading."},
-   "sections":[
-    {"title":{"fr":"ENSIM, Le Mans","en":"ENSIM, Le Mans"},"text":{"fr":"Cycle ingénieur à l’École d’ingénieurs du Mans.","en":"Engineering degree at the École d’ingénieurs du Mans."}},
-    {"title":{"fr":"Temps réel & embarqué","en":"Real-time & embedded"},"text":{"fr":"Spécialisation en architecture des systèmes temps réel et embarqués, réseaux et outils.","en":"Specialisation in real-time and embedded systems architecture, networking and tooling."}},
-    {"title":{"fr":"Objectif international","en":"International goal"},"text":{"fr":"Un stage à l’étranger en sport auto ou systèmes embarqués, pour viser un poste durable.","en":"An internship abroad in motorsport or embedded systems, aiming for a permanent role."}}]},
-  "apports":{"title":{"fr":"Mes apports","en":"What I bring"},
-   "intro":{"fr":"L’appui aérodynamique d’une équipe : ce que je peux apporter à votre entreprise.","en":"The downforce of a team: what I can bring to your company."},
-   "sections":[
-    {"title":{"fr":"Électronique embarquée","en":"Embedded electronics"},"text":{"fr":"Cartes et firmware fiables, du concept au prototype.","en":"Reliable boards and firmware, from concept to prototype."}},
-    {"title":{"fr":"Rigueur temps réel","en":"Real-time rigour"},"text":{"fr":"Architectures déterministes, tests et documentation soignée.","en":"Deterministic architectures, testing and clean documentation."}},
-    {"title":{"fr":"Esprit compétition","en":"Racing mindset"},"text":{"fr":"Itérer vite, mesurer, améliorer : la logique de la piste appliquée à l’ingénierie.","en":"Iterate fast, measure, improve: track logic applied to engineering."}}]}
+ "home": {
+  "title": {
+   "fr": "Ingénieur systèmes embarqués",
+   "en": "Embedded systems engineer"
+  },
+  "subtitle": {
+   "fr": "Temps réel & électronique de course",
+   "en": "Real-time & motorsport electronics"
+  },
+  "zones": {
+   "passions": {
+    "href": "passions.html",
+    "title": {
+     "fr": "Passions",
+     "en": "Passions"
+    },
+    "desc": {
+     "fr": "Moteurs, sport auto, sim racing",
+     "en": "Engines, motorsport, sim racing"
+    }
+   },
+   "projets": {
+    "href": "projets.html",
+    "title": {
+     "fr": "Projets",
+     "en": "Projects"
+    },
+    "desc": {
+     "fr": "Mes réalisations passées",
+     "en": "My past work"
+    }
+   },
+   "parcours": {
+    "href": "parcours.html",
+    "title": {
+     "fr": "Parcours",
+     "en": "Journey"
+    },
+    "desc": {
+     "fr": "Qui je suis et ma formation",
+     "en": "Who I am and my studies"
+    }
+   },
+   "apports": {
+    "href": "apports.html",
+    "title": {
+     "fr": "Apports",
+     "en": "Impact"
+    },
+    "desc": {
+     "fr": "Ce que j’apporte aux entreprises + CV",
+     "en": "What I bring to companies + resume"
+    }
+   }
+  }
+ },
+ "pages": {
+  "passions": {
+   "title": {
+    "fr": "Mes passions",
+    "en": "My passions"
+   },
+   "intro": {
+    "fr": "Moteurs, circuits et électronique embarquée : la mécanique qui me fait vibrer, du garage à la piste.",
+    "en": "Engines, circuits and embedded electronics: the machinery that drives me, from garage to track."
+   },
+   "sections": [
+    {
+     "title": {
+      "fr": "Sport automobile",
+      "en": "Motorsport"
+     },
+     "text": {
+      "fr": "Endurance, GT, rallye : j’aime la technique autant que le spectacle.",
+      "en": "Endurance, GT, rally: I love the engineering as much as the show."
+     }
+    },
+    {
+     "title": {
+      "fr": "Sim racing",
+      "en": "Sim racing"
+     },
+     "text": {
+      "fr": "Mon volant de sim racing conçu de A à Z : PCB, firmware et boîtier.",
+      "en": "My sim racing wheel designed from scratch: PCB, firmware and casing."
+     }
+    },
+    {
+     "title": {
+      "fr": "Honda Civic EF9",
+      "en": "Honda Civic EF9"
+     },
+     "text": {
+      "fr": "Une compacte légère de 1990, symbole du pilotage pur.",
+      "en": "A lightweight 1990 compact, a symbol of pure driving."
+     }
+    },
+    {
+     "title": {
+      "fr": "Électronique de piste",
+      "en": "Track electronics"
+     },
+     "text": {
+      "fr": "Acquisition de données, télémétrie, calculateurs : l’intelligence embarquée en course.",
+      "en": "Data acquisition, telemetry, ECUs: onboard intelligence in racing."
+     }
+    }
+   ]
+  },
+  "projets": {
+   "title": {
+    "fr": "Mes projets",
+    "en": "My projects"
+   },
+   "intro": {
+    "fr": "Un regard dans le rétroviseur : ce que j’ai déjà construit, comme depuis la passerelle Dunlop du Mans.",
+    "en": "A look in the rear-view mirror: what I have already built, as seen from the Dunlop bridge at Le Mans."
+   },
+   "sections": [
+    {
+     "title": {
+      "fr": "Volant sim racing DIY",
+      "en": "DIY sim racing wheel"
+     },
+     "text": {
+      "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.",
+      "en": "Full design: electronics board, real-time firmware, casing and technical report."
+     }
+    },
+    {
+     "title": {
+      "fr": "Flotte de robots",
+      "en": "Robot fleet"
+     },
+     "text": {
+      "fr": "Documentation et compte rendu d’un projet de flotte de robots avec Miros.",
+      "en": "Documentation and report on a robot fleet project using Miros."
+     }
+    },
+    {
+     "title": {
+      "fr": "Projet à venir",
+      "en": "Upcoming project"
+     },
+     "text": {
+      "fr": "Emplacement pour un prochain projet : ajoutez images, liens et détails.",
+      "en": "Placeholder for your next project: add images, links and details."
+     }
+    }
+   ]
+  },
+  "parcours": {
+   "title": {
+    "fr": "Mon parcours",
+    "en": "My journey"
+   },
+   "formationsTitle": {
+    "fr": "Formations",
+    "en": "Education"
+   },
+   "formations": [
+    {
+     "title": {
+      "fr": "Cycle ingénieur",
+      "en": "Engineering degree"
+     },
+     "school": "ENSIM",
+     "logo": null,
+     "image": null,
+     "status": {
+      "fr": "En cours",
+      "en": "In progress"
+     },
+     "text": {
+      "fr": "Formation d'ingénieur en informatique, spécialisation en informatique embarquée, avec approche de l'études de projets, la conception de systèmes et de projets, la gestion d'équipe, et l'apport d'expérience en milieu professionnelle.",
+      "en": "Engineering degree at the École d'ingénieurs du Mans, specialising in real-time and embedded systems architecture."
+     }
+    },
+    {
+     "title": {
+      "fr": "BTS CIEL",
+      "en": "Education to add"
+     },
+     "school": "Lycée Washington Touchard",
+     "logo": null,
+     "image": null,
+     "status": {
+      "fr": "Second de la promotion",
+      "en": "Honours to be added"
+     },
+     "text": {
+      "fr": "Formation basé sur l'informatique dans sa globalité, approche de la programmation, de l'administration réseaux, la conception de projets et apport d'expériences par le biais d'un stage en entreprise.",
+      "en": "Description of the programme: content, skills acquired, key projects."
+     }
+    },
+    {
+     "title": {
+      "fr": "Bac Professionnel SN",
+      "en": "Education to add"
+     },
+     "school": "Lycée Washington Touchard",
+     "logo": null,
+     "image": null,
+     "status": {
+      "fr": "Major de promo \n Mention Très Bien",
+      "en": "Top of class?"
+     },
+     "text": {
+      "fr": "Formation professionnelle concentré sur l'administration des systèmes et réseaux. Apport d'expériences en milieu professionnelle par le biais de stage en entreprises.",
+      "en": "Description of the programme: content, skills acquired, key projects."
+     }
+    }
+   ],
+   "experiencesTitle": {
+    "fr": "Expériences professionnelles",
+    "en": "Professional experience"
+   },
+   "experiences": [
+    {
+     "title": {
+      "fr": "Commissaire de Piste",
+      "en": "Role or internship to add"
+     },
+     "company": "FFSA",
+     "image": null,
+     "text": {
+      "fr": "Sécurité des pilotes, des spectateurs sur les circuits et spéciales de rallye. Majoritèrement basé sur Le Mans et la Sarthe durant des épreuves nationales et internationales.",
+      "en": "Missions, technologies used, results achieved."
+     }
+    },
+    {
+     "title": {
+      "fr": "Stagiaire en Électronique Embarquée",
+      "en": "Role or internship to add"
+     },
+     "company": "HFR160",
+     "image": null,
+     "text": {
+      "fr": "Réalisation de programme et de composant électronique pour des trains miniatures. Travail de recherche, de compréhension et de réalisation en quasi autonomie, sous la supervision d'un ingénieur de chez STMicroelectronics.",
+      "en": "Missions, technologies used, results achieved."
+     }
+    },
+    {
+     "title": {
+      "fr": "Stagiaire Administrateur Réseau et Systèmes",
+      "en": "Role or internship to add"
+     },
+     "company": "Lelièvre Immobilier",
+     "image": null,
+     "text": {
+      "fr": "Maintenance d'un réseau informatique sur plusieurs sites. Réaliser sous la supervision d'administrateurs réseau. Aide de collaborateur dans la recherche et résolution de pannes",
+      "en": "Missions, technologies used, results achieved."
+     }
+    },
+    {
+     "title": {
+      "fr": "Réparateur de matériel informatique",
+      "en": "Role or internship to add"
+     },
+     "company": "Kabiloo",
+     "image": null,
+     "text": {
+      "fr": "Recherche de panne et mise en oeuvre de solutions de réparations. Réalisation de micro-soudure, de remplacement de composants et de cartes électroniques. Réalisation de tests et de diagnostics, et utilisation de matériels de mesures.",
+      "en": "Missions, technologies used, results achieved."
+     }
+    },
+    {
+     "title": {
+      "fr": "Préparateur de commandes",
+      "en": "Role or internship to add"
+     },
+     "company": "SocaMaine",
+     "image": null,
+     "text": {
+      "fr": "Travail en équipe, préparation de commandes, utilisation de gerbeurs et d'outils de gestion de stock. Heures de travail décallé et travail en conditions fraîches",
+      "en": "Missions, technologies used, results achieved."
+     }
+    }
+   ]
+  },
+  "apports": {
+   "title": {
+    "fr": "Mes apports",
+    "en": "What I bring"
+   },
+   "intro": {
+    "fr": "L’appui aérodynamique d’une équipe : ce que je peux apporter à votre entreprise.",
+    "en": "The downforce of a team: what I can bring to your company."
+   },
+   "sections": [
+    {
+     "title": {
+      "fr": "Électronique embarquée",
+      "en": "Embedded electronics"
+     },
+     "text": {
+      "fr": "Cartes et firmware fiables, du concept au prototype.",
+      "en": "Reliable boards and firmware, from concept to prototype."
+     }
+    },
+    {
+     "title": {
+      "fr": "Rigueur temps réel",
+      "en": "Real-time rigour"
+     },
+     "text": {
+      "fr": "Architectures déterministes, tests et documentation soignée.",
+      "en": "Deterministic architectures, testing and clean documentation."
+     }
+    },
+    {
+     "title": {
+      "fr": "Esprit compétition",
+      "en": "Racing mindset"
+     },
+     "text": {
+      "fr": "Itérer vite, mesurer, améliorer : la logique de la piste appliquée à l’ingénierie.",
+      "en": "Iterate fast, measure, improve: track logic applied to engineering."
+     }
+    }
+   ]
+  }
  }
 }

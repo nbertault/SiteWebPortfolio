@@ -18,7 +18,7 @@ export class SubPageController extends PageController {
     this.io = new IntersectionObserver(
       (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('in')),
       { threshold: 0.25 });
-    this.root.querySelectorAll('.item').forEach((el) => this.io.observe(el));
+    this.root.querySelectorAll('.item, .reveal').forEach((el) => this.io.observe(el));
     this.onScroll(scrollY);
   }
 
