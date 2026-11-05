@@ -15,3 +15,52 @@
 .contact{max-width:2000px;margin:0 auto;padding:90px 6vw}
 .contact form{display:grid;gap:12px}
 .contact input,.contact textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid color-mix(in srgb,var(--fg) 20%,transparent);background:var(--card);color:var(--fg);font:inherit}
+
+
+/* ===== Fiche pilote : dossier technique inspiré des fiches de course ===== */
+.race-profile{position:relative;isolation:isolate;overflow:hidden;max-width:1500px;margin:clamp(50px,8vw,120px) auto clamp(70px,9vw,130px);padding:clamp(24px,5vw,70px) clamp(20px,5vw,72px);background:var(--card);border:1px solid color-mix(in srgb,var(--fg) 16%,transparent);color:var(--fg)}
+.race-profile::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.28;pointer-events:none;background-image:radial-gradient(color-mix(in srgb,var(--fg) 30%,transparent) .65px,transparent .65px);background-size:5px 5px}
+.race-profile::after{content:"";position:absolute;z-index:-1;right:-8%;top:8%;width:38%;height:2px;background:var(--accent);transform:rotate(-18deg);box-shadow:0 12px 0 color-mix(in srgb,var(--accent) 22%,transparent),0 24px 0 color-mix(in srgb,var(--accent) 12%,transparent)}
+.race-profile__topline,.race-profile__bottom,.race-panel__label{display:flex;align-items:center;justify-content:space-between;gap:14px;font:800 10px/1.4 "Sora",system-ui,sans-serif;letter-spacing:.16em}
+.race-profile__topline{padding-bottom:15px;border-bottom:1px solid color-mix(in srgb,var(--fg) 24%,transparent);color:var(--mut)}
+.race-profile__serial{color:var(--accent)}
+.race-profile__heading{display:grid;grid-template-columns:1fr auto;align-items:end;gap:20px;padding:clamp(26px,5vw,58px) 0 34px}
+.race-profile__kicker{margin:0 0 10px;color:var(--accent);font:800 11px/1.2 "Sora",system-ui,sans-serif;letter-spacing:.2em}
+.race-profile__heading h2{max-width:760px;margin:0;font:800 clamp(30px,5.5vw,66px)/.98 "Sora",system-ui,sans-serif;letter-spacing:-.065em;text-transform:uppercase}
+.race-profile__intro{max-width:690px;margin:18px 0 0;color:var(--mut);font-size:clamp(14px,1.3vw,17px);line-height:1.65}
+.race-profile__number{color:transparent;-webkit-text-stroke:1px color-mix(in srgb,var(--accent) 70%,var(--fg));font:800 clamp(72px,13vw,170px)/.75 "Sora",system-ui,sans-serif;letter-spacing:-.1em;opacity:.75}
+.race-profile__grid{display:grid;grid-template-columns:1.05fr 1.15fr .95fr;gap:12px}
+.race-panel{min-width:0;padding:clamp(16px,2.1vw,27px);border:1px solid color-mix(in srgb,var(--fg) 17%,transparent);background:color-mix(in srgb,var(--bg) 50%,var(--card))}
+.race-panel__label{min-height:24px;color:var(--mut);font-size:9px}
+.race-panel__label>span:first-child{color:var(--fg)}
+.race-panel__visual{position:relative;display:grid;place-items:center;min-height:180px;margin:24px 0 12px;overflow:hidden;background:color-mix(in srgb,var(--accent) 10%,var(--bg));}
+.race-panel__visual::before,.race-panel__visual::after{content:"";position:absolute;width:75%;height:1px;background:var(--accent);opacity:.55;transform:rotate(-14deg)}
+.race-panel__visual::after{transform:rotate(14deg)}
+.race-panel__visual img{position:relative;z-index:1;width:100%;height:170px;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.08)}
+:root[data-theme=dark] .race-panel__visual img{mix-blend-mode:screen;filter:grayscale(1) contrast(1.15)}
+.race-panel__watermark{position:absolute;right:10px;bottom:7px;color:var(--accent);font:800 10px/1.1 "Sora",system-ui,sans-serif;letter-spacing:.12em;text-align:right;opacity:.8}
+.race-panel__caption{margin:0;color:var(--mut);font:700 9px/1.5 "Sora",system-ui,sans-serif;letter-spacing:.12em}
+.race-panel__rows{display:grid;gap:0;margin-top:14px}
+.race-row{display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:start;padding:13px 0;border-bottom:1px solid color-mix(in srgb,var(--fg) 12%,transparent)}
+.race-row__index{display:grid;place-items:center;width:32px;height:32px;background:var(--accent);color:white;font:800 11px "Sora",system-ui,sans-serif}
+.race-row__tag{padding-top:4px;color:var(--accent);font:800 9px/1.3 "Sora",system-ui,sans-serif;letter-spacing:.08em}
+/* Expériences : réserver une vraie largeur au repère de colonne (PISTE / EMBARQUÉ) */
+.race-row--experience{grid-template-columns:minmax(76px, .42fr) minmax(0, 1fr);gap:14px}
+.race-row--experience .race-row__tag{display:block;min-width:0;overflow-wrap:anywhere;white-space:normal;letter-spacing:.045em;font-size:9px}
+.race-row--experience>div{min-width:0}
+.race-row--experience h4{overflow-wrap:anywhere}
+.race-row h4{margin:0;color:var(--fg);font-size:13px;line-height:1.35}
+.race-row p{margin:4px 0 0;color:var(--mut);font-size:11px;line-height:1.4}
+.race-panel__label--sub{margin-top:25px;padding-top:18px;border-top:2px solid var(--accent)}
+.race-skills{display:grid;gap:0;margin:18px 0 25px;padding:0;list-style:none}
+.race-skills li{display:flex;gap:12px;align-items:center;padding:11px 0;border-bottom:1px solid color-mix(in srgb,var(--fg) 13%,transparent);font-size:12px;font-weight:700}
+.race-skills li span{color:var(--accent);font:800 10px "Sora",system-ui,sans-serif}
+.race-tools{display:grid;gap:8px;padding:14px;background:color-mix(in srgb,var(--accent) 10%,var(--bg))}
+.race-tools span{color:var(--accent);font:800 9px "Sora",system-ui,sans-serif;letter-spacing:.14em}
+.race-tools strong{font-size:12px;line-height:1.5}
+.race-profile__link{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:18px;padding:13px 15px;background:var(--accent);color:white;text-decoration:none;font:800 10px "Sora",system-ui,sans-serif;letter-spacing:.08em;transition:transform .2s,filter .2s}
+.race-profile__link:hover{transform:translateX(4px);filter:brightness(1.1)}
+.race-profile__link span{font-size:17px}
+.race-profile__bottom{margin-top:20px;padding-top:14px;border-top:1px solid color-mix(in srgb,var(--fg) 24%,transparent);color:var(--mut);font-size:8px}
+@media(max-width:950px){.race-profile__grid{grid-template-columns:1fr 1fr}.race-panel--identity{grid-row:span 2}.race-panel--skills{grid-column:1/-1}.race-skills{grid-template-columns:1fr 1fr;column-gap:20px}}
+@media(max-width:600px){.race-profile{margin:50px 12px 70px;padding:22px 16px}.race-profile__heading{grid-template-columns:1fr;padding:30px 0 24px}.race-profile__number{position:absolute;right:22px;top:110px;font-size:76px;opacity:.3}.race-profile__heading h2{max-width:90%}.race-profile__grid{grid-template-columns:1fr}.race-panel--identity,.race-panel--skills{grid-column:auto;grid-row:auto}.race-skills{grid-template-columns:1fr}.race-profile__bottom{align-items:flex-start;flex-direction:column;gap:6px}.race-profile__topline{font-size:8px}}

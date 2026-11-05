@@ -173,6 +173,120 @@
      "en": "What I bring to companies + resume"
     }
    }
+  },
+  "profile": {
+   "eyebrow": {
+    "fr": "FICHE PRÉSENTATION · PROFIL TECHNIQUE",
+    "en": "DRIVER CARD · TECHNICAL PROFILE"
+   },
+   "title": {
+    "fr": "Dans les coulisses du cockpit",
+    "en": "Behind the cockpit"
+   },
+   "intro": {
+    "fr": "Ayant grandi dans une ville actrice principale de l'endurance automobile, j'ai logiquement développé une passion pour la mécanique et le sport automobile. Puis au fur et à mesure de mes expériences, j'ai ainsi put lié cette passion à mon domaine professionnel : l'informatique.",
+    "en": "Nolhan Bertault — engineering student in embedded computer science. I design systems that need to be reliable, responsive and precise, with the same standards as on the track."
+   },
+   "number": {
+    "fr": "INGÉNIEUR",
+    "en": "ENGINEER"
+   },
+   "location": {
+    "fr": "France · Le Mans",
+    "en": "France · Le Mans"
+   },
+   "formationTitle": {
+    "fr": "FORMATION",
+    "en": "EDUCATION"
+   },
+   "formation": [
+    {
+     "date": "01",
+     "title": {
+      "fr": "Cycle ingénieur · Informatique embarquée",
+      "en": "Engineering degree · Embedded computing"
+     },
+     "place": "ENSIM"
+    },
+    {
+     "date": "02",
+     "title": {
+      "fr": "BTS CIEL · 2e de promotion",
+      "en": "BTS CIEL · 2nd in class"
+     },
+     "place": "Lycée Washington Touchard"
+ },
+    {
+     "date": "03",
+     "title": {
+      "fr": "Bac Pro SN · Major de promotion, Mention Très Bien",
+      "en": "Vocational Baccalaureate · Top of class, Highest Honours"
+     },
+     "place": "Lycée Washington Touchard"
+    }
+   ],
+   "experienceTitle": {
+    "fr": "EXPÉRIENCE TERRAIN",
+    "en": "TRACK EXPERIENCE"
+   },
+   "experience": [
+    {
+     "date": {
+      "fr": "PISTE",
+      "en": "TRACK"
+     },
+     "title": {
+      "fr": "Commissaire de piste",
+      "en": "Track marshal"
+     },
+     "place": "FFSA"
+    },
+    {
+     "date": {
+      "fr": "EMBARQUÉ",
+      "en": "EMBEDDED"
+     },
+     "title": {
+      "fr": "Stagiaire en électronique embarquée",
+      "en": "Embedded electronics intern"
+     },
+     "place": "HFR160"
+    }
+   ],
+   "skillsTitle": {
+    "fr": "DOMAINES DE JEU",
+    "en": "ENGINEERING FOCUS"
+   },
+   "skills": [
+    {
+     "fr": "Systèmes embarqués",
+     "en": "Embedded systems"
+    },
+    {
+     "fr": "Temps réel & firmware",
+     "en": "Real-time & firmware"
+    },
+    {
+     "fr": "Électronique & PCB",
+     "en": "Electronics & PCB"
+    },
+    {
+     "fr": "Acquisition & diagnostic",
+     "en": "Data acquisition & diagnostics"
+    }
+   ],
+   "toolsTitle": {
+    "fr": "APPROCHE",
+    "en": "MINDSET"
+   },
+   "tools": {
+    "fr": "Concevoir · Tester · Mesurer · Optimiser",
+    "en": "Design · Test · Measure · Optimize"
+   },
+   "cta": {
+    "fr": "DÉCOUVRIR MON PARCOURS",
+    "en": "DISCOVER MY JOURNEY"
+   }
   }
  },
  "pages": {
