@@ -420,7 +420,7 @@
     "en": "My projects"
    },
    "intro": {
-    "fr": "Classement de mes réalisations : cliquez sur un projet pour ouvrir sa page.",
+    "fr": "Classement des projets que j'ai put réaliser. Pour accéder au détails et aux rapports, cliquez sur un projet.",
     "en": "Ranking of my work: click a project to open its page."
    },
    "projects": [
@@ -432,11 +432,11 @@
       "en": "DIY sim racing wheel"
      },
      "text": {
-      "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.",
+      "fr": "Conception d'une \"upgrade\" d'un volant Fanatec : carte électronique, firmware temps réel, boîtier et rapport technique.",
       "en": "Full design: electronics board, real-time firmware, casing and technical report."
      },
      "meta": {
-      "fr": "Projet personnel · Électronique & firmware",
+      "fr": " Projet académique · Conception Électronique & firmware",
       "en": "Personal project · Electronics & firmware"
      },
      "icon": "wheel",
@@ -446,7 +446,7 @@
       "PCB",
       "Firmware",
       {
-       "fr": "Boîtier",
+       "fr": "Conception 3D",
        "en": "Casing"
       }
      ],
@@ -512,7 +512,7 @@
       "en": "Complete build of a VTOL drone to enter a competition run by the Dassault group. The project is in progress and will be documented soon."
      },
      "meta": {
-      "fr": "Concours Dassault · Conception",
+      "fr": "Projet académique / Concours Dassault · Conception, Réalisation & Tests",
       "en": "Dassault competition · Design"
      },
      "icon": "drone",
@@ -537,6 +537,50 @@
       },
       {
        "weeks": null
+      }
+     ]
+    },
+    {
+     "slug": "a-venir",
+     "page": "projet-a-venir.html",
+     "title": {
+      "fr": "Conception Station Météorologique",
+      "en": "Weather Station Design"
+     },
+     "text": {
+      "fr": "Réalisation d'une station météorologique à partir d'éléments existants.",
+      "en": "Complete build of a weather station to enter a competition run by the Dassault group. The project is in progress and will be documented soon."
+     },
+     "meta": {
+      "fr": "Projet académique· Réalisation & Tests",
+      "en": "Dassault competition · Design"
+     },
+     "icon": "drone",
+     "image": null,
+     "state": "wip",
+     "tags": [
+      {
+       "fr": "Station Météorologique",
+       "en": "Weather Station"
+      },
+      {
+       "fr": "Application Mobile",
+       "en": "Mobile Application"
+      },
+      {
+       "fr": "Page Web",
+       "en": "Web Page"
+      }
+     ],
+     "sectors": [
+      {
+       "weeks": null
+      },
+      {
+       "weeks": 18
+      },
+      {
+       "weeks": 4
       }
      ]
     }
