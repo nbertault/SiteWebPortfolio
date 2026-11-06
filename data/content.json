@@ -125,6 +125,70 @@
   "cvSummary": {
    "fr": "Résumé de mon CV",
    "en": "Résumé at a glance"
+  },
+  "timing": {
+   "live": {
+    "fr": "Classement des projets",
+    "en": "Project ranking"
+   },
+   "sectors": [
+    {
+     "fr": "Conception",
+     "en": "Design"
+    },
+    {
+     "fr": "Réalisation",
+     "en": "Build"
+    },
+    {
+     "fr": "Tests",
+     "en": "Testing"
+    }
+   ],
+   "total": {
+    "fr": "Total",
+    "en": "Total"
+   },
+   "status": {
+    "fr": "Statut",
+    "en": "Status"
+   },
+   "unit": {
+    "fr": "sem.",
+    "en": "wk"
+   },
+   "legend": {
+    "best": {
+     "fr": "Meilleur secteur",
+     "en": "Best sector"
+    },
+    "good": {
+     "fr": "Sous la moyenne",
+     "en": "Below average"
+    },
+    "slow": {
+     "fr": "Au-dessus",
+     "en": "Above average"
+    }
+   },
+   "states": {
+    "done": {
+     "fr": "Terminé",
+     "en": "Finished"
+    },
+    "wip": {
+     "fr": "En cours",
+     "en": "In progress"
+    },
+    "soon": {
+     "fr": "À venir",
+     "en": "Upcoming"
+    }
+   },
+   "tags": {
+    "fr": "Technologies",
+    "en": "Technologies"
+   }
   }
  },
  "home": {
@@ -367,14 +431,36 @@
       "fr": "Volant sim racing DIY",
       "en": "DIY sim racing wheel"
      },
-     "delay": {
-      "fr": "4 mois",
-      "en": "4 months"
-     },
      "text": {
       "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.",
       "en": "Full design: electronics board, real-time firmware, casing and technical report."
-     }
+     },
+     "meta": {
+      "fr": "Projet personnel · Électronique & firmware",
+      "en": "Personal project · Electronics & firmware"
+     },
+     "icon": "wheel",
+     "image": null,
+     "state": "done",
+     "tags": [
+      "PCB",
+      "Firmware",
+      {
+       "fr": "Boîtier",
+       "en": "Casing"
+      }
+     ],
+     "sectors": [
+      {
+       "weeks": 20
+      },
+      {
+       "weeks": null
+      },
+      {
+       "weeks": null
+      }
+     ]
     },
     {
      "slug": "flotte-robots",
@@ -383,30 +469,76 @@
       "fr": "Flotte de robots",
       "en": "Robot fleet"
      },
-     "delay": {
-      "fr": "3 mois",
-      "en": "3 months"
-     },
      "text": {
-      "fr": "Documentation et compte rendu d’un projet de flotte de robots avec Miros.",
-      "en": "Documentation and report on a robot fleet project using Miros."
-     }
+      "fr": "Réalisation de la documentation et du rapport d'un projet de flotte de robots existante afin d'aider les futurs étudiants à comprendre le projet et à le reprendre.",
+      "en": "Documentation and report for an existing robot fleet project, to help future students understand the project and take it over."
+     },
+     "meta": {
+      "fr": "Projet académique · Robotique",
+      "en": "Academic project · Robotics"
+     },
+     "icon": "robot",
+     "image": null,
+     "state": "done",
+     "tags": [
+      "Miros",
+      {
+       "fr": "Robotique",
+       "en": "Robotics"
+      },
+      "Documentation"
+     ],
+     "sectors": [
+      {
+       "weeks": 4
+      },
+      {
+       "weeks": 6
+      },
+      {
+       "weeks": 3
+      }
+     ]
     },
     {
      "slug": "a-venir",
      "page": "projet-a-venir.html",
      "title": {
-      "fr": "Projet à venir",
-      "en": "Upcoming project"
-     },
-     "delay": {
-      "fr": "À définir",
-      "en": "TBD"
+      "fr": "Conception Drone VTOL",
+      "en": "VTOL Drone Design"
      },
      "text": {
-      "fr": "Emplacement pour un prochain projet : ajoutez images, liens et détails.",
-      "en": "Placeholder for your next project: add images, links and details."
-     }
+      "fr": "Réalisation complète d'un drone VTOL afin de participer à un concours du groupe Dassault. Le projet est en cours de réalisation et sera documenté prochainement.",
+      "en": "Complete build of a VTOL drone to enter a competition run by the Dassault group. The project is in progress and will be documented soon."
+     },
+     "meta": {
+      "fr": "Concours Dassault · Conception",
+      "en": "Dassault competition · Design"
+     },
+     "icon": "drone",
+     "image": null,
+     "state": "wip",
+     "tags": [
+      {
+       "fr": "Drone VTOL",
+       "en": "VTOL drone"
+      },
+      {
+       "fr": "Concours Dassault",
+       "en": "Dassault competition"
+      }
+     ],
+     "sectors": [
+      {
+       "weeks": null
+      },
+      {
+       "weeks": null
+      },
+      {
+       "weeks": null
+      }
+     ]
     }
    ]
   },
@@ -588,7 +720,7 @@
    "fr": "Étudiant ingénieur informaticien",
    "en": "Computer engineering student"
   },
-  "pdf": "assets/cvs.pdf",
+  "pdf": "assets/Documents/cvs.pdf",
   "pdfName": "CV_Nolhan_Bertault.pdf",
   "summary": {
    "fr": "Étudiant ingénieur en Architecture des Systèmes Temps Réel et Embarqués (ENSIM, diplôme 2028), passionné de sport automobile et actif dans le milieu en tant que commissaire de piste licencié FFSA, dont aux 24 Heures du Mans. Spécialisé en développement embarqué sur microcontrôleurs STM32 et en administration réseaux, je recherche un stage en 2028 à l'international me permettant d'intégrer le domaine du sport automobile.",
