@@ -108,7 +108,7 @@ export const CAR_CALLOUTS = `<g class="tech-sheet" aria-hidden="true">
 const SHAPES = {
   passions: '<path d="M22 128L100 100L172 86L176 104L120 122L50 142L24 142Z"/>',   // capot
   parcours: '<circle cx="348" cy="62" r="18"/>',                                    // pilote
-  projets:  '<rect x="210" y="68" width="34" height="26" rx="6"/>',                 // rétroviseur
+  projets:  '<circle cx="116" cy="162" r="47"/><circle cx="474" cy="162.5" r="47"/>',  // roues (trains avant et arrière)
   apports:  '<rect x="488" y="4" width="100" height="84" rx="8"/>',                 // aileron
 };
 

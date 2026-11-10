@@ -87,3 +87,23 @@
   .car__lines .tech-dimensions,.car__lines .tech-callouts text{font-size:6px}
   .car__lines .tech-stamp{display:none}
 }
+
+/* ===== Contact : même univers que la fiche pilote ===== */
+.race-contact .race-profile__grid{grid-template-columns:.8fr 1.4fr}
+.race-contact .race-profile__intro{margin-top:14px}
+.race-row h4 a{color:var(--fg);text-decoration:none;word-break:break-all;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.race-row h4 a:hover{color:var(--accent);border-color:var(--accent)}
+.race-live{display:inline-flex;align-items:center;gap:7px;color:var(--accent)}
+.race-live i{width:7px;height:7px;border-radius:50%;background:#ff3b30;animation:race-live 1.6s infinite}
+@keyframes race-live{0%{box-shadow:0 0 0 0 #ff3b3088}70%,100%{box-shadow:0 0 0 8px #ff3b3000}}
+.race-form{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px;margin-top:20px}
+.race-field{display:grid;gap:7px;padding:13px 15px 11px;border:1px solid color-mix(in srgb,var(--fg) 17%,transparent);background:color-mix(in srgb,var(--accent) 5%,var(--card));transition:border-color .2s,background .2s,box-shadow .2s;cursor:text}
+.race-field--wide{grid-column:1/-1}
+.race-field:hover{border-color:color-mix(in srgb,var(--accent) 55%,transparent)}
+.race-field:focus-within{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--card));box-shadow:inset 3px 0 0 var(--accent)}
+.race-field>span{color:var(--mut);font:800 9px/1.2 "Sora",system-ui,sans-serif;letter-spacing:.16em}
+.race-field:focus-within>span{color:var(--accent)}
+.race-field input,.race-field textarea{width:100%;padding:0;border:0;outline:0;background:transparent;color:var(--fg);font:600 15px/1.55 system-ui,sans-serif;resize:vertical}
+.race-send{grid-column:1/-1;width:100%;margin-top:4px;padding:16px 18px;border:0;cursor:pointer;font-size:11px}
+@media(max-width:950px){.race-contact .race-profile__grid{grid-template-columns:1fr}}
+@media(max-width:600px){.race-form{grid-template-columns:1fr}}

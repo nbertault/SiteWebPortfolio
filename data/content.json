@@ -189,6 +189,78 @@
     "fr": "Technologies",
     "en": "Technologies"
    }
+  },
+  "passionsHint": {
+   "fr": "Survolez une zone de vitesse · cliquez pour l'ouvrir",
+   "en": "Hover a speed zone · click to open it"
+  },
+  "close": {
+   "fr": "Fermer",
+   "en": "Close"
+  },
+  "passionWord": {
+   "fr": "PASSION",
+   "en": "PASSION"
+  },
+  "illustration": {
+   "fr": "ILLUSTRATION",
+   "en": "ILLUSTRATION"
+  },
+  "apHint": {
+   "fr": "Survolez un secteur du circuit",
+   "en": "Hover a circuit sector"
+  },
+  "apSector": {
+   "fr": "SECTEUR",
+   "en": "SECTOR"
+  },
+  "apNote": {
+   "fr": "Tracé simplifié du circuit de la Sarthe · 13,626 km · sens horaire",
+   "en": "Simplified Circuit de la Sarthe layout · 13.626 km · clockwise"
+  },
+  "apStart": {
+   "fr": "DÉPART · ARRIVÉE",
+   "en": "START · FINISH"
+  },
+  "apStraight": {
+   "fr": "LIGNE DROITE DES HUNAUDIÈRES",
+   "en": "HUNAUDIÈRES STRAIGHT"
+  },
+  "fig": {
+   "fr": "FIG.",
+   "en": "FIG."
+  },
+  "report": {
+   "fr": "Rapport du projet",
+   "en": "Project report"
+  },
+  "reportTag": {
+   "fr": "PIÈCE JOINTE",
+   "en": "ATTACHMENT"
+  },
+  "reportView": {
+   "fr": "Afficher le rapport",
+   "en": "View report"
+  },
+  "reportDownload": {
+   "fr": "Télécharger",
+   "en": "Download"
+  },
+  "prevProject": {
+   "fr": "Projet précédent",
+   "en": "Previous project"
+  },
+  "nextProject": {
+   "fr": "Projet suivant",
+   "en": "Next project"
+  },
+  "imageToAdd": {
+   "fr": "Image à ajouter",
+   "en": "Image to add"
+  },
+  "keyFigures": {
+   "fr": "Chiffres clés",
+   "en": "Key figures"
   }
  },
  "home": {
@@ -359,6 +431,54 @@
     "fr": "DÉCOUVRIR MON PARCOURS",
     "en": "DISCOVER MY JOURNEY"
    }
+  },
+  "contact": {
+   "eyebrow": {
+    "fr": "FICHE CONTACT · CANAL RADIO",
+    "en": "CONTACT SHEET · RADIO CHANNEL"
+   },
+   "kicker": {
+    "fr": "PRENDRE CONTACT",
+    "en": "GET IN TOUCH"
+   },
+   "channels": {
+    "fr": "CANAUX DIRECTS",
+    "en": "DIRECT CHANNELS"
+   },
+   "transmission": {
+    "fr": "TRANSMISSION",
+    "en": "TRANSMISSION"
+   },
+   "onair": {
+    "fr": "EN LIGNE",
+    "en": "ON AIR"
+   },
+   "fields": {
+    "name": {
+     "fr": "NOM",
+     "en": "NAME"
+    },
+    "email": {
+     "fr": "EMAIL",
+     "en": "EMAIL"
+    },
+    "message": {
+     "fr": "MESSAGE",
+     "en": "MESSAGE"
+    }
+   },
+   "send": {
+    "fr": "ENVOYER LE MESSAGE",
+    "en": "SEND MESSAGE"
+   },
+   "bottom": {
+    "fr": "CONTACT · LE MANS / FRANCE",
+    "en": "CONTACT · LE MANS / FRANCE"
+   },
+   "end": {
+    "fr": "FIN DE TRANSMISSION — 02",
+    "en": "END OF TRANSMISSION — 02"
+   }
   }
  },
  "pages": {
@@ -380,7 +500,40 @@
      "text": {
       "fr": "Endurance, GT, rallye : j’aime la technique autant que le spectacle.",
       "en": "Endurance, GT, rally: I love the engineering as much as the show."
-     }
+     },
+     "speed": 250,
+     "tag": {
+      "fr": "ENDURANCE",
+      "en": "ENDURANCE"
+     },
+     "stats": [
+      {
+       "value": "≈24",
+       "unit": {
+        "fr": "ÉVÉNEMENTS",
+        "en": "EVENTS"
+       }
+      },
+      {
+       "value": "24H",
+       "unit": {
+        "fr": "DU MANS",
+        "en": "LE MANS"
+       }
+      },
+      {
+       "value": "4",
+       "unit": {
+        "fr": "ANS EN PISTE",
+        "en": "YEARS TRACKSIDE"
+       }
+      }
+     ],
+     "images": [
+      null,
+      null,
+      null
+     ]
     },
     {
      "title": {
@@ -390,7 +543,37 @@
      "text": {
       "fr": "Mon volant de sim racing conçu de A à Z : PCB, firmware et boîtier.",
       "en": "My sim racing wheel designed from scratch: PCB, firmware and casing."
-     }
+     },
+     "speed": 170,
+     "tag": {
+      "fr": "SIM RACING",
+      "en": "SIM RACING"
+     },
+     "stats": [
+      {
+       "value": "DIY",
+       "unit": {
+        "fr": "VOLANT",
+        "en": "WHEEL"
+       }
+      },
+      {
+       "value": "PCB",
+       "unit": "+ FIRMWARE"
+      },
+      {
+       "value": {
+        "fr": "BOÎTIER",
+        "en": "CASING"
+       },
+       "unit": "CUSTOM"
+      }
+     ],
+     "images": [
+      null,
+      null,
+      null
+     ]
     },
     {
      "title": {
@@ -400,7 +583,37 @@
      "text": {
       "fr": "Une compacte légère de 1990, symbole du pilotage pur.",
       "en": "A lightweight 1990 compact, a symbol of pure driving."
-     }
+     },
+     "speed": 210,
+     "tag": {
+      "fr": "EF9",
+      "en": "EF9"
+     },
+     "stats": [
+      {
+       "value": "1990",
+       "unit": {
+        "fr": "MODÈLE",
+        "en": "MODEL"
+       }
+      },
+      {
+       "value": "B16A",
+       "unit": "VTEC"
+      },
+      {
+       "value": "2 500",
+       "unit": {
+        "fr": "MM D'EMPATTEMENT",
+        "en": "MM WHEELBASE"
+       }
+      }
+     ],
+     "images": [
+      null,
+      null,
+      null
+     ]
     },
     {
      "title": {
@@ -410,7 +623,40 @@
      "text": {
       "fr": "Acquisition de données, télémétrie, calculateurs : l’intelligence embarquée en course.",
       "en": "Data acquisition, telemetry, ECUs: onboard intelligence in racing."
-     }
+     },
+     "speed": 130,
+     "tag": {
+      "fr": "TÉLÉMÉTRIE",
+      "en": "TELEMETRY"
+     },
+     "stats": [
+      {
+       "value": "STM32",
+       "unit": {
+        "fr": "MICROCONTRÔLEUR",
+        "en": "MICROCONTROLLER"
+       }
+      },
+      {
+       "value": "ADC",
+       "unit": {
+        "fr": "ACQUISITION",
+        "en": "ACQUISITION"
+       }
+      },
+      {
+       "value": "UART",
+       "unit": {
+        "fr": "DÉBOGAGE",
+        "en": "DEBUGGING"
+       }
+      }
+     ],
+     "images": [
+      null,
+      null,
+      null
+     ]
     }
    ]
   },
@@ -420,7 +666,7 @@
     "en": "My projects"
    },
    "intro": {
-    "fr": "Classement des projets que j'ai put réaliser. Pour accéder au détails et aux rapports, cliquez sur un projet.",
+    "fr": "Classement de mes réalisations : cliquez sur un projet pour ouvrir sa page.",
     "en": "Ranking of my work: click a project to open its page."
    },
    "projects": [
@@ -432,11 +678,11 @@
       "en": "DIY sim racing wheel"
      },
      "text": {
-      "fr": "Conception d'une \"upgrade\" d'un volant Fanatec : carte électronique, firmware temps réel, boîtier et rapport technique.",
+      "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique.",
       "en": "Full design: electronics board, real-time firmware, casing and technical report."
      },
      "meta": {
-      "fr": " Projet académique · Conception Électronique & firmware",
+      "fr": "Projet personnel · Électronique & firmware",
       "en": "Personal project · Electronics & firmware"
      },
      "icon": "wheel",
@@ -446,21 +692,171 @@
       "PCB",
       "Firmware",
       {
-       "fr": "Conception 3D",
+       "fr": "Boîtier",
        "en": "Casing"
       }
      ],
      "sectors": [
       {
-       "weeks": 20
+       "weeks": 6
       },
       {
-       "weeks": null
+       "weeks": 10
       },
       {
-       "weeks": null
+       "weeks": 4
       }
-     ]
+     ],
+     "lead": {
+      "fr": "Un volant de sim racing conçu de A à Z, compatible avec la base Fanatec CSL DD.",
+      "en": "A sim racing wheel designed from scratch, compatible with the Fanatec CSL DD base."
+     },
+     "facts": [
+      {
+       "value": "132,2 × 50,2",
+       "unit": "MM PCB"
+      },
+      {
+       "value": "ATmega328P",
+       "unit": {
+        "fr": "MICROCONTRÔLEUR",
+        "en": "MICROCONTROLLER"
+       }
+      },
+      {
+       "value": "SPI",
+       "unit": {
+        "fr": "LIAISON AVEC LA BASE",
+        "en": "BASE LINK"
+       }
+      },
+      {
+       "value": "SK6812",
+       "unit": {
+        "fr": "SHIFT LIGHTS",
+        "en": "SHIFT LIGHTS"
+       }
+      }
+     ],
+     "blocks": [
+      {
+       "sector": 0,
+       "kicker": {
+        "fr": "L'IDÉE",
+        "en": "THE IDEA"
+       },
+       "title": {
+        "fr": "Un volant sur mesure",
+        "en": "A custom wheel"
+       },
+       "text": {
+        "fr": "L'idée : un volant 100 % DIY, pensé de A à Z pour dialoguer avec la base Fanatec CSL DD.",
+        "en": "The idea: a 100% DIY wheel, built from scratch to talk to the Fanatec CSL DD base."
+       },
+       "visual": "wheel",
+       "image": null,
+       "caption": {
+        "fr": "Le volant, vu de face",
+        "en": "The wheel, front view"
+       }
+      },
+      {
+       "sector": 0,
+       "kicker": {
+        "fr": "ÉLECTRONIQUE",
+        "en": "ELECTRONICS"
+       },
+       "title": {
+        "fr": "La carte électronique",
+        "en": "The electronics board"
+       },
+       "text": {
+        "fr": "Un ATmega328P joue l'esclave SPI face à la base. Un CH340C gère la programmation en USB-C et un ruban SK6812 affiche les shift lights.",
+        "en": "An ATmega328P acts as SPI slave to the base. A CH340C handles USB-C programming and an SK6812 strip drives the shift lights."
+       },
+       "visual": "pcb",
+       "image": null,
+       "caption": {
+        "fr": "Schéma KiCad, corrigé étape par étape",
+        "en": "KiCad schematic, corrected step by step"
+       }
+      },
+      {
+       "sector": 1,
+       "kicker": {
+        "fr": "COMPOSANTS",
+        "en": "COMPONENTS"
+       },
+       "title": {
+        "fr": "Pensée pour la soudure",
+        "en": "Made for hand soldering"
+       },
+       "text": {
+        "fr": "Composants traversants, connecteurs JST-XH horizontaux, trous de fixation M3 : tout se soude à la main.",
+        "en": "Through-hole parts, horizontal JST-XH connectors, M3 mounting holes: everything can be hand-soldered."
+       },
+       "visual": "chip",
+       "image": null,
+       "caption": {
+        "fr": "Composants et connectique",
+        "en": "Components and connectors"
+       }
+      },
+      {
+       "sector": 1,
+       "kicker": {
+        "fr": "MÉCANIQUE",
+        "en": "MECHANICS"
+       },
+       "title": {
+        "fr": "Un boîtier imprimé en 3D",
+        "en": "A 3D-printed casing"
+       },
+       "text": {
+        "fr": "Le boîtier, imprimé en 3D, accueille la carte et se fixe sur le volant.",
+        "en": "The 3D-printed casing holds the board and mounts on the wheel."
+       },
+       "visual": "box",
+       "image": null,
+       "caption": {
+        "fr": "Le boîtier",
+        "en": "The casing"
+       }
+      },
+      {
+       "sector": 2,
+       "kicker": {
+        "fr": "DOSSIER",
+        "en": "PACKAGE"
+       },
+       "title": {
+        "fr": "Tout est documenté",
+        "en": "Everything is documented"
+       },
+       "text": {
+        "fr": "Fichiers KiCad, spécification fonctionnelle, liste de composants (LCSC, AliExpress) et rapport technique.",
+        "en": "KiCad files, functional specification, parts list (LCSC, AliExpress) and technical report."
+       },
+       "visual": "doc",
+       "image": null,
+       "caption": {
+        "fr": "Le dossier de fabrication",
+        "en": "The manufacturing package"
+       }
+      }
+     ],
+     "report": {
+      "file": "assets/Documents/CdCFVolantSimu.pdf",
+      "title": {
+       "fr": "Rapport technique du volant",
+       "en": "Wheel technical report"
+      },
+      "text": {
+       "fr": "Matériel et mécanique : conception, choix des composants, réalisation.",
+       "en": "Hardware and mechanics: design, component choices, build."
+      },
+      "meta": "PDF"
+     }
     },
     {
      "slug": "flotte-robots",
@@ -498,6 +894,101 @@
       {
        "weeks": 3
       }
+     ],
+     "lead": {
+      "fr": "Compte rendu d'un projet de flotte de robots, étudié avec Miros.",
+      "en": "Report on a robot fleet project, studied with Miros."
+     },
+     "facts": [
+      {
+       "value": "2",
+       "unit": {
+        "fr": "MODES DE COMMUNICATION",
+        "en": "COMMUNICATION MODES"
+       }
+      },
+      {
+       "value": "Miros",
+       "unit": {
+        "fr": "PLATEFORME",
+        "en": "PLATFORM"
+       }
+      },
+      {
+       "value": {
+        "fr": "MAÎTRE-ESCLAVE",
+        "en": "MASTER-SLAVE"
+       },
+       "unit": {
+        "fr": "ET SUIVEUR",
+        "en": "AND FOLLOWER"
+       }
+      }
+     ],
+     "blocks": [
+      {
+       "sector": 0,
+       "kicker": {
+        "fr": "CONTEXTE",
+        "en": "CONTEXT"
+       },
+       "title": {
+        "fr": "Une flotte de robots",
+        "en": "A robot fleet"
+       },
+       "text": {
+        "fr": "Un projet académique : faire coopérer plusieurs robots avec Miros.",
+        "en": "An academic project: making several robots cooperate with Miros."
+       },
+       "visual": "robot",
+       "image": null,
+       "caption": {
+        "fr": "La flotte",
+        "en": "The fleet"
+       }
+      },
+      {
+       "sector": 1,
+       "kicker": {
+        "fr": "MODES",
+        "en": "MODES"
+       },
+       "title": {
+        "fr": "Deux façons de communiquer",
+        "en": "Two ways to communicate"
+       },
+       "text": {
+        "fr": "Les modes maître-esclave et suiveur ont été explorés.",
+        "en": "Master-slave and follower modes were explored."
+       },
+       "visual": "plan",
+       "image": null,
+       "caption": {
+        "fr": "Schéma de principe",
+        "en": "Principle diagram"
+       }
+      },
+      {
+       "sector": 2,
+       "kicker": {
+        "fr": "BILAN",
+        "en": "REVIEW"
+       },
+       "title": {
+        "fr": "Limites observées",
+        "en": "Observed limits"
+       },
+       "text": {
+        "fr": "Des soucis côté Miros, des mouvements parasites des esclaves et un mode suiveur incomplet.",
+        "en": "Miros-side issues, parasitic slave movements and an incomplete follower mode."
+       },
+       "visual": "robot",
+       "image": null,
+       "caption": {
+        "fr": "Ce qu'il reste à améliorer",
+        "en": "What is left to improve"
+       }
+      }
      ]
     },
     {
@@ -512,7 +1003,7 @@
       "en": "Complete build of a VTOL drone to enter a competition run by the Dassault group. The project is in progress and will be documented soon."
      },
      "meta": {
-      "fr": "Projet académique / Concours Dassault · Conception, Réalisation & Tests",
+      "fr": "Concours Dassault · Conception",
       "en": "Dassault competition · Design"
      },
      "icon": "drone",
@@ -538,49 +1029,69 @@
       {
        "weeks": null
       }
-     ]
-    },
-    {
-     "slug": "a-venir",
-     "page": "projet-a-venir.html",
-     "title": {
-      "fr": "Conception Station Météorologique",
-      "en": "Weather Station Design"
+     ],
+     "lead": {
+      "fr": "Réalisation complète d'un drone VTOL pour un concours du groupe Dassault.",
+      "en": "Complete build of a VTOL drone for a competition run by the Dassault group."
      },
-     "text": {
-      "fr": "Réalisation d'une station météorologique à partir d'éléments existants.",
-      "en": "Complete build of a weather station to enter a competition run by the Dassault group. The project is in progress and will be documented soon."
-     },
-     "meta": {
-      "fr": "Projet académique· Réalisation & Tests",
-      "en": "Dassault competition · Design"
-     },
-     "icon": "drone",
-     "image": null,
-     "state": "wip",
-     "tags": [
+     "facts": [
       {
-       "fr": "Station Météorologique",
-       "en": "Weather Station"
+       "value": "VTOL",
+       "unit": {
+        "fr": "DÉCOLLAGE VERTICAL",
+        "en": "VERTICAL TAKE-OFF"
+       }
       },
       {
-       "fr": "Application Mobile",
-       "en": "Mobile Application"
-      },
-      {
-       "fr": "Page Web",
-       "en": "Web Page"
+       "value": "Dassault",
+       "unit": {
+        "fr": "CONCOURS",
+        "en": "COMPETITION"
+       }
       }
      ],
-     "sectors": [
+     "blocks": [
       {
-       "weeks": null
+       "sector": 0,
+       "kicker": {
+        "fr": "L'IDÉE",
+        "en": "THE IDEA"
+       },
+       "title": {
+        "fr": "Un drone VTOL",
+        "en": "A VTOL drone"
+       },
+       "text": {
+        "fr": "Un drone qui décolle à la verticale, conçu pour le concours du groupe Dassault.",
+        "en": "A drone that takes off vertically, designed for the Dassault group competition."
+       },
+       "visual": "drone",
+       "image": null,
+       "caption": {
+        "fr": "Vue de dessus",
+        "en": "Top view"
+       }
       },
       {
-       "weeks": 18
-      },
-      {
-       "weeks": 4
+       "sector": 1,
+       "kicker": {
+        "fr": "EN COURS",
+        "en": "IN PROGRESS"
+       },
+       "title": {
+        "fr": "Le projet avance",
+        "en": "Work in progress"
+       },
+       "text": {
+        "fr": "Photos, schémas et résultats arriveront ici au fil de la réalisation.",
+        "en": "Photos, diagrams and results will land here as the build progresses."
+       },
+       "visual": "plan",
+       "image": null,
+       "caption": {
+        "fr": "À suivre",
+        "en": "To be continued"
+       }
       }
      ]
     }
@@ -721,8 +1232,8 @@
     "en": "What I bring"
    },
    "intro": {
-    "fr": "L’appui aérodynamique d’une équipe : ce que je peux apporter à votre entreprise.",
-    "en": "The downforce of a team: what I can bring to your company."
+    "fr": "Un tour du circuit des 24 Heures du Mans : chaque secteur est un apport pour votre entreprise.",
+    "en": "A lap of the 24 Hours of Le Mans circuit: each sector is something I bring to your company."
    },
    "sections": [
     {
@@ -733,7 +1244,16 @@
      "text": {
       "fr": "Cartes et firmware fiables, du concept au prototype.",
       "en": "Reliable boards and firmware, from concept to prototype."
-     }
+     },
+     "zone": {
+      "fr": "Stands · Dunlop · Esses · Tertre Rouge",
+      "en": "Pits · Dunlop · Esses · Tertre Rouge"
+     },
+     "tags": [
+      "STM32",
+      "PCB",
+      "Firmware C / C++"
+     ]
     },
     {
      "title": {
@@ -743,7 +1263,41 @@
      "text": {
       "fr": "Architectures déterministes, tests et documentation soignée.",
       "en": "Deterministic architectures, testing and clean documentation."
-     }
+     },
+     "zone": {
+      "fr": "Ligne droite des Hunaudières",
+      "en": "Hunaudières straight"
+     },
+     "tags": [
+      {
+       "fr": "Temps réel",
+       "en": "Real time"
+      },
+      {
+       "fr": "Tests",
+       "en": "Testing"
+      },
+      "Documentation"
+     ]
+    },
+    {
+     "title": {
+      "fr": "Réseaux & systèmes",
+      "en": "Networks & systems"
+     },
+     "text": {
+      "fr": "Administration et maintenance de réseaux multi-sites : commutateurs, routeurs, NAS, avec une base Cisco (CCNA1).",
+      "en": "Administration and maintenance of multi-site networks: switches, routers, NAS, with a Cisco foundation (CCNA1)."
+     },
+     "zone": {
+      "fr": "Mulsanne · Indianapolis · Arnage",
+      "en": "Mulsanne · Indianapolis · Arnage"
+     },
+     "tags": [
+      "TCP/IP",
+      "VLAN · DNS · DHCP",
+      "Cisco CCNA1"
+     ]
     },
     {
      "title": {
@@ -753,7 +1307,47 @@
      "text": {
       "fr": "Itérer vite, mesurer, améliorer : la logique de la piste appliquée à l’ingénierie.",
       "en": "Iterate fast, measure, improve: track logic applied to engineering."
-     }
+     },
+     "zone": {
+      "fr": "Courbes Porsche",
+      "en": "Porsche Curves"
+     },
+     "tags": [
+      {
+       "fr": "Itérer",
+       "en": "Iterate"
+      },
+      {
+       "fr": "Mesurer",
+       "en": "Measure"
+      },
+      {
+       "fr": "Améliorer",
+       "en": "Improve"
+      }
+     ]
+    },
+    {
+     "title": {
+      "fr": "Équipe & gestion de projet",
+      "en": "Teamwork & project management"
+     },
+     "text": {
+      "fr": "Travail en équipe sous pression en tant que commissaire de piste, et gestion de projet en autonomie avec Git et Notion.",
+      "en": "Teamwork under pressure as a track marshal, and autonomous project management with Git and Notion."
+     },
+     "zone": {
+      "fr": "Chicanes Ford · Stands",
+      "en": "Ford chicanes · Pits"
+     },
+     "tags": [
+      "Git",
+      "Notion",
+      {
+       "fr": "Communication",
+       "en": "Communication"
+      }
+     ]
     }
    ]
   }

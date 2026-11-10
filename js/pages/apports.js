@@ -1,3 +1,2 @@
-import { SubPageController } from '../controllers/SubPageController.js';
-import { ApportsView } from '../views/ApportsView.js';
-new SubPageController('apports', ApportsView).start();
+import { ApportsController } from '../controllers/ApportsController.js';
+new ApportsController().start();

@@ -5,7 +5,7 @@ import { CAR_LINES, CAR_CALLOUTS, carZones } from './svg/car.js';
 export class HomeView extends View {
   template({ content, lang }) {
     const { site, home, ui } = content.data;
-    const profile = home.profile;
+    const profile = home.profile, ct = home.contact, links = content.data.contact;
     const formation = profile.formation.map((item) => `
           <article class="race-row">
             <span class="race-row__index">${item.date}</span>
@@ -64,14 +64,38 @@ export class HomeView extends View {
         </div>
         <div class="race-profile__bottom"><span>BUILT FOR THE GRID</span><span>EMBEDDED SYSTEMS · MOTORSPORT · LE MANS / FRANCE</span><span>END OF BRIEF — 01</span></div>
       </section>
-      <section class="contact">
-        <h2>${ui.contactTitle[lang]}</h2><p>${ui.contactSub[lang]}</p>
-        <form id="contact-form">
-          <input name="name" required placeholder="${ui.name[lang]}">
-          <input name="email" type="email" required placeholder="Email">
-          <textarea name="message" rows="5" required placeholder="Message"></textarea>
-          <button class="btn">${ui.send[lang]}</button>
-        </form>
+      <section class="race-profile race-contact" aria-labelledby="race-contact-title">
+        <div class="race-profile__topline">
+          <span>${ct.eyebrow[lang]}</span>
+          <span class="race-profile__serial">NB — 02 / 26</span>
+        </div>
+        <div class="race-profile__heading">
+          <div>
+            <p class="race-profile__kicker">${ct.kicker[lang]}</p>
+            <h2 id="race-contact-title">${ui.contactTitle[lang]}</h2>
+            <p class="race-profile__intro">${ui.contactSub[lang]}</p>
+          </div>
+        </div>
+        <div class="race-profile__grid">
+          <section class="race-panel">
+            <div class="race-panel__label"><span>01 / ${ct.channels[lang]}</span><span>${profile.location[lang]}</span></div>
+            <div class="race-panel__rows">
+              <article class="race-row"><span class="race-row__index">01</span><div><h4><a href="mailto:${links.email}">${links.email}</a></h4><p>EMAIL</p></div></article>
+              <article class="race-row"><span class="race-row__index">02</span><div><h4><a href="${links.linkedin}" target="_blank" rel="noopener">LinkedIn</a></h4><p>${lang === 'fr' ? 'RÉSEAU PROFESSIONNEL' : 'PROFESSIONAL NETWORK'}</p></div></article>
+              <article class="race-row"><span class="race-row__index">03</span><div><h4><a href="${links.github}" target="_blank" rel="noopener">GitHub</a></h4><p>${lang === 'fr' ? 'CODE · PROJETS' : 'CODE · PROJECTS'}</p></div></article>
+            </div>
+          </section>
+          <section class="race-panel race-panel--form">
+            <div class="race-panel__label"><span>02 / ${ct.transmission[lang]}</span><span class="race-live"><i></i>${ct.onair[lang]}</span></div>
+            <form id="contact-form" class="race-form">
+              <label class="race-field"><span>01 / ${ct.fields.name[lang]}</span><input name="name" required autocomplete="name"></label>
+              <label class="race-field"><span>02 / ${ct.fields.email[lang]}</span><input name="email" type="email" required autocomplete="email"></label>
+              <label class="race-field race-field--wide"><span>03 / ${ct.fields.message[lang]}</span><textarea name="message" rows="5" required></textarea></label>
+              <button class="race-profile__link race-send" type="submit">${ct.send[lang]} <span>↗</span></button>
+            </form>
+          </section>
+        </div>
+        <div class="race-profile__bottom"><span>${ct.bottom[lang]}</span><span>EMBEDDED SYSTEMS · MOTORSPORT</span><span>${ct.end[lang]}</span></div>
       </section>`;
   }
 }
