@@ -9,7 +9,7 @@ import { SubPageView } from './SubPageView.js';
  * Si le nombre de formations ≠ 3, les coupes sont réparties à largeur égale.
  */
 const HELMET = {
-  src: 'assets/helmet.svg',
+  src: 'assets/Images/helmet.svg',
   canvas: [1600, 1400],
   crop: [10, 60, 1590, 1296],
   cuts: [685, 1114]

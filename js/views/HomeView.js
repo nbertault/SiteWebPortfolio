@@ -22,7 +22,7 @@ export class HomeView extends View {
         <img src="assets/Logos/LogoAccueil.png" alt="${site.name.toUpperCase()}" class="hero__logo" style="width: 250px; height: auto;">
         <h1>${home.title[lang]}</h1>
         <p>${home.subtitle[lang]}</p><span class="hint">${ui.hover[lang]}</span>
-        <div class="car"><img class="car__photo" src="assets/Voitures/CivicEF9.png" alt="Honda Civic EF9"><svg class="car__lines" viewBox="0 0 591 260" role="img" aria-label="Honda Civic EF9">${CAR_LINES}${CAR_CALLOUTS}${carZones(home.zones, lang)}</svg></div>
+        <div class="car"><img class="car__photo" src="assets/Images/Voitures/CivicEF9.png" alt="Honda Civic EF9"><svg class="car__lines" viewBox="0 0 591 260" role="img" aria-label="Honda Civic EF9">${CAR_LINES}${CAR_CALLOUTS}${carZones(home.zones, lang)}</svg></div>
       </section>
       <section class="race-profile" aria-labelledby="race-profile-title">
         <div class="race-profile__topline">
@@ -41,7 +41,7 @@ export class HomeView extends View {
             <div class="race-panel__label"><span>01 / ID</span><span>${profile.location[lang]}</span></div>
             <p class="race-profile__intro">${profile.intro[lang]}</p>
             <div class="race-panel__visual">
-              <img src="assets/CarteLeMans.png" alt="Carte de la Sarthe, Le Mans, France" class="race-panel__map">
+              <img src="assets/Images/CarteLeMans.png" alt="Carte de la Sarthe, Le Mans, France" class="race-panel__map">
               <span class="race-panel__watermark">TRACK<br>ENGINEERING</span>
             </div>
             <p class="race-panel__caption">${lang === 'fr' ? 'PASSION MÉCANIQUE · PRÉCISION NUMÉRIQUE' : 'MOTORSPORT PASSION · DIGITAL PRECISION'}</p>
