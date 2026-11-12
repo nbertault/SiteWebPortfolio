@@ -1,0 +1,62 @@
+{
+  "scroll": { "fr": "Faites défiler ↓" },
+  "image": { "fr": "Image à remplacer" },
+  "hover": { "fr": "Survolez la voiture pour explorer" },
+  "contactTitle": { "fr": "Me contacter" },
+  "contactSub": { "fr": "Un projet, un stage, une question ?" },
+  "name": { "fr": "Nom" },
+  "send": { "fr": "Envoyer" },
+  "cvTitle": { "fr": "CV" },
+  "cvDownload": { "fr": "Télécharger le CV" },
+  "cvFallback": { "fr": "Aperçu indisponible : téléchargez le CV." },
+  "footer": { "fr": "Basé en France · ouvert à l’international · © 2026" },
+  "pos": { "fr": "POS" },
+  "project": { "fr": "Projet" },
+  "delay": { "fr": "Délais" },
+  "description": { "fr": "Description" },
+  "back": { "fr": "← Retour aux projets" },
+  "todo": {
+    "fr": "Page dédiée au projet : contenu à compléter (images, rapport, technologies, liens)."
+  },
+  "cvView": { "fr": "Afficher le CV" },
+  "cvSummary": { "fr": "Résumé de mon CV" },
+  "timing": {
+    "live": { "fr": "Classement des projets" },
+    "sectors": [{ "fr": "Conception" }, { "fr": "Réalisation" }, { "fr": "Tests" }],
+    "total": { "fr": "Total" },
+    "status": { "fr": "Statut" },
+    "unit": { "fr": "sem." },
+    "legend": {
+      "best": { "fr": "Meilleur secteur" },
+      "good": { "fr": "Sous la moyenne" },
+      "slow": { "fr": "Au-dessus" }
+    },
+    "states": {
+      "done": { "fr": "Terminé" },
+      "wip": { "fr": "En cours" },
+      "soon": { "fr": "À venir" }
+    },
+    "tags": { "fr": "Technologies" }
+  },
+  "passionsHint": { "fr": "Survolez une zone de vitesse · cliquez pour l'ouvrir" },
+  "close": { "fr": "Fermer" },
+  "passionWord": { "fr": "PASSION" },
+  "illustration": { "fr": "ILLUSTRATION" },
+  "apHint": { "fr": "Survolez un secteur du circuit" },
+  "apSector": { "fr": "SECTEUR" },
+  "apNote": { "fr": "Tracé simplifié du circuit de la Sarthe · 13,626 km · sens horaire" },
+  "apStart": { "fr": "DÉPART · ARRIVÉE" },
+  "apStraight": { "fr": "LIGNE DROITE DES HUNAUDIÈRES" },
+  "fig": { "fr": "FIG." },
+  "report": { "fr": "Rapport du projet" },
+  "reportTag": { "fr": "PIÈCE JOINTE" },
+  "reportView": { "fr": "Afficher le rapport" },
+  "reportDownload": { "fr": "Télécharger" },
+  "prevProject": { "fr": "Projet précédent" },
+  "nextProject": { "fr": "Projet suivant" },
+  "imageToAdd": { "fr": "Image à ajouter" },
+  "keyFigures": { "fr": "Chiffres clés" },
+  "apEyebrow": { "fr": "04 · 24 HEURES DU MANS" },
+  "apCount": { "fr": "5 secteurs · 5 apports" },
+  "apMapLabel": { "fr": "Circuit de la Sarthe" }
+}

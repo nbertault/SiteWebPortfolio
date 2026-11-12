@@ -1,0 +1,91 @@
+{
+  "title": { "fr": "Ingénieur systèmes embarqués" },
+  "subtitle": { "fr": "Temps réel & électronique de course" },
+  "zones": {
+    "passions": {
+      "href": "passions.html",
+      "title": { "fr": "Passions" },
+      "desc": { "fr": "Moteurs, sport auto, sim racing" }
+    },
+    "projets": {
+      "href": "projets.html",
+      "title": { "fr": "Projets" },
+      "desc": { "fr": "Mes réalisations passées" }
+    },
+    "parcours": {
+      "href": "parcours.html",
+      "title": { "fr": "Parcours" },
+      "desc": { "fr": "Qui je suis et ma formation" }
+    },
+    "apports": {
+      "href": "apports.html",
+      "title": { "fr": "Apports" },
+      "desc": { "fr": "Ce que j’apporte aux entreprises + CV" }
+    }
+  },
+  "profile": {
+    "eyebrow": { "fr": "FICHE PRÉSENTATION · PROFIL TECHNIQUE" },
+    "title": { "fr": "Dans les coulisses du cockpit" },
+    "intro": {
+      "fr": "Ayant grandi dans une ville actrice principale de l'endurance automobile, j'ai logiquement développé une passion pour la mécanique et le sport automobile. Puis au fur et à mesure de mes expériences, j'ai ainsi put lié cette passion à mon domaine professionnel : l'informatique."
+    },
+    "number": { "fr": "INGÉNIEUR" },
+    "location": { "fr": "France · Le Mans" },
+    "formationTitle": { "fr": "FORMATION" },
+    "formation": [
+      {
+        "date": "01",
+        "title": { "fr": "Cycle ingénieur · Informatique embarquée" },
+        "place": "ENSIM"
+      },
+      {
+        "date": "02",
+        "title": { "fr": "BTS CIEL · 2e de promotion" },
+        "place": "Lycée Washington Touchard"
+      },
+      {
+        "date": "03",
+        "title": { "fr": "Bac Pro SN · Major de promotion, Mention Très Bien" },
+        "place": "Lycée Washington Touchard"
+      }
+    ],
+    "experienceTitle": { "fr": "EXPÉRIENCE TERRAIN" },
+    "experience": [
+      {
+        "date": { "fr": "PISTE" },
+        "title": { "fr": "Commissaire de piste" },
+        "place": "FFSA"
+      },
+      {
+        "date": { "fr": "EMBARQUÉ" },
+        "title": { "fr": "Stagiaire en électronique embarquée" },
+        "place": "HFR160"
+      }
+    ],
+    "skillsTitle": { "fr": "DOMAINES DE JEU" },
+    "skills": [
+      { "fr": "Systèmes embarqués" },
+      { "fr": "Temps réel & firmware" },
+      { "fr": "Électronique & PCB" },
+      { "fr": "Acquisition & diagnostic" }
+    ],
+    "toolsTitle": { "fr": "APPROCHE" },
+    "tools": { "fr": "Concevoir · Tester · Mesurer · Optimiser" },
+    "cta": { "fr": "DÉCOUVRIR MON PARCOURS" },
+    "caption": { "fr": "PASSION MÉCANIQUE · PRÉCISION NUMÉRIQUE" },
+    "mapAlt": { "fr": "Carte de la Sarthe, Le Mans, France" }
+  },
+  "contact": {
+    "eyebrow": { "fr": "FICHE CONTACT · CANAL RADIO" },
+    "kicker": { "fr": "PRENDRE CONTACT" },
+    "channels": { "fr": "CANAUX DIRECTS" },
+    "transmission": { "fr": "TRANSMISSION" },
+    "onair": { "fr": "EN LIGNE" },
+    "fields": { "name": { "fr": "NOM" }, "email": { "fr": "EMAIL" }, "message": { "fr": "MESSAGE" } },
+    "send": { "fr": "ENVOYER LE MESSAGE" },
+    "bottom": { "fr": "CONTACT · LE MANS / FRANCE" },
+    "end": { "fr": "FIN DE TRANSMISSION — 02" },
+    "linkedinLabel": { "fr": "RÉSEAU PROFESSIONNEL" },
+    "githubLabel": { "fr": "CODE · PROJETS" }
+  }
+}

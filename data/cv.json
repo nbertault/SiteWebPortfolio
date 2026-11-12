@@ -1,0 +1,180 @@
+{
+  "name": "Nolhan Bertault",
+  "role": { "fr": "Étudiant ingénieur informaticien" },
+  "pdf": "assets/Documents/cvs.pdf",
+  "pdfName": "CV_Nolhan_Bertault.pdf",
+  "summary": {
+    "fr": "Étudiant ingénieur en Architecture des Systèmes Temps Réel et Embarqués (ENSIM, diplôme 2028), passionné de sport automobile et actif dans le milieu en tant que commissaire de piste licencié FFSA, dont aux 24 Heures du Mans. Spécialisé en développement embarqué sur microcontrôleurs STM32 et en administration réseaux, je recherche un stage en 2028 à l'international me permettant d'intégrer le domaine du sport automobile."
+  },
+  "short": {
+    "fr": "Étudiant ingénieur en systèmes temps réel et embarqués (ENSIM, diplôme 2028), spécialisé STM32 et réseaux, et commissaire de piste FFSA, dont aux 24 Heures du Mans. Je recherche un stage à l'international en 2028 dans le sport automobile."
+  },
+  "facts": [
+    { "value": "2028", "label": { "fr": "diplôme d'ingénieur ENSIM" } },
+    { "value": "≈24", "label": { "fr": "événements comme commissaire de piste en 4 ans" } },
+    { "value": "STM32", "label": { "fr": "développement embarqué en C / C++" } },
+    { "value": "CCNA1", "label": { "fr": "certification réseaux" } }
+  ],
+  "chips": ["C / C++", "Python", "STM32", "TCP/IP", "Git", "Linux"],
+  "labels": {
+    "profile": { "fr": "Profil" },
+    "skills": { "fr": "Compétences" },
+    "experience": { "fr": "Expériences professionnelles" },
+    "education": { "fr": "Formations" },
+    "contact": { "fr": "Contact" },
+    "back": { "fr": "← Retour aux apports" },
+    "download": { "fr": "Télécharger le PDF" },
+    "present": { "fr": "présent" }
+  },
+  "skills": [
+    {
+      "label": { "fr": "Langages de programmation" },
+      "items": ["C", "C++", "Python", "JavaScript", "SQL", "Bash", "HTML", "CSS"]
+    },
+    {
+      "label": { "fr": "Développement embarqué" },
+      "items": ["STM32", "ADC", "UART", "PWM", "I2C", "SPI", { "fr": "Développement sous Linux" }]
+    },
+    {
+      "label": { "fr": "Outils de développement" },
+      "items": ["VS Code", "CLion", "Code::Blocks", "Qt", "STM32CubeIDE"]
+    },
+    {
+      "label": { "fr": "Réseaux" },
+      "items": [
+        "TCP/IP",
+        "VLAN",
+        "DNS",
+        "DHCP",
+        "RIP",
+        { "fr": "Administration sous Windows" },
+        "Cisco Packet Tracer",
+        { "fr": "Certification CCNA1" }
+      ]
+    },
+    { "label": { "fr": "Gestion de projet" }, "items": ["Git", "Notion"] },
+    { "label": { "fr": "Conception & Design" }, "items": ["Figma", "Inkscape", "GIMP"] },
+    {
+      "label": { "fr": "Électronique & Diagnostic" },
+      "items": [
+        { "fr": "Multimètre" },
+        { "fr": "Fer à souder" },
+        { "fr": "Station air chaud" },
+        { "fr": "Plaque chauffante" },
+        { "fr": "Microsoudure" }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "org": "SOCAMAINE",
+      "place": "Champagné",
+      "period": { "fr": "juil. 2025 – présent" },
+      "role": { "fr": "Préparateur de commandes" },
+      "points": [
+        {
+          "fr": "Emploi en parallèle des études d'ingénieur : manutention et gestion de commandes en entrepôt logistique"
+        }
+      ]
+    },
+    {
+      "org": "FFSA / ASA Maine",
+      "place": "Bretagne, Sarthe",
+      "period": { "fr": "mars 2022 – présent" },
+      "role": { "fr": "Commissaire de piste — Licence niveau C — Circuit et Rallye" },
+      "points": [
+        {
+          "fr": "Officiant sur environ 24 événements en 4 ans, dont les 24 Heures du Mans chaque année"
+        },
+        {
+          "fr": "Intervention sur épreuves de circuit et de rallye en région Maine Bretagne"
+        },
+        {
+          "fr": "Gestion des incidents en temps réel : prise de décision rapide, communication avec la direction de course"
+        },
+        {
+          "fr": "Travail en équipe sous pression dans un environnement à haute exigence de sécurité"
+        }
+      ]
+    },
+    {
+      "org": "HFR160",
+      "place": "Le Mans",
+      "period": { "fr": "mai – juillet 2024" },
+      "role": {
+        "fr": "Technicien supérieur — Stage de développement embarqué sur système de contrôle de train miniature"
+      },
+      "points": [
+        {
+          "fr": "Développement d'un programme embarqué en C++ sur microcontrôleur STM32 en collaboration avec un ingénieur ST Microelectronics"
+        },
+        {
+          "fr": "Acquisition et traitement de données capteurs (vitesse, tension, courant) via ADC, avec affichage sur terminal série (UART) pour le débogage"
+        },
+        {
+          "fr": "Génération de signaux PWM pour le contrôle d'un powerpack (régulation de la puissance moteur)"
+        },
+        { "fr": "Développement et intégration sur maquette physique fonctionnelle" },
+        {
+          "fr": "Gestion de projet en autonomie via Git (versioning) et Notion (suivi de tâches)"
+        }
+      ]
+    },
+    {
+      "org": "Kabiloo",
+      "place": "Le Mans",
+      "period": { "fr": "sept. 2022 – juil. 2023" },
+      "role": {
+        "fr": "Réparateur informatique — Stages de réparation multi-appareils en atelier (smartphones, PC, tablettes, consoles)"
+      },
+      "points": [
+        {
+          "fr": "Diagnostic et réparation d'environ 30 appareils par semaine (smartphones majoritairement, PC, tablettes, consoles de jeu)"
+        },
+        {
+          "fr": "Soudure de composants électroniques au niveau microsoudure : remplacement de connecteurs Jack, modules batterie, composants CMS"
+        },
+        {
+          "fr": "Utilisation d'outillage professionnel : multimètre, fer à souder, station air chaud, plaque chauffante"
+        },
+        { "fr": "Recherche de pannes en autonomie au sein d'une équipe de 4 techniciens" }
+      ]
+    },
+    {
+      "org": "LeLièvre Immobilier",
+      "place": "Le Mans",
+      "period": { "fr": "nov. – déc. 2021" },
+      "role": {
+        "fr": "Technicien réseau — Stage d'administration et de maintenance réseau multi-sites"
+      },
+      "points": [
+        {
+          "fr": "Intervention sur l'infrastructure réseau de plusieurs agences : configuration et maintenance de commutateurs, routeurs et NAS"
+        },
+        { "fr": "Travail en environnement professionnel réel avec déplacements sur site" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "place": "Le Mans",
+      "period": { "fr": "2025 – actuellement" },
+      "title": {
+        "fr": "Diplôme d'ingénieur, Informatique, parcours Architecture des Systèmes Temps Réel et Embarqués"
+      },
+      "badge": null
+    },
+    {
+      "place": "Le Mans",
+      "period": "2023 – 2025",
+      "title": { "fr": "BTS Informatique Réseau, Développement Web et Développement de Logiciels" },
+      "badge": { "fr": "Second de promotion" }
+    },
+    {
+      "place": "Le Mans",
+      "period": "2020 – 2023",
+      "title": { "fr": "Baccalauréat professionnel, Informatique Réseau" },
+      "badge": { "fr": "Major de promotion" }
+    }
+  ]
+}

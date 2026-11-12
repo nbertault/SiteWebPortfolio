@@ -1,0 +1,9 @@
+{
+  "title": { "fr": "Mes projets" },
+  "intro": { "fr": "Classement de mes réalisations : cliquez sur un projet pour ouvrir sa page." },
+  "projects": [
+    { "$include": "projets/volant-sim.json" },
+    { "$include": "projets/flotte-robots.json" },
+    { "$include": "projets/a-venir.json" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": { "fr": "Mes passions" },
+  "intro": {
+    "fr": "Moteurs, circuits et électronique embarquée : la mécanique qui me fait vibrer, du garage à la piste."
+  },
+  "sections": [
+    {
+      "title": { "fr": "Sport automobile" },
+      "text": { "fr": "Endurance, GT, rallye : j’aime la technique autant que le spectacle." },
+      "speed": 250,
+      "tag": { "fr": "ENDURANCE" },
+      "stats": [
+        { "value": "≈24", "unit": { "fr": "ÉVÉNEMENTS" } },
+        { "value": "24H", "unit": { "fr": "DU MANS" } },
+        { "value": "4", "unit": { "fr": "ANS EN PISTE" } }
+      ],
+      "images": [null, null, null]
+    },
+    {
+      "title": { "fr": "Sim racing" },
+      "text": { "fr": "Mon volant de sim racing conçu de A à Z : PCB, firmware et boîtier." },
+      "speed": 170,
+      "tag": { "fr": "SIM RACING" },
+      "stats": [
+        { "value": "DIY", "unit": { "fr": "VOLANT" } },
+        { "value": "PCB", "unit": "+ FIRMWARE" },
+        { "value": { "fr": "BOÎTIER" }, "unit": "CUSTOM" }
+      ],
+      "images": [null, null, null]
+    },
+    {
+      "title": { "fr": "Honda Civic EF9" },
+      "text": { "fr": "Une compacte légère de 1990, symbole du pilotage pur." },
+      "speed": 210,
+      "tag": { "fr": "EF9" },
+      "stats": [
+        { "value": "1990", "unit": { "fr": "MODÈLE" } },
+        { "value": "B16A", "unit": "VTEC" },
+        { "value": "2 500", "unit": { "fr": "MM D'EMPATTEMENT" } }
+      ],
+      "images": [null, null, null]
+    },
+    {
+      "title": { "fr": "Électronique de piste" },
+      "text": {
+        "fr": "Acquisition de données, télémétrie, calculateurs : l’intelligence embarquée en course."
+      },
+      "speed": 130,
+      "tag": { "fr": "TÉLÉMÉTRIE" },
+      "stats": [
+        { "value": "STM32", "unit": { "fr": "MICROCONTRÔLEUR" } },
+        { "value": "ADC", "unit": { "fr": "ACQUISITION" } },
+        { "value": "UART", "unit": { "fr": "DÉBOGAGE" } }
+      ],
+      "images": [null, null, null]
+    }
+  ]
+}

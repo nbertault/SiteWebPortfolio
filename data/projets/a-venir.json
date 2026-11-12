@@ -1,0 +1,41 @@
+{
+  "slug": "a-venir",
+  "page": "projet-a-venir.html",
+  "title": { "fr": "Conception Drone VTOL" },
+  "text": {
+    "fr": "Réalisation complète d'un drone VTOL afin de participer à un concours du groupe Dassault. Le projet est en cours de réalisation et sera documenté prochainement."
+  },
+  "meta": { "fr": "Concours Dassault · Conception" },
+  "icon": "drone",
+  "image": null,
+  "state": "wip",
+  "tags": [{ "fr": "Drone VTOL" }, { "fr": "Concours Dassault" }],
+  "sectors": [{ "weeks": null }, { "weeks": null }, { "weeks": null }],
+  "lead": { "fr": "Réalisation complète d'un drone VTOL pour un concours du groupe Dassault." },
+  "facts": [
+    { "value": "VTOL", "unit": { "fr": "DÉCOLLAGE VERTICAL" } },
+    { "value": "Dassault", "unit": { "fr": "CONCOURS" } }
+  ],
+  "blocks": [
+    {
+      "sector": 0,
+      "kicker": { "fr": "L'IDÉE" },
+      "title": { "fr": "Un drone VTOL" },
+      "text": {
+        "fr": "Un drone qui décolle à la verticale, conçu pour le concours du groupe Dassault."
+      },
+      "visual": "drone",
+      "image": null,
+      "caption": { "fr": "Vue de dessus" }
+    },
+    {
+      "sector": 1,
+      "kicker": { "fr": "EN COURS" },
+      "title": { "fr": "Le projet avance" },
+      "text": { "fr": "Photos, schémas et résultats arriveront ici au fil de la réalisation." },
+      "visual": "plan",
+      "image": null,
+      "caption": { "fr": "À suivre" }
+    }
+  ]
+}

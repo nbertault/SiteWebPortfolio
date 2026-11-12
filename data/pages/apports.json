@@ -1,0 +1,44 @@
+{
+  "title": { "fr": "Mes apports" },
+  "intro": {
+    "fr": "Un tour du circuit des 24 Heures du Mans : chaque secteur est un apport pour votre entreprise."
+  },
+  "sections": [
+    {
+      "title": { "fr": "Électronique embarquée" },
+      "text": { "fr": "Cartes et firmware fiables, du concept au prototype." },
+      "zone": { "fr": "Stands · Dunlop · Esses · Tertre Rouge" },
+      "tags": ["STM32", "PCB", "Firmware C / C++"]
+    },
+    {
+      "title": { "fr": "Rigueur temps réel" },
+      "text": { "fr": "Architectures déterministes, tests et documentation soignée." },
+      "zone": { "fr": "Ligne droite des Hunaudières" },
+      "tags": [{ "fr": "Temps réel" }, { "fr": "Tests" }, "Documentation"]
+    },
+    {
+      "title": { "fr": "Réseaux & systèmes" },
+      "text": {
+        "fr": "Administration et maintenance de réseaux multi-sites : commutateurs, routeurs, NAS, avec une base Cisco (CCNA1)."
+      },
+      "zone": { "fr": "Mulsanne · Indianapolis · Arnage" },
+      "tags": ["TCP/IP", "VLAN · DNS · DHCP", "Cisco CCNA1"]
+    },
+    {
+      "title": { "fr": "Esprit compétition" },
+      "text": {
+        "fr": "Itérer vite, mesurer, améliorer : la logique de la piste appliquée à l’ingénierie."
+      },
+      "zone": { "fr": "Courbes Porsche" },
+      "tags": [{ "fr": "Itérer" }, { "fr": "Mesurer" }, { "fr": "Améliorer" }]
+    },
+    {
+      "title": { "fr": "Équipe & gestion de projet" },
+      "text": {
+        "fr": "Travail en équipe sous pression en tant que commissaire de piste, et gestion de projet en autonomie avec Git et Notion."
+      },
+      "zone": { "fr": "Chicanes Ford · Stands" },
+      "tags": ["Git", "Notion", { "fr": "Communication" }]
+    }
+  ]
+}

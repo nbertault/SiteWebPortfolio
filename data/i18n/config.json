@@ -1,0 +1,8 @@
+{
+  "_aide": "provider : google | google-cloud | mymemory | libretranslate | none. Voir README.",
+  "provider": "google",
+  "endpoint": null,
+  "apiKey": null,
+  "concurrency": 4,
+  "timeoutMs": 8000
+}

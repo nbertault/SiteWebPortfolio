@@ -1,0 +1,51 @@
+{
+  "slug": "flotte-robots",
+  "page": "projet-flotte-robots.html",
+  "title": { "fr": "Flotte de robots" },
+  "text": {
+    "fr": "Réalisation de la documentation et du rapport d'un projet de flotte de robots existante afin d'aider les futurs étudiants à comprendre le projet et à le reprendre."
+  },
+  "meta": { "fr": "Projet académique · Robotique" },
+  "icon": "robot",
+  "image": null,
+  "state": "done",
+  "tags": ["Miros", { "fr": "Robotique" }, "Documentation"],
+  "sectors": [{ "weeks": 4 }, { "weeks": 6 }, { "weeks": 3 }],
+  "lead": { "fr": "Compte rendu d'un projet de flotte de robots, étudié avec Miros." },
+  "facts": [
+    { "value": "2", "unit": { "fr": "MODES DE COMMUNICATION" } },
+    { "value": "Miros", "unit": { "fr": "PLATEFORME" } },
+    { "value": { "fr": "MAÎTRE-ESCLAVE" }, "unit": { "fr": "ET SUIVEUR" } }
+  ],
+  "blocks": [
+    {
+      "sector": 0,
+      "kicker": { "fr": "CONTEXTE" },
+      "title": { "fr": "Une flotte de robots" },
+      "text": { "fr": "Un projet académique : faire coopérer plusieurs robots avec Miros." },
+      "visual": "robot",
+      "image": null,
+      "caption": { "fr": "La flotte" }
+    },
+    {
+      "sector": 1,
+      "kicker": { "fr": "MODES" },
+      "title": { "fr": "Deux façons de communiquer" },
+      "text": { "fr": "Les modes maître-esclave et suiveur ont été explorés." },
+      "visual": "plan",
+      "image": null,
+      "caption": { "fr": "Schéma de principe" }
+    },
+    {
+      "sector": 2,
+      "kicker": { "fr": "BILAN" },
+      "title": { "fr": "Limites observées" },
+      "text": {
+        "fr": "Des soucis côté Miros, des mouvements parasites des esclaves et un mode suiveur incomplet."
+      },
+      "visual": "robot",
+      "image": null,
+      "caption": { "fr": "Ce qu'il reste à améliorer" }
+    }
+  ]
+}

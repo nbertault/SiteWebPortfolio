@@ -1,0 +1,32 @@
+[
+  {
+    "title": { "fr": "Cycle ingénieur" },
+    "school": "ENSIM",
+    "logo": "assets/Logos/Ecoles/LogoENSIM.png",
+    "image": null,
+    "status": { "fr": "En cours" },
+    "text": {
+      "fr": "Formation d'ingénieur en informatique, spécialisation en informatique embarquée, avec approche de l'étude de projets, la conception de systèmes et de projets, la gestion d'équipe, et l'apport d'expérience en milieu professionnel."
+    }
+  },
+  {
+    "title": { "fr": "BTS CIEL" },
+    "school": "Lycée Washington Touchard",
+    "logo": "assets/Logos/Ecoles/LogoTouchard.png",
+    "image": null,
+    "status": { "fr": "Second de la promotion" },
+    "text": {
+      "fr": "Formation basée sur l'informatique dans sa globalité, approche de la programmation, de l'administration réseaux, la conception de projets et apport d'expériences par le biais d'un stage en entreprise."
+    }
+  },
+  {
+    "title": { "fr": "Bac Professionnel SN" },
+    "school": "Lycée Washington Touchard",
+    "logo": "assets/Logos/Ecoles/LogoTouchard.png",
+    "image": null,
+    "status": { "fr": "Major de promo \n Mention Très Bien" },
+    "text": {
+      "fr": "Formation professionnelle concentrée sur l'administration des systèmes et réseaux. Apport d'expériences en milieu professionnel par le biais de stages en entreprise."
+    }
+  }
+]

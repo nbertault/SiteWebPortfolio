@@ -1,0 +1,84 @@
+{
+  "slug": "volant-sim",
+  "page": "projet-volant-sim.html",
+  "title": { "fr": "Volant sim racing DIY" },
+  "text": {
+    "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique."
+  },
+  "meta": { "fr": "Projet personnel · Électronique & firmware" },
+  "icon": "wheel",
+  "image": null,
+  "state": "done",
+  "tags": ["PCB", "Firmware", { "fr": "Boîtier" }],
+  "sectors": [{ "weeks": 6 }, { "weeks": 10 }, { "weeks": 4 }],
+  "lead": {
+    "fr": "Un volant de sim racing conçu de A à Z, compatible avec la base Fanatec CSL DD."
+  },
+  "facts": [
+    { "value": "132,2 × 50,2", "unit": "MM PCB" },
+    { "value": "ATmega328P", "unit": { "fr": "MICROCONTRÔLEUR" } },
+    { "value": "SPI", "unit": { "fr": "LIAISON AVEC LA BASE" } },
+    { "value": "SK6812", "unit": { "fr": "SHIFT LIGHTS" } }
+  ],
+  "blocks": [
+    {
+      "sector": 0,
+      "kicker": { "fr": "L'IDÉE" },
+      "title": { "fr": "Un volant sur mesure" },
+      "text": {
+        "fr": "L'idée : un volant 100 % DIY, pensé de A à Z pour dialoguer avec la base Fanatec CSL DD."
+      },
+      "visual": "wheel",
+      "image": null,
+      "caption": { "fr": "Le volant, vu de face" }
+    },
+    {
+      "sector": 0,
+      "kicker": { "fr": "ÉLECTRONIQUE" },
+      "title": { "fr": "La carte électronique" },
+      "text": {
+        "fr": "Un ATmega328P joue l'esclave SPI face à la base. Un CH340C gère la programmation en USB-C et un ruban SK6812 affiche les shift lights."
+      },
+      "visual": "pcb",
+      "image": null,
+      "caption": { "fr": "Schéma KiCad, corrigé étape par étape" }
+    },
+    {
+      "sector": 1,
+      "kicker": { "fr": "COMPOSANTS" },
+      "title": { "fr": "Pensée pour la soudure" },
+      "text": {
+        "fr": "Composants traversants, connecteurs JST-XH horizontaux, trous de fixation M3 : tout se soude à la main."
+      },
+      "visual": "chip",
+      "image": null,
+      "caption": { "fr": "Composants et connectique" }
+    },
+    {
+      "sector": 1,
+      "kicker": { "fr": "MÉCANIQUE" },
+      "title": { "fr": "Un boîtier imprimé en 3D" },
+      "text": { "fr": "Le boîtier, imprimé en 3D, accueille la carte et se fixe sur le volant." },
+      "visual": "box",
+      "image": null,
+      "caption": { "fr": "Le boîtier" }
+    },
+    {
+      "sector": 2,
+      "kicker": { "fr": "DOSSIER" },
+      "title": { "fr": "Tout est documenté" },
+      "text": {
+        "fr": "Fichiers KiCad, spécification fonctionnelle, liste de composants (LCSC, AliExpress) et rapport technique."
+      },
+      "visual": "doc",
+      "image": null,
+      "caption": { "fr": "Le dossier de fabrication" }
+    }
+  ],
+  "report": {
+    "file": "assets/Rapports/rapport-volant-sim.pdf",
+    "title": { "fr": "Rapport technique du volant" },
+    "text": { "fr": "Matériel et mécanique : conception, choix des composants, réalisation." },
+    "meta": "PDF"
+  }
+}

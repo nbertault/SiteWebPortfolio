@@ -1,0 +1,7 @@
+[
+  { "key": "home", "href": "index.html", "label": { "fr": "Accueil" } },
+  { "key": "passions", "href": "passions.html", "label": { "fr": "Passions" } },
+  { "key": "projets", "href": "projets.html", "label": { "fr": "Projets" } },
+  { "key": "parcours", "href": "parcours.html", "label": { "fr": "Parcours" } },
+  { "key": "apports", "href": "apports.html", "label": { "fr": "Apports" } }
+]

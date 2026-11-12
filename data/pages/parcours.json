@@ -1,0 +1,7 @@
+{
+  "title": { "fr": "Mon parcours" },
+  "formationsTitle": { "fr": "Formations" },
+  "experiencesTitle": { "fr": "Expériences professionnelles" },
+  "formations": { "$include": "parcours/formations.json" },
+  "experiences": { "$include": "parcours/experiences.json" }
+}
