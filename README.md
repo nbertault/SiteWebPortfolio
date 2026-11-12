@@ -6,7 +6,10 @@ Bien que la création de site web n'est pas la voix dans laquelle je souhaite me
 Dans une démarche plus détaillé, j'ai réalisé le site sous un modèle MVC que j'ai put rapidement approché durant mes précédentes expériences, et celui-ci me semblait à même de correspondre à mes exigences en termes de structure. J'ai aussi décider de stocker mes données dans des fichiers .json afin de simplifier leur modification, sachant que j'ai déjà eu à faire avec ce type de fichiers.
 
 ## Inspirations
-Bien que j'ai réalisé ce site à partir de données personnelles, celui-ci c'est basé sur quelques inspirations que j'ai put trouver sur internet et les conseils d'amis ou de proches, en voici quelques liens :\n
+Bien que j'ai réalisé ce site à partir de données personnelles, celui-ci c'est basé sur quelques inspirations que j'ai put trouver sur internet et les conseils d'amis ou de proches, en voici quelques liens :
+
 Inspiration de la page "Apports": https://www.linkedin.com/in/argantael-guyon/
+
 Inspiration de la page "Passion": 
+
 Inspiration de la fiche de présentation sur la page "Accueil": 
