@@ -4,6 +4,6 @@
   "projects": [
     { "$include": "projets/volant-sim.json" },
     { "$include": "projets/flotte-robots.json" },
-    { "$include": "projets/a-venir.json" }
+    { "$include": "projets/drone.json" }
   ]
 }

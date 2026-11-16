@@ -50,7 +50,7 @@ body[data-page=projets] #bg{display:none}
 
 .tt-state{display:flex;align-items:center;justify-content:center;gap:8px;padding:0 10px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;text-align:center}
 .tt-state i{flex:none;width:9px;height:9px;border-radius:50%}
-.tt-state--done i{background:var(--c-green)}.tt-state--wip i{background:var(--c-yellow);animation:live 1.6s infinite}.tt-state--soon{color:#8d97ab}.tt-state--soon i{background:#5b6479}
+.tt-state--done i{background:var(--c-green)}.tt-state--wip i{background:var(--c-yellow);animation:live 1.6s infinite}.tt-state--soon{color:#8d97ab}.tt-state--soon i{background:#5b6479}.tt-state--dnf i{background:red}
 
 /* ===== pages dédiées à un projet ===== */
 .btn--ghost{background:transparent;color:var(--fg);border:2px solid color-mix(in srgb,var(--accent) 75%,transparent);padding:9px 22px;transition:background .25s,color .25s}

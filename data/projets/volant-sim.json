@@ -3,16 +3,16 @@
   "page": "projet-volant-sim.html",
   "title": { "fr": "Volant sim racing DIY" },
   "text": {
-    "fr": "Conception complète : carte électronique, firmware temps réel, boîtier et rapport technique."
+    "fr": "Conception d'une amlioration d'un volant de sim racing : carte électronique, firmware temps réel, boîtier et rapport technique."
   },
   "meta": { "fr": "Projet personnel · Électronique & firmware" },
   "icon": "wheel",
   "image": null,
-  "state": "done",
-  "tags": ["PCB", "Firmware", { "fr": "Boîtier" }],
+  "state": "dnf",
+  "tags": ["PCB", "Firmware", { "fr": "Conception 3D" }],
   "sectors": [{ "weeks": 6 }, { "weeks": 10 }, { "weeks": 4 }],
   "lead": {
-    "fr": "Un volant de sim racing conçu de A à Z, compatible avec la base Fanatec CSL DD."
+    "fr": "Concepetion d'une amélioration d'un volant Fanatec CSL DD."
   },
   "facts": [
     { "value": "132,2 × 50,2", "unit": "MM PCB" },

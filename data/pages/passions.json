@@ -6,7 +6,7 @@
   "sections": [
     {
       "title": { "fr": "Sport automobile" },
-      "text": { "fr": "Endurance, GT, rallye : j’aime la technique autant que le spectacle." },
+      "text": { "fr": "Endurance, GT, Rallye, F1 : j’aime la technique autant que le spectacle." },
       "speed": 250,
       "tag": { "fr": "ENDURANCE" },
       "stats": [
@@ -22,9 +22,9 @@
       "speed": 170,
       "tag": { "fr": "SIM RACING" },
       "stats": [
-        { "value": "DIY", "unit": { "fr": "VOLANT" } },
-        { "value": "PCB", "unit": "+ FIRMWARE" },
-        { "value": { "fr": "BOÎTIER" }, "unit": "CUSTOM" }
+        { "value": "Compréhension du pilote", "unit": { "fr": "" } },
+        { "value": "Introduction à la configuration", "unit": { "fr": "" } },
+        { "value": { "fr": "Concentration et constance" }, "unit": "" }
       ],
       "images": [null, null, null]
     },
@@ -38,7 +38,7 @@
         { "value": "Une moto de rêve / ", "unit": "MT07" },
         { "value": "Un sentiment de liberté", "unit": { "fr": "" } }
       ],
-      "images": [null, null, null]
+      "images": ["assets/Images/Passions/Nolan.jpg", "assets/Images/Passions/MT072016.jpg", "assets/Images/Passions/MT072015.jpeg"]
     },
     {
       "title": { "fr": "Dessin/Design" },
