@@ -11,18 +11,19 @@
   "state": "done",
   "tags": ["Miros", { "fr": "Robotique" }, "Documentation"],
   "sectors": [{ "weeks": 4 }, { "weeks": 6 }, { "weeks": 3 }],
-  "lead": { "fr": "Compte rendu d'un projet de flotte de robots, étudié avec Miros." },
+  "lead": { "fr": "Compte rendu d'un projet de flotte de robots, étudié avec Miros. L'objectif étant de réaliser la communication entre les robots et de la documenter." },
   "facts": [
     { "value": "2", "unit": { "fr": "MODES DE COMMUNICATION" } },
     { "value": "Miros", "unit": { "fr": "PLATEFORME" } },
-    { "value": { "fr": "MAÎTRE-ESCLAVE" }, "unit": { "fr": "ET SUIVEUR" } }
+    { "value": { "fr": "MAÎTRE-ESCLAVE" }, "unit": { "fr": "ET SUIVEUR" } },
+    { "value": { "fr": "4 Étudiants" }, "unit": { "fr": "Travail d'équipe" } }
   ],
   "blocks": [
     {
       "sector": 0,
       "kicker": { "fr": "CONTEXTE" },
       "title": { "fr": "Une flotte de robots" },
-      "text": { "fr": "Un projet académique : faire coopérer plusieurs robots avec Miros." },
+      "text": { "fr": "Un projet académique : faire coopérer plusieurs robots fonctionnant sur Miros." },
       "visual": "robot",
       "image": null,
       "caption": { "fr": "La flotte" }
@@ -30,8 +31,8 @@
     {
       "sector": 1,
       "kicker": { "fr": "MODES" },
-      "title": { "fr": "Deux façons de communiquer" },
-      "text": { "fr": "Les modes maître-esclave et suiveur ont été explorés." },
+      "title": { "fr": "Deux modes de suivi" },
+      "text": { "fr": "Les modes de suivi de commandes et suivi du maitre sont disponibles sur ces robots." },
       "visual": "plan",
       "image": null,
       "caption": { "fr": "Schéma de principe" }
@@ -47,5 +48,11 @@
       "image": null,
       "caption": { "fr": "Ce qu'il reste à améliorer" }
     }
-  ]
+  ],
+  "report": {
+    "file": "assets/Documents/Projets/RapportFlotteRobotique.pdf",
+    "title": { "fr": "Document technique de la flotte de robots" },
+    "text": { "fr": "Documentation détaillant le fonctionnement de la flotte de robots." },
+    "meta": "PDF"
+  }
 }
