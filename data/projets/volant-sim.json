@@ -76,7 +76,7 @@
     }
   ],
   "report": {
-    "file": "assets/Documents/CdCFVolantSimu.pdf",
+    "file": "assets/Documents/Projets/CdCFVolantSimu.pdf",
     "title": { "fr": "Rapport technique du volant" },
     "text": { "fr": "Rapport effectué afin de lister les différentes étapes de conception et de réalisation. Celui-ci est en accord avec les cours correspondants." },
     "meta": "PDF"
