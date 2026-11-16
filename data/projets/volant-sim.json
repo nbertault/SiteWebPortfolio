@@ -26,7 +26,7 @@
       "kicker": { "fr": "L'IDÉE" },
       "title": { "fr": "Un volant sur mesure" },
       "text": {
-        "fr": "L'idée : un volant 100 % DIY, pensé de A à Z pour dialoguer avec la base Fanatec CSL DD."
+        "fr": "L'idée : un complément au volant d'entrée de gamme de chez Fanatec afin d'avoir pour un prix abordable un volant de GT."
       },
       "visual": "wheel",
       "image": null,
@@ -58,7 +58,7 @@
       "sector": 1,
       "kicker": { "fr": "MÉCANIQUE" },
       "title": { "fr": "Un boîtier imprimé en 3D" },
-      "text": { "fr": "Le boîtier, imprimé en 3D, accueille la carte et se fixe sur le volant." },
+      "text": { "fr": "Le boîtier, imprimé en 3D, permet de mettre la carte d'origine et la nouvelle carte ensemble tout en étant centré sur la base." },
       "visual": "box",
       "image": null,
       "caption": { "fr": "Le boîtier" }
@@ -78,7 +78,7 @@
   "report": {
     "file": "assets/Documents/CdCFVolantSimu.pdf",
     "title": { "fr": "Rapport technique du volant" },
-    "text": { "fr": "Matériel et mécanique : conception, choix des composants, réalisation." },
+    "text": { "fr": "Rapport effectué afin de lister les différentes étapes de conception et de réalisation. Celui-ci est en accord avec les cours correspondants." },
     "meta": "PDF"
   }
 }
