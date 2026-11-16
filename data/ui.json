@@ -28,10 +28,11 @@
     "unit": { "fr": "sem." },
     "legend": {
       "best": { "fr": "Meilleur secteur" },
-      "good": { "fr": "Sous la moyenne" },
-      "slow": { "fr": "Au-dessus" }
+      "good": { "fr": "Amélioration Personnelle" },
+      "slow": { "fr": "Aucune amélioration" }
     },
     "states": {
+      "dnf" : { "fr": "DNF" },
       "done": { "fr": "Terminé" },
       "wip": { "fr": "En cours" },
       "soon": { "fr": "À venir" }
