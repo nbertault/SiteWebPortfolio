@@ -10,6 +10,7 @@ const DOC_ICON = '<svg viewBox="0 0 64 80" fill="none" stroke="currentColor" str
  * rapport joint (facultatif : affiché seulement si `report` existe) et navigation vers les autres projets.
  */
 export class ProjetDetailView extends SubPageView {
+  static data = ['ui', 'pages.projets'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   constructor(root, bg) { super(root, bg, 'projets', ''); }
 
   template({ content, lang }) {

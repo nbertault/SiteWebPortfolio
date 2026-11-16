@@ -3,7 +3,7 @@
  *  - violet : le meilleur temps de TOUT le tableau (un seul, le premier en cas d'égalité)
  *  - vert   : secteur sous (ou égal à) la médiane de sa colonne
  *  - jaune  : secteur au-dessus
- * Une couleur peut être forcée dans content.json : { "weeks": 6, "color": "green" }.
+ * Une couleur peut être forcée dans data/projets/*.json : { "weeks": 6, "color": "green" }.
  */
 export function computeTimings(projects) {
   const cols = [0, 1, 2].map((i) => projects.map((p) => p.sectors?.[i]?.weeks ?? null));

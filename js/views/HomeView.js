@@ -3,6 +3,7 @@ import { CAR_LINES, CAR_CALLOUTS, carZones } from './svg/car.js';
 
 /** Page d'accueil : voiture interactive + formulaire de contact. */
 export class HomeView extends View {
+  static data = ['site', 'contact', 'ui', 'home'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   template({ content, lang }) {
     const { site, home, ui } = content.data;
     const profile = home.profile, ct = home.contact, links = content.data.contact;
@@ -41,10 +42,10 @@ export class HomeView extends View {
             <div class="race-panel__label"><span>01 / ID</span><span>${profile.location[lang]}</span></div>
             <p class="race-profile__intro">${profile.intro[lang]}</p>
             <div class="race-panel__visual">
-              <img src="assets/Images/CarteLeMans.png" alt="Carte de la Sarthe, Le Mans, France" class="race-panel__map">
+              <img src="assets/Images/CarteLeMans.png" alt="${profile.mapAlt[lang]}" class="race-panel__map">
               <span class="race-panel__watermark">TRACK<br>ENGINEERING</span>
             </div>
-            <p class="race-panel__caption">${lang === 'fr' ? 'PASSION MÉCANIQUE · PRÉCISION NUMÉRIQUE' : 'MOTORSPORT PASSION · DIGITAL PRECISION'}</p>
+            <p class="race-panel__caption">${profile.caption[lang]}</p>
           </section>
           <section class="race-panel">
             <div class="race-panel__label"><span>02 / ${profile.formationTitle[lang]}</span><span>01—02</span></div>
@@ -81,8 +82,8 @@ export class HomeView extends View {
             <div class="race-panel__label"><span>01 / ${ct.channels[lang]}</span><span>${profile.location[lang]}</span></div>
             <div class="race-panel__rows">
               <article class="race-row"><span class="race-row__index">01</span><div><h4><a href="mailto:${links.email}">${links.email}</a></h4><p>EMAIL</p></div></article>
-              <article class="race-row"><span class="race-row__index">02</span><div><h4><a href="${links.linkedin}" target="_blank" rel="noopener">LinkedIn</a></h4><p>${lang === 'fr' ? 'RÉSEAU PROFESSIONNEL' : 'PROFESSIONAL NETWORK'}</p></div></article>
-              <article class="race-row"><span class="race-row__index">03</span><div><h4><a href="${links.github}" target="_blank" rel="noopener">GitHub</a></h4><p>${lang === 'fr' ? 'CODE · PROJETS' : 'CODE · PROJECTS'}</p></div></article>
+              <article class="race-row"><span class="race-row__index">02</span><div><h4><a href="${links.linkedin}" target="_blank" rel="noopener">LinkedIn</a></h4><p>${ct.linkedinLabel[lang]}</p></div></article>
+              <article class="race-row"><span class="race-row__index">03</span><div><h4><a href="${links.github}" target="_blank" rel="noopener">GitHub</a></h4><p>${ct.githubLabel[lang]}</p></div></article>
             </div>
           </section>
           <section class="race-panel race-panel--form">

@@ -1,6 +1,6 @@
 /**
  * Illustrations « schéma technique » de remplacement (une par type de bloc).
- * Utilisées tant qu'aucune image n'est fournie dans content.json ; elles prennent la couleur d'accent de la page.
+ * Utilisées tant qu'aucune image n'est fournie dans data/projets/*.json ; elles prennent la couleur d'accent de la page.
  * Types : wheel · pcb · chip · box · doc · robot · drone · plan
  */
 const wrap = (inner) => `<svg viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

@@ -6,6 +6,7 @@ import { FooterView } from '../views/FooterView.js';
 /**
  * Contrôleur de base (commun à toutes les pages) :
  * charge les modèles, rend header/footer, gère thème, langue et masquage du header au scroll.
+ * Les fichiers JSON chargés sont ceux déclarés par le header, le footer et la vue de la page (`static data`).
  */
 export class PageController {
   constructor(key) {
@@ -16,7 +17,8 @@ export class PageController {
   }
 
   async start() {
-    this.content = await ContentModel.load();
+    const sources = [HeaderView, FooterView, this.view?.constructor].flatMap((V) => V?.data ?? []);
+    this.content = await ContentModel.load(sources);
     this.header = new HeaderView(this.headerEl);
     this.footer = new FooterView(document.getElementById('footer'));
     this.bindCommon();
@@ -46,6 +48,16 @@ export class PageController {
     this.renderPage(s);
     this.afterRender(s);
     scrollTo(0, y);
+    this.translateIfNeeded();
+  }
+
+  /** En anglais, traduit à la volée les textes absents de data/i18n/en.json puis ré‑affiche. */
+  async translateIfNeeded() {
+    if (this.settings.lang !== 'en' || this.translating || !this.content.pending.size) return;
+    this.translating = true;
+    try {
+      if (await this.content.translatePending() && this.settings.lang === 'en') { this.translating = false; this.render(); }
+    } finally { this.translating = false; }
   }
 
   renderPage() {}   // à surcharger : rend la vue de la page

@@ -76,7 +76,7 @@
     }
   ],
   "report": {
-    "file": "assets/Rapports/rapport-volant-sim.pdf",
+    "file": "assets/Documents/CdCFVolantSimu.pdf",
     "title": { "fr": "Rapport technique du volant" },
     "text": { "fr": "Matériel et mécanique : conception, choix des composants, réalisation." },
     "meta": "PDF"

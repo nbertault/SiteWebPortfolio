@@ -10,6 +10,7 @@ const ICONS = {
 
 /** Projets : tableau de chronométrage (style GT World Challenge) — 1 ligne = 1 projet. */
 export class ProjetsView extends SubPageView {
+  static data = ['ui', 'pages.projets'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   constructor(root, bg) { super(root, bg, 'projets', ''); }
 
   template({ content, lang }) {

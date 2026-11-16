@@ -8,6 +8,7 @@ const COLORS = ['#38bdf8', '#a3e635', '#f59e0b', '#f472b6', '#a78bfa'];   // un 
  * s'affiche. Sous le circuit : résumé du CV (boutons « Afficher » / « Télécharger »).
  */
 export class ApportsView extends SubPageView {
+  static data = ['ui', 'cv', 'pages.apports'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   constructor(root, bg) { super(root, bg, 'apports', ''); }
 
   template(state) {
@@ -39,10 +40,10 @@ export class ApportsView extends SubPageView {
       <li data-s="${i}" tabindex="0" style="--sc:${COLORS[i]}"><b>S${i + 1}</b><span>${t(it.title)}</span></li>`).join('');
 
     return `<section class="ap">
-      <header class="ap-head"><span class="eyebrow">04 · 24 HEURES DU MANS</span><h1 class="accent">${t(page.title)}</h1><p>${t(page.intro)}</p></header>
+      <header class="ap-head"><span class="eyebrow">${t(ui.apEyebrow)}</span><h1 class="accent">${t(page.title)}</h1><p>${t(page.intro)}</p></header>
       <div class="ap-board">
         <div class="ap-map">
-          <svg class="ap-svg" viewBox="0 0 ${VIEW.w} ${VIEW.h}" role="group" aria-label="Circuit de la Sarthe">
+          <svg class="ap-svg" viewBox="0 0 ${VIEW.w} ${VIEW.h}" role="group" aria-label="${t(ui.apMapLabel)}">
             <text class="trk-lbl trk-lbl--big" transform="translate(${sl.at.x.toFixed(1)} ${sl.at.y.toFixed(1)}) rotate(${sl.angle.toFixed(1)})" text-anchor="middle">${ui.apStraight[lang]}</text>
             ${sectors}
             <g class="start"><line class="start__a" x1="${START.x - 17}" x2="${START.x + 17}" y1="${START.y}" y2="${START.y}"/><line class="start__b" x1="${START.x - 17}" x2="${START.x + 17}" y1="${START.y}" y2="${START.y}"/>
@@ -53,7 +54,7 @@ export class ApportsView extends SubPageView {
           <p class="ap-note">${t(ui.apNote)}</p>
         </div>
         <aside class="ap-panel">
-          <div class="ap-stack"><div class="ap-idle"><b>${t(ui.apHint)}</b><span>5 ${ui.apSector[lang].toLowerCase()}s · 5 apports</span></div>${cards}</div>
+          <div class="ap-stack"><div class="ap-idle"><b>${t(ui.apHint)}</b><span>${t(ui.apCount)}</span></div>${cards}</div>
           <ol class="ap-list">${list}</ol>
         </aside>
       </div>

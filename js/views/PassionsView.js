@@ -13,6 +13,7 @@ const zoneColor = (s) => `hsl(${Math.round(125 - (s / MAX) * 125)} 85% 52%)`;   
 
 /** Passions : compteur de vitesse. Plus la passion compte, plus sa zone est haute dans la plage de vitesse. */
 export class PassionsView extends View {
+  static data = ['ui', 'pages.passions'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   template({ content, lang }) {
     const page = content.page('passions'), ui = content.data.ui, t = (v) => v[lang];
     const items = page.sections;

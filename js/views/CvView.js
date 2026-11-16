@@ -2,6 +2,7 @@ import { SubPageView } from './SubPageView.js';
 
 /** Page CV : le CV en interface web (profil, compétences, expériences et formations en frise). */
 export class CvView extends SubPageView {
+  static data = ['contact', 'cv'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   constructor(root, bg) { super(root, bg, 'apports', ''); }
 
   template({ content, lang }) {

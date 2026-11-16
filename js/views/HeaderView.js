@@ -5,6 +5,7 @@ const MOON = '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor
 
 /** Header commun : logo, navigation (1 mot par page), sélecteur de langue et interrupteur de thème. */
 export class HeaderView extends View {
+  static data = ['site', 'nav'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   template({ content, lang, theme, key }) {
     const { nav, site } = content.data;
     const links = nav.map((n) => `<a href="${n.href}" class="${n.key === key ? 'on' : ''}">${n.label[lang]}</a>`).join('');

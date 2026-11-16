@@ -13,3 +13,18 @@ Inspiration de la page "Apports": https://www.linkedin.com/in/argantael-guyon/
 Inspiration de la page "Passion": 
 
 Inspiration de la fiche de présentation sur la page "Accueil": 
+
+## Données (fichiers JSON)
+Le site n'utilise plus `data/content.json` : chaque page charge uniquement les fichiers dont elle a besoin. Une vue indique ses fichiers dans `static data = [...]` (liste des clés dans `js/models/ContentModel.js`), le header et le footer ajoutent les leurs.
+
+| Page | Fichiers chargés |
+| --- | --- |
+| Toutes | `site.json`, `nav.json`, `contact.json`, `ui.json` |
+| Accueil | `home.json` |
+| Passions | `pages/passions.json` |
+| Projets et pages projet | `pages/projets.json` → `projets/*.json` |
+| Parcours | `pages/parcours.json` → `parcours/formations.json`, `parcours/experiences.json` |
+| Apports | `pages/apports.json`, `cv.json` |
+| CV | `cv.json` |
+
+Les `{ "$include": "fichier.json" }` sont résolus au chargement. Les textes sont écrits en français ; l'anglais vient de `data/i18n/en.json`, ou est traduit automatiquement à la demande (voir `tools/traduire.html` pour mettre ce fichier à jour).

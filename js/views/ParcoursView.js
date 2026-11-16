@@ -5,7 +5,7 @@ import { SubPageView } from './SubPageView.js';
  * Toutes les valeurs sont en unités du viewBox de assets/helmet.svg (1600 × 1400).
  *  - crop : zone affichée [x0, y0, x1, y1] = le casque + une petite marge
  *  - cuts : abscisses des 2 coupes. Elles suivent les changements de livrée du dessin
- *           (violet/bleu | blanc/violet | bleu nuit) ; modifiables aussi via `helmet` dans content.json.
+ *           (violet/bleu | blanc/violet | bleu nuit) ; modifiables aussi via `helmet` dans data/pages/parcours.json.
  * Si le nombre de formations ≠ 3, les coupes sont réparties à largeur égale.
  */
 const HELMET = {
@@ -18,9 +18,10 @@ const HELMET = {
 /**
  * Parcours : titre centré, « Formations » (1 casque découpé en 3 morceaux, un par formation) puis
  * « Expériences professionnelles » (voitures alternées gauche / droite).
- * Les images (formation.image, formation.logo, experience.image) sont optionnelles dans data/content.json.
+ * Les images (formation.image, formation.logo, experience.image) sont optionnelles dans data/parcours/*.json.
  */
 export class ParcoursView extends SubPageView {
+  static data = ['pages.parcours'];   // fichiers JSON lus par cette vue (voir ContentModel.SOURCES)
   constructor(root, bg) { super(root, bg, 'parcours', ''); }
 
   template({ content, lang }) {
