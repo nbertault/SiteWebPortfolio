@@ -3,18 +3,18 @@
   "page": "projet-power-pack.html",
   "title": { "fr": "Conception Power Pack" },
   "text": {
-    "fr": "Réalisation complète d'un drone VTOL afin de participer à un concours du groupe Dassault. Le projet est en cours de réalisation et sera documenté prochainement."
+    "fr": "Étude et réalisation d'un PowerPack pour l'embarquer au sein de trains miniatures."
   },
   "meta": { "fr": "Concours Dassault · Conception" },
   "icon": "drone",
   "image": null,
-  "state": "wip",
-  "tags": [{ "fr": "Drone VTOL" }, { "fr": "Concours Dassault" }],
+  "state": "done",
+  "tags": [{ "fr": "Embarqué" }, { "fr": "Train miniature" }, { "fr": "Système d'alimenation" }],
   "sectors": [{ "weeks": null }, { "weeks": null }, { "weeks": null }],
-  "lead": { "fr": "Réalisation complète d'un drone VTOL pour un concours du groupe Dassault." },
+  "lead": { "fr": "Étude et réalisation d'un PowerPack pour l'embarquer au sein de trains miniatures. Projet réalisé durant mon stage de BTS, aucune documentation n'est disponible." },
   "facts": [
-    { "value": "VTOL", "unit": { "fr": "DÉCOLLAGE VERTICAL" } },
-    { "value": "Dassault", "unit": { "fr": "CONCOURS" } }
+    { "value": "Powerpack", "unit": { "fr": "Système d'alimentation de secours" } },
+    { "value": "Trains miniatures", "unit": { "fr": "1/60ème" } }
   ],
   "blocks": [
     {
