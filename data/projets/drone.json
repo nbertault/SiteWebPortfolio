@@ -5,16 +5,17 @@
   "text": {
     "fr": "Réalisation complète d'un drone VTOL afin de participer à un concours du groupe Dassault. Le projet est en cours de réalisation et sera documenté prochainement."
   },
-  "meta": { "fr": "Concours Dassault · Conception" },
+  "meta": { "fr": "Projet académique · Concours Dassault · Conception" },
   "icon": "drone",
   "image": null,
   "state": "wip",
   "tags": [{ "fr": "Drone VTOL" }, { "fr": "Concours Dassault" }],
   "sectors": [{ "weeks": null }, { "weeks": null }, { "weeks": null }],
-  "lead": { "fr": "Réalisation complète d'un drone VTOL pour un concours du groupe Dassault." },
+  "lead": { "fr": "Réalisation complète d'un drone VTOL pour participer à un concours du groupe Dassault." },
   "facts": [
     { "value": "VTOL", "unit": { "fr": "DÉCOLLAGE VERTICAL" } },
-    { "value": "Dassault", "unit": { "fr": "CONCOURS" } }
+    { "value": "Dassault", "unit": { "fr": "CONCOURS" } },
+    { "value": { "fr": "4 étudiants" }, "unit": { "fr": "travail d'équipe" } }
   ],
   "blocks": [
     {
@@ -22,20 +23,40 @@
       "kicker": { "fr": "L'IDÉE" },
       "title": { "fr": "Un drone VTOL" },
       "text": {
-        "fr": "Un drone qui décolle à la verticale, conçu pour le concours du groupe Dassault."
+        "fr": "Un drone qui décolle à la verticale, conçu pour respecter le règlement du concours et obtenir un maximum de points. Nous ne partons pas réellement de zéro, une base a été travaillé pendant les années précédentes, mais nous souhaitons partir sur une base plus modulale."
       },
       "visual": "drone",
       "image": null,
-      "caption": { "fr": "Vue de dessus" }
+      "caption": { "fr": "Schéma de base" }
+    },
+    {
+      "sector": 0,
+      "kicker": { "fr": "Création" },
+      "title": { "fr": "Un drone VTOL modulable et facile à réparer" },
+      "text": {
+        "fr": "Dans l'idée que le développement du drone risque de créer de la casse, nous avons eu l'idée de créer un drone équipé de pièces modulables et facilement remplaçables. Nous avons donc étudié l'existant et avons conçus une maquette"
+      },
+      "visual": "drone",
+      "image": null,
+      "caption": { "fr": "Inspiration" }
     },
     {
       "sector": 1,
-      "kicker": { "fr": "EN COURS" },
-      "title": { "fr": "Le projet avance" },
-      "text": { "fr": "Photos, schémas et résultats arriveront ici au fil de la réalisation." },
+      "kicker": { "fr": "Conception 3D" },
+      "title": { "fr": "Création de la structure en filament 3D" },
+      "text": { "fr": "Afin de réduire les coûts et de permettre une facilité pour le remplacement des éléments nous avons décidé de créer le prototype en impression 3D." },
       "visual": "plan",
       "image": null,
-      "caption": { "fr": "À suivre" }
+      "caption": { "fr": "Schéma 3D" }
+    },
+    {
+      "sector": 1,
+      "kicker": { "fr": "Conception Logiciel/électronique" },
+      "title": { "fr": "Adaptation du code existant" },
+      "text": { "fr": "Compréhension du code actuellement présent sur les drones précédents et adaptation au nouveau design." },
+      "visual": "plan",
+      "image": null,
+      "caption": { "fr": "Structure du code" }
     }
   ]
 }

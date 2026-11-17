@@ -9,7 +9,7 @@
   "cvTitle": { "fr": "CV" },
   "cvDownload": { "fr": "Télécharger le CV" },
   "cvFallback": { "fr": "Aperçu indisponible : téléchargez le CV." },
-  "footer": { "fr": "Basé en France · ouvert à l’international · © 2026" },
+  "footer": { "fr": "Basé en France · ouvert à l’international · Site réalisé avec l'aide d'ia génératives · © 2026" },
   "pos": { "fr": "POS" },
   "project": { "fr": "Projet" },
   "delay": { "fr": "Délais" },
@@ -22,7 +22,7 @@
   "cvSummary": { "fr": "Résumé de mon CV" },
   "timing": {
     "live": { "fr": "Classement des projets" },
-    "sectors": [{ "fr": "Conception" }, { "fr": "Réalisation" }, { "fr": "Tests" }],
+    "sectors": [{ "fr": "Conception" }, { "fr": "Réalisation" }, { "fr": "Tests" }, { "fr": "Problème/Perspectives" }],
     "total": { "fr": "Total" },
     "status": { "fr": "Statut" },
     "unit": { "fr": "sem." },

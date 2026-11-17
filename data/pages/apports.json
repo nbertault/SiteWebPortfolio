@@ -5,21 +5,21 @@
   },
   "sections": [
     {
-      "title": { "fr": "Électronique embarquée" },
-      "text": { "fr": "Cartes et firmware fiables, du concept au prototype." },
+      "title": { "fr": "Expérience professionnelle" },
+      "text": { "fr": "Une expérience professionnelle dans différents secteurs et à différents niveau me permettant de me mettre aussi bine à la place d'un ouvrier, un technicien ou un ingénieur." },
       "zone": { "fr": "Stands · Dunlop · Esses · Tertre Rouge" },
-      "tags": ["STM32", "PCB", "Firmware C / C++"]
+      "tags": ["Travail d'équipe", "Autonomie", "Prise de décision"]
     },
     {
-      "title": { "fr": "Rigueur temps réel" },
-      "text": { "fr": "Architectures déterministes, tests et documentation soignée." },
+      "title": { "fr": "Rigueur" },
+      "text": { "fr": "Un travail toujours organiser, structuré et rigoureux. Que ce soit à l'aide d'outils que j'ai put rencronter jusqu'à maintenant ou par le de mes expériences personnelles." },
       "zone": { "fr": "Ligne droite des Hunaudières" },
-      "tags": [{ "fr": "Temps réel" }, { "fr": "Tests" }, "Documentation"]
+      "tags": [{ "fr": "Organisation" }, { "fr": "Ponctualité" }, "Documentation"]
     },
     {
       "title": { "fr": "Réseaux & systèmes" },
       "text": {
-        "fr": "Administration et maintenance de réseaux multi-sites : commutateurs, routeurs, NAS, avec une base Cisco (CCNA1)."
+        "fr": "Ayant eu des études majoriterement centrées sur l'informatique réseau, j'ai put acquérir des connaissances sur les réseaux et systèmes, que ce soit sur le plan théorique ou pratique."
       },
       "zone": { "fr": "Mulsanne · Indianapolis · Arnage" },
       "tags": ["TCP/IP", "VLAN · DNS · DHCP", "Cisco CCNA1"]
@@ -27,18 +27,18 @@
     {
       "title": { "fr": "Esprit compétition" },
       "text": {
-        "fr": "Itérer vite, mesurer, améliorer : la logique de la piste appliquée à l’ingénierie."
+        "fr": "Réaliser un travail de qualité dans un temps limité, et toujours chercher à être le meilleur. L'objectif gagner, et de la plus belle des manières."
       },
       "zone": { "fr": "Courbes Porsche" },
-      "tags": [{ "fr": "Itérer" }, { "fr": "Mesurer" }, { "fr": "Améliorer" }]
+      "tags": [{ "fr": "Amélioration" }, { "fr": "Optimisation" }, { "fr": "Compétitivité" }]
     },
     {
-      "title": { "fr": "Équipe & gestion de projet" },
+      "title": { "fr": "Adaptabilité" },
       "text": {
-        "fr": "Travail en équipe sous pression en tant que commissaire de piste, et gestion de projet en autonomie avec Git et Notion."
+        "fr": "Capable de travailler seul ou en équipe, sous pression ou dans un environement calme, aucun contexte n'arrête l'envie de gagner."
       },
       "zone": { "fr": "Chicanes Ford · Stands" },
-      "tags": ["Git", "Notion", { "fr": "Communication" }]
+      "tags": [{ "fr": "Responsabilité" }, { "fr": "Gestion de projet" }, { "fr": "Communication" }]
     }
   ]
 }

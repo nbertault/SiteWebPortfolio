@@ -5,12 +5,12 @@
   "text": {
     "fr": "Étude et réalisation d'un PowerPack pour l'embarquer au sein de trains miniatures."
   },
-  "meta": { "fr": "Concours Dassault · Conception" },
+  "meta": { "fr": "Projet professionnel · Conception" },
   "icon": "drone",
   "image": null,
   "state": "done",
   "tags": [{ "fr": "Embarqué" }, { "fr": "Train miniature" }, { "fr": "Système d'alimenation" }],
-  "sectors": [{ "weeks": null }, { "weeks": null }, { "weeks": null }],
+  "sectors": [{ "weeks": 1 }, { "weeks": 2 }, { "weeks": 1 }],
   "lead": { "fr": "Étude et réalisation d'un PowerPack pour l'embarquer au sein de trains miniatures. Projet réalisé durant mon stage de BTS, aucune documentation n'est disponible." },
   "facts": [
     { "value": "Powerpack", "unit": { "fr": "Système d'alimentation de secours" } },
@@ -19,23 +19,41 @@
   "blocks": [
     {
       "sector": 0,
-      "kicker": { "fr": "L'IDÉE" },
-      "title": { "fr": "Un drone VTOL" },
+      "kicker": { "fr": "Comparatif" },
+      "title": { "fr": "étude de l'éxistant" },
       "text": {
-        "fr": "Un drone qui décolle à la verticale, conçu pour le concours du groupe Dassault."
+        "fr": "Un système embarqué permettant de limiter au maximum les coupures de tension lorsque un train rencontre un obsctable sur les rails."
       },
       "visual": "drone",
-      "image": null,
-      "caption": { "fr": "Vue de dessus" }
+      "image": "assets/Images/Projets/PowerPack/PowerPack.jpg",
+      "caption": { "fr": "Systèmes existants" }
     },
     {
       "sector": 1,
-      "kicker": { "fr": "EN COURS" },
-      "title": { "fr": "Le projet avance" },
-      "text": { "fr": "Photos, schémas et résultats arriveront ici au fil de la réalisation." },
+      "kicker": { "fr": "Programmation" },
+      "title": { "fr": "Modification du code existant" },
+      "text": { "fr": "Création d'un code à partir des composants installés par mon responsable." },
       "visual": "plan",
       "image": null,
-      "caption": { "fr": "À suivre" }
+      "caption": { "fr": "Prototype de PowerPack" }
+    },
+    {
+      "sector": 2,
+      "kicker": { "fr": "Mise en conditions réelles" },
+      "title": { "fr": "Mise en marche du train" },
+      "text": { "fr": "Mise en circulation d'un train miniature équipé du système d'alimentation de secours et mise en place de tests." },
+      "visual": "plan",
+      "image": null,
+      "caption": { "fr": "Train prototype" }
+    },
+    {
+      "sector": 3,
+      "kicker": { "fr": "Évolutions" },
+      "title": { "fr": "Mise en vente du système" },
+      "text": { "fr": "La suite de ce projet est de créer un système compatible avec différents trains avec différents types de fonctionnement pour ensuite pouvoir le mettre en vente." },
+      "visual": "plan",
+      "image": "assets/Images/Projets/PowerPack/SiteHFR.png",
+      "caption": { "fr": "Site de vente HFR160" }
     }
   ]
 }

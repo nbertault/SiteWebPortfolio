@@ -21,26 +21,37 @@
   "blocks": [
     {
       "sector": 0,
-      "kicker": { "fr": "CONTEXTE" },
-      "title": { "fr": "Une flotte de robots" },
-      "text": { "fr": "Un projet académique : faire coopérer plusieurs robots fonctionnant sur Miros." },
+      "kicker": { "fr": "Répartition des tâches" },
+      "title": { "fr": "Des étudiants de formations différentes" },
+      "text": { "fr": "Une équipe de 4 étudiants, dont un étudiant qui n'étudie pas l'informatique" },
       "visual": "robot",
-      "image": null,
+      "image": "assets/Images/Projets/FlotteRobot/FlotteRobot.png",
       "caption": { "fr": "La flotte" }
     },
     {
       "sector": 1,
-      "kicker": { "fr": "MODES" },
-      "title": { "fr": "Deux modes de suivi" },
-      "text": { "fr": "Les modes de suivi de commandes et suivi du maitre sont disponibles sur ces robots." },
-      "visual": "plan",
-      "image": null,
-      "caption": { "fr": "Schéma de principe" }
+      "kicker": { "fr": "CONTEXTE" },
+      "title": { "fr": "Une flotte de robots" },
+      "text": { "fr": "3 robots connectés via Miros, avec une interface mobile. L'objectif les faire se suivre selon différents modes de suivi." },
+      "visual": "robot",
+      "image": "assets/Images/Projets/FlotteRobot/MapFlotte.png",
+      "caption": { "fr": "Map réalisée par le maître" }
     },
     {
       "sector": 2,
-      "kicker": { "fr": "BILAN" },
-      "title": { "fr": "Limites observées" },
+      "kicker": { "fr": "Documentation" },
+      "title": { "fr": "Réalisation d'un rapport" },
+      "text": {
+        "fr": "Afin d'aider les futurs étudiants à comprendre le projet et à le reprendre, nous avons réalisé un rapport détaillant le fonctionnement de la flotte de robots."
+      },
+      "visual": "robot",
+      "image": "assets/Images/Projets/FlotteRobot/DeplacementRobot.png",
+      "caption": { "fr": "Mode de déplacement d'un robot" }
+    },
+    {
+      "sector": 3,
+      "kicker": { "fr": "Limites de notre réalisation" },
+      "title": { "fr": "Problèmes rencontrés" },
       "text": {
         "fr": "Des soucis côté Miros, des mouvements parasites des esclaves et un mode suiveur incomplet."
       },

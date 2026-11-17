@@ -60,6 +60,11 @@
         "date": { "fr": "EMBARQUÉ" },
         "title": { "fr": "Stagiaire en électronique embarquée" },
         "place": "HFR160"
+      },
+      {
+        "date": { "fr": "HARDWARE" },
+        "title": { "fr": "Stagiaire en réparation électronique" },
+        "place": "Kabiloo"
       }
     ],
     "skillsTitle": { "fr": "DOMAINES DE JEU" },

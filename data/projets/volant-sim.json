@@ -29,7 +29,7 @@
         "fr": "L'idée : un complément au volant d'entrée de gamme de chez Fanatec afin d'avoir pour un prix abordable un volant de GT."
       },
       "visual": "wheel",
-      "image": null,
+      "image": "assets/Images/Projets/VolantSim/VolantFanatec.png",
       "caption": { "fr": "Le volant, vu de face" }
     },
     {
@@ -40,7 +40,7 @@
         "fr": "Un ATmega328P joue l'esclave SPI face à la base. Un CH340C gère la programmation en USB-C et un ruban SK6812 affiche les shift lights."
       },
       "visual": "pcb",
-      "image": null,
+      "image": "assets/Images/Projets/VolantSim/SchemaPCB.png",
       "caption": { "fr": "Schéma KiCad, corrigé étape par étape" }
     },
     {
@@ -51,7 +51,7 @@
         "fr": "Composants traversants, connecteurs JST-XH horizontaux, trous de fixation M3 : tout se soude à la main."
       },
       "visual": "chip",
-      "image": null,
+      "image": "assets/Images/Projets/VolantSim/CartePCB.png",
       "caption": { "fr": "Composants et connectique" }
     },
     {
@@ -60,19 +60,8 @@
       "title": { "fr": "Un boîtier imprimé en 3D" },
       "text": { "fr": "Le boîtier, imprimé en 3D, permet de mettre la carte d'origine et la nouvelle carte ensemble tout en étant centré sur la base." },
       "visual": "box",
-      "image": null,
+      "image": "assets/Images/Projets/VolantSim/Modelisation.png",
       "caption": { "fr": "Le boîtier" }
-    },
-    {
-      "sector": 2,
-      "kicker": { "fr": "DOSSIER" },
-      "title": { "fr": "Tout est documenté" },
-      "text": {
-        "fr": "Fichiers KiCad, spécification fonctionnelle, liste de composants (LCSC, AliExpress) et rapport technique."
-      },
-      "visual": "doc",
-      "image": null,
-      "caption": { "fr": "Le dossier de fabrication" }
     }
   ],
   "report": {
