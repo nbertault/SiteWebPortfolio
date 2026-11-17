@@ -13,29 +13,45 @@
   "sectors": [{ "weeks": null }, { "weeks": null }, { "weeks": null }],
   "lead": { "fr": "Réalisation d'une application web et mobile afin de d'afficher les informations captées par la station météo." },
   "facts": [
-    { "value": "VTOL", "unit": { "fr": "DÉCOLLAGE VERTICAL" } },
-    { "value": "Dassault", "unit": { "fr": "CONCOURS" } }
+    { "value": { "fr": "5 Types de capteurs" }, "unit": { "fr": "hygro, Thermo, anémo, girouette, pluvio" } },
+    { "value": { "fr": "Site web" }, "unit": { "fr": "Historique des données" } },
+    { "value": { "fr": "Application mobile" }, "unit": { "fr": "Mise à jour en temps réel" } }
   ],
   "blocks": [
     {
       "sector": 0,
-      "kicker": { "fr": "L'IDÉE" },
-      "title": { "fr": "Un drone VTOL" },
+      "kicker": { "fr": "Mise en contexte" },
+      "title": { "fr": "Une station météo" },
       "text": {
-        "fr": "Un drone qui décolle à la verticale, conçu pour le concours du groupe Dassault."
+        "fr": "Étude d'une station éxistante et analyse de son fonctionnement. Conception d'un système de communication entre la station et des systèmes d'affichages."
       },
       "visual": "drone",
       "image": null,
-      "caption": { "fr": "Vue de dessus" }
+      "caption": { "fr": "Capteurs Météo" }
     },
     {
       "sector": 1,
-      "kicker": { "fr": "EN COURS" },
-      "title": { "fr": "Le projet avance" },
-      "text": { "fr": "Photos, schémas et résultats arriveront ici au fil de la réalisation." },
+      "kicker": { "fr": "Réalisation" },
+      "title": { "fr": "Conception du système" },
+      "text": { "fr": "Réalisation des applications web et mobile. Création du système de communication et de stockage des données." },
       "visual": "plan",
       "image": null,
-      "caption": { "fr": "À suivre" }
+      "caption": { "fr": "Aplication Mobile" }
+    },
+    {
+      "sector": 2,
+      "kicker": { "fr": "Phase Finale" },
+      "title": { "fr": "Mise en commun de tous les systèmes" },
+      "text": { "fr": "Affichage en temps réel des données captées par la station météo sur l'application mobile, et affichage de l'historique des données sur le site web." },
+      "visual": "plan",
+      "image": null,
+      "caption": { "fr": "Aplication Web" }
     }
-  ]
+  ],
+  "report": {
+    "file": "assets/Documents/Projets/DossierCommunStationMeteo.pdf",
+    "title": { "fr": "Rapport de la station météo" },
+    "text": { "fr": "Rapport de la conception et de la réalisation de la station météo." },
+    "meta": "PDF"
+  }
 }
