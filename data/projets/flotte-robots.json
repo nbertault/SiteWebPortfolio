@@ -53,10 +53,10 @@
       "kicker": { "fr": "Limites de notre réalisation" },
       "title": { "fr": "Problèmes rencontrés" },
       "text": {
-        "fr": "Des soucis côté Miros, des mouvements parasites des esclaves et un mode suiveur incomplet."
+        "fr": "Des soucis côté Miros, des mouvements parasites des esclaves et un mode suiveur incomplet. Le système ROS qui permet le déplacement des robots n'est pas encore assé étudié ."
       },
       "visual": "robot",
-      "image": null,
+      "image": "assets/Images/Projets/FlotteRobot/ROS.png",
       "caption": { "fr": "Ce qu'il reste à améliorer" }
     }
   ],
