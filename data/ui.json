@@ -14,7 +14,7 @@
   "project": { "fr": "Projet" },
   "delay": { "fr": "Délais" },
   "description": { "fr": "Description" },
-  "back": { "fr": "← Retour aux projets" },
+  "back": { "fr": "← Retour au tableau" },
   "todo": {
     "fr": "Page dédiée au projet : contenu à compléter (images, rapport, technologies, liens)."
   },
