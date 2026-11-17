@@ -1,6 +1,6 @@
 {
   "title": { "fr": "Mes projets" },
-  "intro": { "fr": "étendue des projets réalisés durant mes précédentes années d'études et de stage" },
+  "intro": { "fr": "Étendue des projets réalisés durant mes précédentes années d'études et de stage" },
   "projects": [
     { "$include": "projets/power-pack.json" },
     { "$include": "projets/station-meteo.json" },

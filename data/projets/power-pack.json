@@ -20,7 +20,7 @@
     {
       "sector": 0,
       "kicker": { "fr": "Comparatif" },
-      "title": { "fr": "étude de l'éxistant" },
+      "title": { "fr": "Étude de l'éxistant" },
       "text": {
         "fr": "Un système embarqué permettant de limiter au maximum les coupures de tension lorsque un train rencontre un obsctable sur les rails."
       },
@@ -34,7 +34,7 @@
       "title": { "fr": "Modification du code existant" },
       "text": { "fr": "Création d'un code à partir des composants installés par mon responsable." },
       "visual": "plan",
-      "image": null,
+      "image": "assets/Images/Projets/PowerPack/StayAlive.png",
       "caption": { "fr": "Prototype de PowerPack" }
     },
     {
@@ -43,7 +43,7 @@
       "title": { "fr": "Mise en marche du train" },
       "text": { "fr": "Mise en circulation d'un train miniature équipé du système d'alimentation de secours et mise en place de tests." },
       "visual": "plan",
-      "image": null,
+      "image": "assets/Images/Projets/PowerPack/TrainProto.png",
       "caption": { "fr": "Train prototype" }
     },
     {
