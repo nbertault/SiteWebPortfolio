@@ -3,7 +3,7 @@
   "page": "projet-station-meteo.html",
   "title": { "fr": "Conception Station Météo" },
   "text": {
-    "fr": "Réalisation complète d'un drone VTOL afin de participer à un concours du groupe Dassault. Le projet est en cours de réalisation et sera documenté prochainement."
+    "fr": "Réalisation d'une station météo connectée à partir d'une station mété classique."
   },
   "meta": { "fr": "Projet académique · Conception d'application" },
   "icon": "meteo",
