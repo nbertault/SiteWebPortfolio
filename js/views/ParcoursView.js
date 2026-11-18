@@ -58,7 +58,7 @@ export class ParcoursView extends SubPageView {
         <div class="exp__car ${e.flip === false ? 'exp__car--noflip' : ''}"><img src="${e.image || 'assets/CivicEF9.png'}" alt=""></div>
         <div class="exp__info">
           <h3>${t(e.title)}</h3>
-          <p class="exp__company">${e.company}</p>
+          <p class="exp__company">${e.company}${e.debut ? ` | ${t(e.debut)}` : ''}</p>
           <p class="exp__text">${t(e.text)}</p>
         </div>
       </article>`).join('');
