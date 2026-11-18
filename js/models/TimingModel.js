@@ -12,7 +12,7 @@ export function computeTimings(projects) {
     const values = col.filter((value) => value > 0);
     return {
       average: values.length
-        ? values.reduce((sum, value) => sum + value, 0) / values.length
+        ? Math.ceil(values.reduce((sum, value) => sum + value, 0) / values.length)
         : Infinity,
       best: values.length ? Math.min(...values) : null,
     };
@@ -26,9 +26,9 @@ export function computeTimings(projects) {
       const { average, best } = stats[sectorIndex];
       const color = weeks === best
         ? 'purple'
-        : weeks < average
-          ? 'yellow'
-          : 'green';
+        : weeks <= average
+          ? 'green'
+          : 'yellow';
 
       return { weeks, color };
     }),
