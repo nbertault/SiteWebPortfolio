@@ -11,7 +11,7 @@
   {
     "title": { "fr": "Stagiaire en Électronique Embarquée" },
     "company": "HFR160",
-    "debut": { "fr" : "2022-"},
+    "debut": { "fr" : "2024"},
     "image": "assets/Images/Voitures/Toyota.png",
     "text": {
       "fr": "Réalisation de programmes et de composants électroniques pour des trains miniatures. Travail de recherche, de compréhension et de réalisation en quasi autonomie, sous la supervision d'un ingénieur de chez STMicroelectronics."
@@ -20,7 +20,7 @@
   {
     "title": { "fr": "Stagiaire Administrateur Réseau et Systèmes" },
     "company": "Lelièvre Immobilier",
-    "debut": { "fr" : "2022-"},
+    "debut": { "fr" : "2021"},
     "image": "assets/Images/Voitures/Corvette.png",
     "text": {
       "fr": "Maintenance d'un réseau informatique sur plusieurs sites. Réalisé sous la supervision d'administrateurs réseau. Aide aux collaborateurs dans la recherche et résolution de pannes."
@@ -29,7 +29,7 @@
   {
     "title": { "fr": "Réparateur de matériel informatique" },
     "company": "Kabiloo",
-    "debut": { "fr" : "2022-"},
+    "debut": { "fr" : "2022-2023"},
     "image": "assets/Images/Voitures/GTR34.png",
     "text": {
       "fr": "Recherche de panne et mise en œuvre de solutions de réparations. Réalisation de micro-soudure, de remplacement de composants et de cartes électroniques. Réalisation de tests et de diagnostics, et utilisation de matériels de mesures."
