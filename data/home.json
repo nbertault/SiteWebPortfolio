@@ -5,22 +5,22 @@
     "passions": {
       "href": "passions.html",
       "title": { "fr": "Passions" },
-      "desc": { "fr": "Moteurs, sport auto, sim racing" }
+      "desc": { "fr": "Qu'est ce qui me motive" }
     },
     "projets": {
       "href": "projets.html",
       "title": { "fr": "Projets" },
-      "desc": { "fr": "Mes réalisations passées" }
+      "desc": { "fr": "Ce qui m'a dirigé jusqu'ici" }
     },
     "parcours": {
       "href": "parcours.html",
       "title": { "fr": "Parcours" },
-      "desc": { "fr": "Qui je suis et ma formation" }
+      "desc": { "fr": "Comment j'en suis arrivé ici" }
     },
     "apports": {
       "href": "apports.html",
       "title": { "fr": "Apports" },
-      "desc": { "fr": "Ce que j’apporte aux entreprises + CV" }
+      "desc": { "fr": "En quoi j'apporte un appui" }
     }
   },
   "profile": {
