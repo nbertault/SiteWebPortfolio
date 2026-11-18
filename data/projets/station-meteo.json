@@ -7,7 +7,7 @@
   },
   "meta": { "fr": "Projet académique · Conception d'application" },
   "icon": "meteo",
-  "image": null,
+  "image": "assets/Images/Projets/StationMeteo/Capteurs.jpg",
   "state": "done",
   "tags": [{ "fr": "Capteurs Météo" }, { "fr": "Création de base de données" }],
   "sectors": [{ "weeks": 4 }, { "weeks": 9 }, { "weeks": 3 }],

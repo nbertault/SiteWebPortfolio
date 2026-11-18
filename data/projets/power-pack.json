@@ -7,7 +7,7 @@
   },
   "meta": { "fr": "Projet professionnel · Conception" },
   "icon": "drone",
-  "image": null,
+  "image": "assets/Images/Projets/PowerPack/StayAlive.png",
   "state": "done",
   "tags": [{ "fr": "Embarqué" }, { "fr": "Train miniature" }, { "fr": "Système d'alimenation" }],
   "sectors": [{ "weeks": 1 }, { "weeks": 2 }, { "weeks": 1 }],

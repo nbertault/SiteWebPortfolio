@@ -39,7 +39,7 @@
 /* la voiture (taille inchangée) accélère vers son côté : environ la moitié sort de l'écran */
 .exp__car{transition:transform var(--drive) cubic-bezier(.55,.05,.25,1)}
 .exp__car img{display:block;width:100%;filter:drop-shadow(0 18px 24px #0005)}
-.exp--right .exp__car:not(.exp__car--noflip) img{transform:scaleX(-1)}  /* regarde vers son bord d'écran (mettre "flip": false pour désactiver) */
+.exp--left .exp__car:not(.exp__car--noflip) img{transform:scaleX(-1)}  /* regarde vers son bord d'écran (mettre "flip": false pour désactiver) */
 .exp:hover .exp__car,.exp:focus-visible .exp__car{transform:translateX(calc(var(--dir) * 58%))}
 
 /* l'intitulé suit pour libérer la place… */

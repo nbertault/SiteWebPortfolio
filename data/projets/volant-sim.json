@@ -7,7 +7,7 @@
   },
   "meta": { "fr": "Projet académique · Électronique & firmware" },
   "icon": "wheel",
-  "image": null,
+  "image": "assets/Images/Projets/VolantSim/Modelisation.png",
   "state": "dnf",
   "tags": ["PCB", "Firmware", { "fr": "Conception 3D" }],
   "sectors": [{ "weeks": 6 }, { "weeks": 10 }, { "weeks": 4 }],

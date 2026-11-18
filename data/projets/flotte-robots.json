@@ -7,7 +7,7 @@
   },
   "meta": { "fr": "Projet académique · Robotique" },
   "icon": "robot",
-  "image": null,
+  "image": "assets/Images/Projets/FlotteRobot/FlotteRobot.png",
   "state": "done",
   "tags": ["Miros", { "fr": "Robotique" }, "Documentation"],
   "sectors": [{ "weeks": 4 }, { "weeks": 6 }, { "weeks": 3 }],
