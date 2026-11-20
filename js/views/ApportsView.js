@@ -49,7 +49,7 @@ export class ApportsView extends SubPageView {
             <g class="start"><line class="start__a" x1="${START.x - 17}" x2="${START.x + 17}" y1="${START.y}" y2="${START.y}"/><line class="start__b" x1="${START.x - 17}" x2="${START.x + 17}" y1="${START.y}" y2="${START.y}"/>
               <text class="trk-lbl" x="${START.x - 26}" y="${START.y + 4}" text-anchor="end">${ui.apStart[lang]}</text></g>
             ${corners}${badges}
-            <circle class="trk-car" r="5"><animateMotion dur="34s" repeatCount="indefinite" rotate="auto" path="${FULL_PATH}"/></circle>
+            <circle class="trk-car" r="5"><animateMotion dur="194s" repeatCount="indefinite" rotate="auto" path="${FULL_PATH}"/></circle>
           </svg>
           <p class="ap-note">${t(ui.apNote)}</p>
         </div>
