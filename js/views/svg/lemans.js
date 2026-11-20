@@ -178,11 +178,11 @@ export const FULL_PATH = roundedPath(
 // ==========================================
 
 export const BADGES = [
-  P(200, 440),  // S1
+  P(200, 410),  // S1
   P(360, 170),  // S2
-  P(680, 290),  // S3
-  P(440, 340),  // S4
-  P(320, 430)   // S5
+  P(680, 260),  // S3
+  P(440, 310),  // S4
+  P(320, 400)   // S5
 ];
 
 
@@ -200,13 +200,13 @@ export const CORNERS = [
   ['MICHELIN', P(440, 140), 'middle'],
   ['MULSANNE', P(700, 0), 'middle'],
 
-  ['INDIANAPOLIS', P(580, 270), 'middle'],
-  ['ARNAGE', P(600, 370), 'start'],
+  ['INDIANAPOLIS', P(550, 270), 'middle'],
+  ['ARNAGE', P(600, 340), 'start'],
 
-  ['PORSCHE', P(500, 420), 'middle'],
-  ['CORVETTE', P(460, 450), 'end'],
-  ['MAISON BLANCHE', P(350, 400), 'middle'],
-  ['FORD', P(300, 530), 'start']
+  ['PORSCHE', P(500, 390), 'middle'],
+  ['CORVETTE', P(460, 420), 'end'],
+  ['MAISON BLANCHE', P(350, 370), 'middle'],
+  ['FORD', P(300, 500), 'start']
 ];
 
 

@@ -47,7 +47,7 @@ export class ApportsView extends SubPageView {
             <text class="trk-lbl trk-lbl--big" transform="translate(${sl.at.x.toFixed(1)} ${sl.at.y.toFixed(1)}) rotate(${sl.angle.toFixed(1)})" text-anchor="middle">${ui.apStraight[lang]}</text>
             ${sectors}
             <g class="start"><line class="start__a" x1="${START.x }" x2="${START.x}" y1="${START.y-17}" y2="${START.y+17}"/><line class="start__b" x1="${START.x}" x2="${START.x}" y1="${START.y - 17}" y2="${START.y + 17}"/>
-              <text class="trk-lbl" x="${START.x + 70}" y="${START.y - 20}" text-anchor="end">${ui.apStart[lang]}</text></g>
+              <text class="trk-lbl" x="${START.x + 15}" y="${START.y - 20}" text-anchor="end">${ui.apStart[lang]}</text></g>
             ${corners}${badges}
             <circle class="trk-car" r="5"><animateMotion dur="194s" repeatCount="indefinite" rotate="auto" path="${FULL_PATH}"/></circle>
           </svg>
